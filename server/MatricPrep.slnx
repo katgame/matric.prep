@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MatricPrep.Api/MatricPrep.Api.csproj" />
+  <Project Path="MatricPrep.Contracts/MatricPrep.Contracts.csproj" />
+  <Project Path="MatricPrep.Pipeline/MatricPrep.Pipeline.csproj" />
+  <Project Path="MatricPrep.Ingestion/MatricPrep.Ingestion.csproj" />
+</Solution>

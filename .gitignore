@@ -39,3 +39,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local NSC exam paper downloads (see exam-papers/README.md and scripts/download-nsc-papers.mjs)
+/exam-papers/**/*.pdf
+/exam-papers/**/*.doc
+/exam-papers/**/*.docx
+/exam-papers/**/*.zip
+
+# Pipeline extract bundles (intermediate generated artifacts — not source of truth)
+paper.extract.*.json
+
+# .NET build artifacts and IDE files
+server/**/bin/
+server/**/obj/
+server/.vs/
+server/**/*.user
+
