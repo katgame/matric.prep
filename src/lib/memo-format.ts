@@ -52,14 +52,20 @@ export function parseMemoAnswer(raw: string | null | undefined): ParsedMemo | nu
   const footer = stripMemoFooter(text);
   text = footer.text;
 
-  const parts = text.split(/(?=\b\d+\.\d+\s+)/).map((p) => p.trim()).filter(Boolean);
+  // Split before sub-question refs (1.1, 1.1.1, 2.3.4 etc.) that are NOT in the middle
+  // of a decimal number. Negative lookbehind ensures we don't split 1.1.1 at its inner 1.1.
+  const parts = text
+    .split(/(?<![.\d])(?=[1-9]\d?\.[1-9]\d?(?:\.[1-9]\d?)?\s)/)
+    .map((p) => p.trim())
+    .filter(Boolean);
 
   let questionLead: string | undefined;
   let blocksRaw = parts;
 
   if (parts.length > 0) {
     const first = parts[0].replace(/\s+/g, " ").trim();
-    const qOnly = first.match(/^(QUESTION\s+\d+)$/i);
+    // Detect bilingual headings: "QUESTION 1", "QUESTION 1/VRAAG 1", "QUESTION/VRAAG 2"
+    const qOnly = first.match(/^(QUESTION(?:\/VRAAG)?\s+\d+(?:\/VRAAG\s+\d+)?)$/i);
     if (qOnly) {
       questionLead = qOnly[1];
       blocksRaw = parts.slice(1);
@@ -94,7 +100,8 @@ export function parseMemoAnswer(raw: string | null | undefined): ParsedMemo | nu
  */
 function splitMemoSubPart(segment: string): MemoBlock | null {
   const t = segment.trim();
-  const m = t.match(/^(\d+\.\d+)\s+([\s\S]+)$/);
+  // Handle both 2-level (1.1) and 3-level (1.1.1) sub-question refs
+  const m = t.match(/^(\d+\.\d+(?:\.\d+)?)\s+([\s\S]+)$/);
   if (!m) return { label: "Memo excerpt", body: t };
 
   const ref = m[1];

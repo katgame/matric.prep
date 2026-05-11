@@ -142,8 +142,15 @@ public static class DeterministicPaperImportBuilder
     private static string BuildPromptFromPaperBlock(string block, string topic)
     {
         var clean = Clean(block);
-        var subQ = Regex.Matches(clean, @"\b\d+\.\d+\b").Cast<Match>().Select(m => m.Value).Distinct().Take(10).ToArray();
-        var excerpt = Truncate(clean, 1200);
+        // Extract full sub-question refs (1.1, 1.1.1, 2.3 etc.) — avoid matching 1.1 inside 1.1.1
+        var subQ = Regex.Matches(clean, @"(?<![.\d])\b([1-9]\d?\.[1-9]\d?(?:\.[1-9]\d?)?)\b(?!\.\d)")
+            .Cast<Match>()
+            .Select(m => m.Groups[1].Value)
+            .Distinct()
+            .Take(10)
+            .ToArray();
+        var formatted = FormatExtractedText(clean);
+        var excerpt = Truncate(formatted, 1500);
         var nl = Environment.NewLine;
         if (subQ.Length > 0)
         {
@@ -151,6 +158,36 @@ public static class DeterministicPaperImportBuilder
         }
 
         return $"Topic: {topic}.{nl}Paper section excerpt:{nl}{excerpt}";
+    }
+
+    /// <summary>
+    /// Inserts structural line breaks into raw PdfPig word-dump output so sub-questions
+    /// are visually separated when displayed with whitespace-pre-wrap.
+    /// </summary>
+    private static string FormatExtractedText(string text)
+    {
+        if (string.IsNullOrWhiteSpace(text)) return text;
+        var nl = Environment.NewLine;
+
+        // After marks (N), start a new sub-question block.
+        // Handles "(3) 1.1.2" and "(3) 2 1.1.2" (stray PDF digit before next sub-question).
+        text = Regex.Replace(text, @"\((\d{1,2})\)\s+(?:\d+\s+)?(?=\d+\.\d+)", $"($1){nl}{nl}");
+
+        // After QUESTION/VRAAG heading, break before the first sub-question.
+        // "QUESTION 1/VRAAG 1 2 1.1.1" → "QUESTION 1/VRAAG 1\n\n1.1.1"
+        text = Regex.Replace(
+            text,
+            @"\b(QUESTION(?:/VRAAG)?\s+\d+(?:/VRAAG\s+\d+)?)\s+(?:\d+\s+)?(?=\d+\.\d+)",
+            $"$1{nl}{nl}",
+            RegexOptions.IgnoreCase);
+
+        // OR/OF alternative solutions each on their own block
+        text = Regex.Replace(text, @"\s+OR/OF\s+", $"{nl}{nl}OR/OF{nl}{nl}");
+
+        // Collapse 3+ consecutive newlines
+        text = Regex.Replace(text, @"(\r?\n){3,}", $"{nl}{nl}");
+
+        return text.Trim();
     }
 
     private static string ExtractMemoBlock(string memoText, string qNo)

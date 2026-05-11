@@ -7,21 +7,32 @@
 import { stripMemoFooter } from "@/lib/memo-format";
 
 /**
- * Insert blank lines before NSC-style sub-questions (2.1, 2.2, …) when they are
- * packed on one line after mark allocations (12) or between sentences.
+ * Insert blank lines before NSC-style sub-questions when they are packed together.
+ * Handles both accounting (1.1, 1.2) and maths (1.1.1, 1.1.2) formats, as well
+ * as bilingual headings (QUESTION 1/VRAAG 1, QUESTION/VRAAG 2).
  */
 export function insertSubQuestionSpacing(text: string): string {
   const t = text.trim();
   if (!t) return text;
 
-  // (12) 2.2 Calculate … — DBE layout often omits a line break here
-  let out = t.replace(/\(\d+\)\s+(?=([1-9]\d?\.\d{1,2})(?:\s|[•]|$))/g, (full) => {
-    const marks = full.match(/^\(\d+\)/)?.[0] ?? "";
-    const after = full.slice(marks.length).trimStart();
-    return `${marks}\n\n${after}`;
-  });
+  let out = t;
 
-  // …year. 2.5 According … — sentence end then next sub-question (not after ")"; those use rule above)
+  // Rule 1: After marks (N), start a new sub-question block.
+  // Handles "(3) 1.1.2" and "(3) 2 1.1.2" (stray PDF digit between marks and next question).
+  out = out.replace(/\((\d{1,2})\)\s+(?:\d+\s+)?(?=\d+\.\d+)/g, "($1)\n\n");
+
+  // Rule 2: After a QUESTION/VRAAG heading, break before the first sub-question.
+  // "QUESTION 1/VRAAG 1 2 1.1.1" → "QUESTION 1/VRAAG 1\n\n1.1.1"
+  out = out.replace(
+    /\b(QUESTION(?:\/VRAAG)?\s+\d+(?:\/VRAAG\s+\d+)?)\s+(?:\d+\s+)?(?=\d+\.\d+)/gi,
+    "$1\n\n",
+  );
+
+  // Rule 3: OR/OF alternative solutions each get their own block.
+  out = out.replace(/\s+OR\/OF\s+/g, "\n\nOR/OF\n\n");
+
+  // Rule 4: Sentence end followed by accounting-style sub-question + capital word.
+  // ".year. 2.5 According …" — DBE layout sometimes omits line breaks here.
   out = out.replace(/([^)\s\n])\s+([1-9]\d?\.\d{1,2})\s+(?=[A-Z(•])/g, "$1\n\n$2 ");
 
   return out;
@@ -83,7 +94,9 @@ export function splitExcerptIntoSections(excerpt: string): ExcerptSection[] {
   const text = insertSubQuestionSpacing(footer.text);
   if (!text) return [];
 
-  const markerRe = /\b(QUESTION\s+\d+\s*:|REQUIRED\s*:|INFORMATION\s*:|NOTE\s*:)/gi;
+  // Matches colon-style headings (accounting) AND bilingual maths headings (QUESTION/VRAAG N)
+  const markerRe =
+    /\b(QUESTION\s+\d+\s*:|QUESTION(?:\/VRAAG)?\s+\d+(?:\/VRAAG\s+\d+)?\s*\n|REQUIRED\s*:|INFORMATION\s*:|NOTE\s*:)/gi;
   const matches = [...text.matchAll(markerRe)];
 
   if (matches.length === 0) {
@@ -107,7 +120,7 @@ export function splitExcerptIntoSections(excerpt: string): ExcerptSection[] {
 
     const upper = labelFull.toUpperCase();
     let key: ExcerptSection["key"] = "other";
-    let title = labelFull.replace(/\s*:\s*$/, "").trim();
+    let title = labelFull.replace(/\s*[:\n]\s*$/, "").trim();
 
     if (upper.includes("QUESTION")) {
       key = "questionHeading";
