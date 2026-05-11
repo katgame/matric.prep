@@ -1,26 +1,269 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f6f1e8;
+  --foreground: #182235;
+  --muted: #647083;
+  --card: #fffaf2;
+  --border: rgba(93, 78, 55, 0.18);
+  --accent: #2f6f8f;
+  --accent-hover: #245975;
+  --accent-muted: rgba(47, 111, 143, 0.1);
+  --teal: #3f7d68;
+  --teal-muted: rgba(63, 125, 104, 0.11);
+  --ring: #2f6f8f;
+  --surface-strong: #ede3d4;
+  --surface-soft: rgba(255, 250, 242, 0.78);
+  --surface-glass: rgba(255, 250, 242, 0.9);
+  --paper: #fffdf8;
+  --paper-foreground: #182235;
+  --danger: #b4233a;
+  --warning: #9a6a16;
+  --shadow-glow: 0 18px 44px rgba(72, 58, 37, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #111827;
+    --foreground: #e8e4d9;
+    --muted: #8a97ad;
+    --card: #1a2233;
+    --border: rgba(200, 185, 155, 0.14);
+    --accent: #4a9dc0;
+    --accent-hover: #5cb3d9;
+    --accent-muted: rgba(74, 157, 192, 0.15);
+    --teal: #4d9b80;
+    --teal-muted: rgba(77, 155, 128, 0.15);
+    --ring: #4a9dc0;
+    --surface-strong: #0e1520;
+    --surface-soft: rgba(26, 34, 51, 0.85);
+    --surface-glass: rgba(26, 34, 51, 0.9);
+    --paper: #1e2840;
+    --paper-foreground: #ddd8cc;
+    --danger: #e05070;
+    --warning: #d4963a;
+    --shadow-glow: 0 18px 44px rgba(0, 0, 0, 0.4);
+  }
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-muted: var(--muted);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-teal: var(--teal);
+  --font-sans: var(--font-dm-sans);
+  --font-display: var(--font-fraunces);
 }
 
 body {
-  background: var(--background);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.48), transparent 22rem),
+    var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.subject-accent-maths {
+  --subject: #2f6f8f;
+  --subject-bg: rgba(47, 111, 143, 0.11);
+}
+
+.subject-accent-physical {
+  --subject: #74649b;
+  --subject-bg: rgba(116, 100, 155, 0.11);
+}
+
+.subject-accent-life {
+  --subject: #3f7d68;
+  --subject-bg: rgba(63, 125, 104, 0.11);
+}
+
+.subject-accent-accounting {
+  --subject: #9a6a16;
+  --subject-bg: rgba(154, 106, 22, 0.12);
+}
+
+.surface-grid {
+  background: linear-gradient(180deg, rgba(255, 250, 242, 0.7), rgba(246, 241, 232, 0));
+}
+
+.ai-shell {
+  position: relative;
+  isolation: isolate;
+}
+
+.ai-shell::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 20% 0%, rgba(255, 255, 255, 0.62), transparent 26rem),
+    linear-gradient(180deg, rgba(237, 227, 212, 0.45), transparent 34rem);
+}
+
+.ai-shell::after {
+  content: none;
+}
+
+.ai-card {
+  border: 1px solid var(--border);
+  background: var(--card);
+  box-shadow: var(--shadow-glow);
+}
+
+.ai-card-soft {
+  border: 1px solid rgba(93, 78, 55, 0.14);
+  background: rgba(246, 241, 232, 0.72);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.65);
+}
+
+.ai-reading-surface {
+  --foreground: var(--paper-foreground);
+  --muted: #667085;
+  --card: #ffffff;
+  --background: #fffdf8;
+  --border: rgba(24, 34, 53, 0.12);
+  --accent: var(--accent);
+  --accent-muted: var(--accent-muted);
+  background: var(--paper);
+  color: var(--paper-foreground);
+}
+
+.ai-glow-text {
+  text-shadow: none;
+}
+
+.ai-orb {
+  background: var(--accent);
+  box-shadow: none;
+}
+
+/* Tutor mode — “exam desk” surface + paper/notepad frames */
+.exam-desk-surface {
+  background: var(--background);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.56);
+}
+
+.exam-desk-mat {
+  background: rgba(255, 250, 242, 0.72);
+  box-shadow: var(--shadow-glow);
+}
+
+.exam-desk-paper {
+  background: linear-gradient(180deg, #fffdf8 0%, #fff9f0 100%);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.78) inset,
+    0 14px 30px rgba(72, 58, 37, 0.1);
+}
+
+.exam-desk-notepad {
+  position: relative;
+  background-color: #fdf8f0;
+  background-image: linear-gradient(transparent 1.55rem, rgba(232, 224, 212, 0.72) 1.55rem);
+  background-size: 100% 1.6rem;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.72) inset,
+    0 12px 26px rgba(72, 58, 37, 0.1);
+}
+
+.exam-desk-notepad::before {
+  content: "";
+  position: absolute;
+  left: 2.25rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: rgba(154, 106, 22, 0.2);
+  pointer-events: none;
+}
+
+.exam-desk-ruler {
+  height: 14px;
+  border-radius: 999px;
+  background: repeating-linear-gradient(
+    90deg,
+    rgba(47, 111, 143, 0.24) 0px,
+    rgba(47, 111, 143, 0.24) 1px,
+    rgba(93, 78, 55, 0.1) 1px,
+    rgba(93, 78, 55, 0.1) 2px,
+    rgba(255, 255, 255, 0.32) 2px,
+    rgba(255, 255, 255, 0.32) 10px
+  );
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55);
+  opacity: 0.55;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background:
+      linear-gradient(180deg, rgba(74, 157, 192, 0.06), transparent 22rem),
+      var(--background);
+  }
+
+  .surface-grid {
+    background: linear-gradient(180deg, rgba(26, 34, 51, 0.7), rgba(17, 24, 39, 0));
+  }
+
+  .ai-shell::before {
+    background:
+      radial-gradient(circle at 20% 0%, rgba(74, 157, 192, 0.12), transparent 26rem),
+      linear-gradient(180deg, rgba(26, 34, 51, 0.5), transparent 34rem);
+  }
+
+  .ai-card-soft {
+    border: 1px solid rgba(200, 185, 155, 0.1);
+    background: rgba(17, 24, 39, 0.65);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  }
+
+  .ai-reading-surface {
+    --foreground: var(--paper-foreground);
+    --muted: #8a97ad;
+    --card: #1a2233;
+    --background: #1e2840;
+    --border: rgba(200, 185, 155, 0.14);
+  }
+
+  .exam-desk-surface {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  }
+
+  .exam-desk-mat {
+    background: rgba(26, 34, 51, 0.72);
+  }
+
+  .exam-desk-paper {
+    background: linear-gradient(180deg, #1e2840 0%, #1a2233 100%);
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.04) inset,
+      0 14px 30px rgba(0, 0, 0, 0.3);
+  }
+
+  .exam-desk-notepad {
+    background-color: #1e2535;
+    background-image: linear-gradient(transparent 1.55rem, rgba(74, 157, 192, 0.12) 1.55rem);
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.04) inset,
+      0 12px 26px rgba(0, 0, 0, 0.3);
+  }
+
+  .exam-desk-notepad::before {
+    background: rgba(74, 157, 192, 0.18);
+  }
 }
