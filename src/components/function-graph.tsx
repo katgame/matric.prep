@@ -95,22 +95,14 @@ export function FunctionGraph({ spec }: { spec: GraphSpec }) {
         }
       }
 
-      // Labeled points as scatter series
-      if (spec.points && spec.points.length > 0) {
-        data.push({
-          points: spec.points.map((p) => [p.x, p.y]),
-          fnType: "points",
-          graphType: "scatter",
-        });
-      }
-
       const annotations = [
         ...(spec.vAsymptotes?.map((x) => ({ x, text: `x = ${x}` })) ?? []),
         ...(spec.hAsymptotes?.map((y) => ({ y, text: `y = ${y}` })) ?? []),
       ];
 
       try {
-        functionPlot({
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        const instance: any = functionPlot({
           target: el,
           width: el.clientWidth || 480,
           height: 320,
@@ -121,6 +113,49 @@ export function FunctionGraph({ spec }: { spec: GraphSpec }) {
           annotations,
           tip: { xLine: true, yLine: true },
         });
+
+        // Render labeled points manually — scatter graphType has r=1 (invisible),
+        // so we paint directly into the canvas <g> using the plot's D3 scales.
+        if (spec.points && spec.points.length > 0) {
+          const canvas = el.querySelector<SVGGElement>("svg g.canvas");
+          const xScale = instance?.meta?.xScale as ((v: number) => number) | undefined;
+          const yScale = instance?.meta?.yScale as ((v: number) => number) | undefined;
+          if (canvas && xScale && yScale) {
+            const ns = "http://www.w3.org/2000/svg";
+            const xSpan = spec.xRange[1] - spec.xRange[0];
+            const ySpan = spec.yRange[1] - spec.yRange[0];
+            for (const pt of spec.points) {
+              const px = xScale(pt.x);
+              const py = yScale(pt.y);
+              // nudge label: flip near right/top edges
+              const xFrac = (pt.x - spec.xRange[0]) / xSpan;
+              const yFrac = 1 - (pt.y - spec.yRange[0]) / ySpan; // 0=top, 1=bottom
+              const dx = xFrac > 0.82 ? -14 : 9;
+              const dy = yFrac < 0.15 ? 15 : -7;
+
+              const circle = document.createElementNS(ns, "circle");
+              circle.setAttribute("cx", String(px));
+              circle.setAttribute("cy", String(py));
+              circle.setAttribute("r", "5");
+              circle.setAttribute("fill", "#e85d04");
+              circle.setAttribute("stroke", "white");
+              circle.setAttribute("stroke-width", "1.5");
+              circle.setAttribute("pointer-events", "none");
+              canvas.appendChild(circle);
+
+              const text = document.createElementNS(ns, "text");
+              text.setAttribute("x", String(px + dx));
+              text.setAttribute("y", String(py + dy));
+              text.setAttribute("font-size", "12");
+              text.setAttribute("font-weight", "700");
+              text.setAttribute("font-family", "sans-serif");
+              text.setAttribute("fill", "#e85d04");
+              text.setAttribute("pointer-events", "none");
+              text.textContent = pt.label;
+              canvas.appendChild(text);
+            }
+          }
+        }
       } catch (e) {
         console.warn("function-plot render error:", e);
       }
