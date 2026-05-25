@@ -39,27 +39,27 @@
       "questionType": "mcq",
       "topic": "Statistics",
       "difficulty": "moderate",
-      "prompt": "Calculate the mean of the monthly premiums: $134, 215, 325, 326, 362, 429, 515, 531, 598, 610, 624, 728, 923, 1 034, 1 200$.",
+      "prompt": "Calculate the mean of the monthly premiums given: $134, 215, 325, 326, 362, 429, 515, 531, 598, 610, 624, 728, 923, 1 034, 1 200.$",
       "options": [
         {
           "id": "A",
-          "text": "$546.73$"
+          "text": "$586.67$"
         },
         {
           "id": "B",
-          "text": "$675.20$"
+          "text": "$620.00$"
         },
         {
           "id": "C",
-          "text": "$662.78$"
+          "text": "$655.33$"
         },
         {
           "id": "D",
-          "text": "$623.57$"
+          "text": "$690.00$"
         },
         {
           "id": "E",
-          "text": "$658.90$"
+          "text": "$733.33$"
         }
       ],
       "correctOptionId": "A",
@@ -74,27 +74,27 @@
       "questionType": "mcq",
       "topic": "Statistics",
       "difficulty": "moderate",
-      "prompt": "Write down the standard deviation of the monthly premiums.",
+      "prompt": "Write down the standard deviation of the monthly premiums which are: $134, 215, 325, 326, 362, 429, 515, 531, 598, 610, 624, 728, 923, 1 034, 1 200.$",
       "options": [
         {
           "id": "A",
-          "text": "$310.45$"
+          "text": "$342.47$"
         },
         {
           "id": "B",
-          "text": "$298.67$"
+          "text": "$365.82$"
         },
         {
           "id": "C",
-          "text": "$283.12$"
+          "text": "$320.39$"
         },
         {
           "id": "D",
-          "text": "$295.80$"
+          "text": "$300.00$"
         },
         {
           "id": "E",
-          "text": "$305.40$"
+          "text": "$350.00$"
         }
       ],
       "correctOptionId": "A",
@@ -109,30 +109,30 @@
       "questionType": "mcq",
       "topic": "Statistics",
       "difficulty": "moderate",
-      "prompt": "Calculate how many monthly premiums are within ONE standard deviation of the mean $546.73$ (using $310.45$ as the standard deviation).",
+      "prompt": "Calculate how many monthly premiums are within ONE standard deviation of the mean which is approximately $586.67$.",
       "options": [
         {
           "id": "A",
-          "text": "8"
+          "text": "$10$"
         },
         {
           "id": "B",
-          "text": "7"
+          "text": "$11$"
         },
         {
           "id": "C",
-          "text": "9"
+          "text": "$12$"
         },
         {
           "id": "D",
-          "text": "6"
+          "text": "$13$"
         },
         {
           "id": "E",
-          "text": "5"
+          "text": "$9$"
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "memoAnswer": "QUESTION/VRAAG 1 134 215 325 326 362 429 515 531 598 610 624 728 923 1 034 1 200 8554 \u2713 8554 x = 1.1 15 = 570,27 \u2713 answer (2) 1.2 \u2713 291,03 \u03C3 = 291,03 (1) 1.3 (279,24 ; 861,3)  ( ) x \u2212 \u03C3 ; x \u002B \u03C3 premiums \u223410  answer (2) 118 118 100 k \u002B     1791\u00D7  1791 6763 \u00D7 \u002B \u00D7     100 100 100     1.4 686, 44 = k \u002B 100 15 6763 \u00D7  100 sum of ew n premiums  = 686,44 k \u002B 100 15 6763 \u00D7 = 8183, 22 100 k \u002B 100 = 1, 209... 100 k \u002B 100 = 120,999... k = 21%  answer (4) [9] Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 4 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne ",
       "markingNotes": null,
       "marks": null,
@@ -144,11 +144,11 @@
       "questionType": "mcq",
       "topic": "Statistics",
       "difficulty": "moderate",
-      "prompt": "After increasing the monthly premiums below $R500$ by $18\\%$ and those $R500$ and above by $k\\%$, the new mean is $686.44$. Calculate the value of $k$.",
+      "prompt": "If premiums less than R500 increased by $18\\%$ and those equal to or more than R500 increased by $k\\%$, and the new mean is R686.44, find $k$.",
       "options": [
         {
           "id": "A",
-          "text": "$20\\%$"
+          "text": "$12\\%$"
         },
         {
           "id": "B",
@@ -156,18 +156,18 @@
         },
         {
           "id": "C",
-          "text": "$10\\%$"
+          "text": "$22\\%$"
         },
         {
           "id": "D",
-          "text": "$25\\%$"
+          "text": "$18\\%$"
         },
         {
           "id": "E",
-          "text": "$18\\%$"
+          "text": "$25\\%$"
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "memoAnswer": "QUESTION/VRAAG 1 134 215 325 326 362 429 515 531 598 610 624 728 923 1 034 1 200 8554 \u2713 8554 x = 1.1 15 = 570,27 \u2713 answer (2) 1.2 \u2713 291,03 \u03C3 = 291,03 (1) 1.3 (279,24 ; 861,3)  ( ) x \u2212 \u03C3 ; x \u002B \u03C3 premiums \u223410  answer (2) 118 118 100 k \u002B     1791\u00D7  1791 6763 \u00D7 \u002B \u00D7     100 100 100     1.4 686, 44 = k \u002B 100 15 6763 \u00D7  100 sum of ew n premiums  = 686,44 k \u002B 100 15 6763 \u00D7 = 8183, 22 100 k \u002B 100 = 1, 209... 100 k \u002B 100 = 120,999... k = 21%  answer (4) [9] Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 4 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne ",
       "markingNotes": null,
       "marks": null,
@@ -188,32 +188,32 @@
       "explanation": "Imported from exam paper \u002B memorandum text via fallback parser."
     },
     {
-      "id": "2025-may-june-mathematics-p2-en-q2-2_4",
+      "id": "2025-may-june-mathematics-p2-en-q2-2_2",
       "sortOrder": 7,
       "questionType": "mcq",
       "topic": "Regression and Correlation",
       "difficulty": "moderate",
-      "prompt": "If the least squares regression line for the data is given by $y = mx \u002B c$, predict the time (in minutes) it will take for a packer to pack 13 items.",
+      "prompt": "What is the equation of the least squares regression line for the given data?",
       "options": [
         {
           "id": "A",
-          "text": "$8.4$"
+          "text": "$y = 0.3x \u002B 4.5$"
         },
         {
           "id": "B",
-          "text": "$10.2$"
+          "text": "$y = 2x \u002B 1$"
         },
         {
           "id": "C",
-          "text": "$9.6$"
+          "text": "$y = 0.5x \u002B 3$"
         },
         {
           "id": "D",
-          "text": "$11.0$"
+          "text": "$y = 0.2x \u002B 5$"
         },
         {
           "id": "E",
-          "text": "$7.5$"
+          "text": "$y = 0.4x \u002B 2$"
         }
       ],
       "correctOptionId": "A",
@@ -228,7 +228,7 @@
       "questionType": "mcq",
       "topic": "Regression and Correlation",
       "difficulty": "moderate",
-      "prompt": "What is the correlation coefficient of the data provided, which indicates the strength of the relationship between the number of items ordered and the time taken for delivery?",
+      "prompt": "What is the correlation coefficient of the data?",
       "options": [
         {
           "id": "A",
@@ -236,7 +236,7 @@
         },
         {
           "id": "B",
-          "text": "$0.75$"
+          "text": "$0.70$"
         },
         {
           "id": "C",
@@ -244,11 +244,11 @@
         },
         {
           "id": "D",
-          "text": "$0.65$"
+          "text": "$0.60$"
         },
         {
           "id": "E",
-          "text": "$0.50$"
+          "text": "$0.80$"
         }
       ],
       "correctOptionId": "A",
@@ -258,32 +258,32 @@
       "explanation": null
     },
     {
-      "id": "2025-may-june-mathematics-p2-en-q2-2_2",
+      "id": "2025-may-june-mathematics-p2-en-q2-2_4",
       "sortOrder": 9,
       "questionType": "mcq",
       "topic": "Regression and Correlation",
       "difficulty": "moderate",
-      "prompt": "Determine the equation of the least squares regression line for the data provided, represented in the form $y = mx \u002B c$. What is the slope $m$?",
+      "prompt": "If the supermarket received an online order for 13 items, predict how long (in minutes) it will take a packer to pack the order.",
       "options": [
         {
           "id": "A",
-          "text": "$0.6$"
+          "text": "$8.5$"
         },
         {
           "id": "B",
-          "text": "$0.4$"
+          "text": "$9.0$"
         },
         {
           "id": "C",
-          "text": "$0.5$"
+          "text": "$9.5$"
         },
         {
           "id": "D",
-          "text": "$0.7$"
+          "text": "$10.0$"
         },
         {
           "id": "E",
-          "text": "$0.3$"
+          "text": "$7.5$"
         }
       ],
       "correctOptionId": "A",
@@ -298,7 +298,7 @@
       "questionType": "group",
       "topic": "Analytical Geometry",
       "difficulty": "moderate",
-      "prompt": "[latex]\nIn the diagram below, $\\triangle SRT$ is drawn where R lies on the $x$-axis and S lies to the left of R. T lies on the $y$-axis and the coordinates of S are $(m\\ ;\\ 1)$. The equation of RT is $2x - y \u002B 10 = 0$.\n\n**3.1** Calculate the coordinates of R. (2)\n\n**3.2** Calculate the length of RT. Leave your answer in surd form. (3)\n\n**3.3** If it is also given that $2RT^{2} = 5SR^{2}$, calculate the value of $m$. (4)\n\n**3.4** It is further given that V lies on ST such that VR is perpendicular to ST. Determine the equation of VR in the form $y = mx \u002B c$. (5)\n\n**3.5** Hence, show that the coordinates of V are $(-8\\ ;\\ 4)$. (2)\n\n**3.6** If $R\u0027$ is the reflection of R about the line $x = 0$, calculate the area of $RVTR\u0027$. (5)\n\n**[21]**",
+      "prompt": "[latex]\nIn the diagram below, $\\triangle SRT$ is drawn where R lies on the $x$-axis and S lies to the left of R. T lies on the $y$-axis and the coordinates of S are $(m\\ ;\\ 1)$. The equation of RT is $2x - y \u002B 10 = 0$.\n\n[FIGURE]\nTriangle SRT where R lies on the x-axis, S is to the left of R at coordinates (m, 1), and T lies on the y-axis. The line RT has equation 2x \u2212 y \u002B 10 = 0. The triangle is drawn in the Cartesian plane with all three vertices labeled.\n[/FIGURE]\n\n**3.1** Calculate the coordinates of R. (2)\n\n**3.2** Calculate the length of RT. Leave your answer in surd form. (3)\n\n**3.3** If it is also given that $2RT^{2} = 5SR^{2}$, calculate the value of $m$. (4)\n\n**3.4** It is further given that V lies on ST such that VR is perpendicular to ST. Determine the equation of VR in the form $y = mx \u002B c$. (5)\n\n**3.5** Hence, show that the coordinates of V are $(-8\\ ;\\ 4)$. (2)\n\n**3.6** If $R\u0027$ is the reflection of R about the line $x = 0$, calculate the area of $RVTR\u0027$. (5)\n\n**[21]**",
       "options": [],
       "correctOptionId": null,
       "memoAnswer": "QUESTION/VRAAG 3 y T V S(m ; 1) x / O R W R 3.1 2 x \u2212 y \u002B 10 = 0  y = 0 2 x \u2212 0 \u002B 10 = 0 x = \u22125  x = \u20135 R(\u20135 ; 0) (2) 3.2 R(\u20135 ; 0)  T(0 ; 10) T(0 ; 10) 2 2 2 2 2 2 (RT) = (\u22125 \u2212 0) \u002B (0 \u2212 10) OR (Pythag) ( ) RT = 5 \u002B 10  subst of R \u0026 T into distance formula or Pythagoras  answer RT = 5 5 RT = 125 units OR/OF units (3) 2 2 3.3 2RT = 5SR 2 2 2  length of 2RT 2(125) = 5[(m \u2212 (\u22125)) \u002B (1 \u2212 0) ] 2 2 2  length of 5SR m \u002B \u002B = 5[( 5) (1) ] 250 2 m \u002B \u002B = ( 5) 1 50 2 2 (m \u002B 5) = 49 OR/OF m \u002B m \u2212 = 10 24 0  standard form or isolating square (m \u2212 2)(m \u002B 12) = 0 m \u002B 5 = \u00B17 m = \u22125 \u00B1 7 m = 2 or m = \u2013 12 m = 2 or m = \u2013 12 N/A N/A \u2234m = \u2013 12 \u2234m = \u2013 12  negative answer (4) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 6 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne y T V S(m ; 1) x / O R W R 1 10 \u2212 m = 3.4  substitution of S \u0026 T ST 12 0 \u2212 \u2212 into gradient formula 3 m  ST m = ST 4 4 1  \u2234 m = \u2212 m = \u2212 VR VR m 3 ST 4 4 y = \u2212 x \u002B c y \u2212 y = \u2212 x \u2212 x ( ) OR/OF 1 1 3 3 4 4  substitution of R y \u2212 = \u2212 x \u2212 \u2212 0 = \u2212 (\u22125) \u002B c 0 ( ( 5)) 3 3 4 20 y = \u2212 ( x \u002B 5) c = \u2212 3 3 4 20 4 20  equation y = \u2212 x \u2212 y = \u2212 x \u2212 3 3 3 3 (5) 3.5 4 20 y = \u2212 x \u2212 VR: 3 3 3 y = x \u002B 10 ST: 4 3 4 20 x \u002B 10 = \u2212 x \u2212  equating VR and ST 4 3 3 9 x \u002B 120 = \u221216 x \u2212 80  simplification leading 25 x = \u2212200 to x = \u22128 x = \u22128 y = 4 \u2234 V(\u22128 ; 4) (2) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 7 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne y T V S(m ; 1) x / O R R \u2032 ( ) R 5; 0 3.6 2 2  length of VR = 5 VR = [\u22128 \u2212 (\u22125)] \u002B (4 \u2212 0)  length of VT 2 2 =10 VT = (\u22128 \u2212 0) \u002B (4 \u2212 10) 1 1 \u2032 \u2032 ( )( ) ( )( ) Area of RVTR = VR VT \u002B RR OT 2 2 1 1  area \u2206VRT = (5)(10) 10 1\u002B0 ( )( ) 2 2 \u2032  area \u2206 RTR = 25 \u002B 50 2 = 75units  answer OR/OF (5) 3 y = x \u002B 10 ST: 4 3 0 = x 10 \u002B 4 40 1  x-intercept of ST x = \u2212 \u221213 or 3 3 40   \u2212 W ; 0   3   40 55 1   WR\u0027 5 1 = \u2212 \u2212 = = 8 \u2032 WR  length of   3 3 \n\n[truncated]",
@@ -312,132 +312,27 @@
       "questionType": "mcq",
       "topic": "Analytical Geometry",
       "difficulty": "moderate",
-      "prompt": "Calculate the coordinates of R, given that the equation of RT is $2x - y \u002B 10 = 0$ and R lies on the $x$-axis.",
+      "prompt": "Calculate the coordinates of R, where R lies on the $x$-axis.",
       "options": [
         {
           "id": "A",
-          "text": "$(5\\ ;\\ 0)$"
+          "text": "$(3, 0)$"
         },
         {
           "id": "B",
-          "text": "$(-5\\ ;\\ 0)$"
+          "text": "$(5, 0)$"
         },
         {
           "id": "C",
-          "text": "$(0\\ ;\\ -10)$"
+          "text": "$(-4, 0)$"
         },
         {
           "id": "D",
-          "text": "$(-10\\ ;\\ 0)$"
+          "text": "$(1, 0)$"
         },
         {
           "id": "E",
-          "text": "$(4\\ ;\\ 0)$"
-        }
-      ],
-      "correctOptionId": "A",
-      "memoAnswer": "QUESTION/VRAAG 3 y T V S(m ; 1) x / O R W R 3.1 2 x \u2212 y \u002B 10 = 0  y = 0 2 x \u2212 0 \u002B 10 = 0 x = \u22125  x = \u20135 R(\u20135 ; 0) (2) 3.2 R(\u20135 ; 0)  T(0 ; 10) T(0 ; 10) 2 2 2 2 2 2 (RT) = (\u22125 \u2212 0) \u002B (0 \u2212 10) OR (Pythag) ( ) RT = 5 \u002B 10  subst of R \u0026 T into distance formula or Pythagoras  answer RT = 5 5 RT = 125 units OR/OF units (3) 2 2 3.3 2RT = 5SR 2 2 2  length of 2RT 2(125) = 5[(m \u2212 (\u22125)) \u002B (1 \u2212 0) ] 2 2 2  length of 5SR m \u002B \u002B = 5[( 5) (1) ] 250 2 m \u002B \u002B = ( 5) 1 50 2 2 (m \u002B 5) = 49 OR/OF m \u002B m \u2212 = 10 24 0  standard form or isolating square (m \u2212 2)(m \u002B 12) = 0 m \u002B 5 = \u00B17 m = \u22125 \u00B1 7 m = 2 or m = \u2013 12 m = 2 or m = \u2013 12 N/A N/A \u2234m = \u2013 12 \u2234m = \u2013 12  negative answer (4) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 6 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne y T V S(m ; 1) x / O R W R 1 10 \u2212 m = 3.4  substitution of S \u0026 T ST 12 0 \u2212 \u2212 into gradient formula 3 m  ST m = ST 4 4 1  \u2234 m = \u2212 m = \u2212 VR VR m 3 ST 4 4 y = \u2212 x \u002B c y \u2212 y = \u2212 x \u2212 x ( ) OR/OF 1 1 3 3 4 4  substitution of R y \u2212 = \u2212 x \u2212 \u2212 0 = \u2212 (\u22125) \u002B c 0 ( ( 5)) 3 3 4 20 y = \u2212 ( x \u002B 5) c = \u2212 3 3 4 20 4 20  equation y = \u2212 x \u2212 y = \u2212 x \u2212 3 3 3 3 (5) 3.5 4 20 y = \u2212 x \u2212 VR: 3 3 3 y = x \u002B 10 ST: 4 3 4 20 x \u002B 10 = \u2212 x \u2212  equating VR and ST 4 3 3 9 x \u002B 120 = \u221216 x \u2212 80  simplification leading 25 x = \u2212200 to x = \u22128 x = \u22128 y = 4 \u2234 V(\u22128 ; 4) (2) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 7 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne y T V S(m ; 1) x / O R R \u2032 ( ) R 5; 0 3.6 2 2  length of VR = 5 VR = [\u22128 \u2212 (\u22125)] \u002B (4 \u2212 0)  length of VT 2 2 =10 VT = (\u22128 \u2212 0) \u002B (4 \u2212 10) 1 1 \u2032 \u2032 ( )( ) ( )( ) Area of RVTR = VR VT \u002B RR OT 2 2 1 1  area \u2206VRT = (5)(10) 10 1\u002B0 ( )( ) 2 2 \u2032  area \u2206 RTR = 25 \u002B 50 2 = 75units  answer OR/OF (5) 3 y = x \u002B 10 ST: 4 3 0 = x 10 \u002B 4 40 1  x-intercept of ST x = \u2212 \u221213 or 3 3 40   \u2212 W ; 0   3   40 55 1   WR\u0027 5 1 = \u2212 \u2212 = = 8 \u2032 WR  length of   3 3 \n\n[truncated]",
-      "markingNotes": null,
-      "marks": null,
-      "explanation": null
-    },
-    {
-      "id": "2025-may-june-mathematics-p2-en-q3-3_2",
-      "sortOrder": 12,
-      "questionType": "mcq",
-      "topic": "Analytical Geometry",
-      "difficulty": "moderate",
-      "prompt": "Calculate the length of RT, leaving your answer in surd form.",
-      "options": [
-        {
-          "id": "A",
-          "text": "$5\\sqrt{5}$"
-        },
-        {
-          "id": "B",
-          "text": "$10\\sqrt{2}$"
-        },
-        {
-          "id": "C",
-          "text": "$8$"
-        },
-        {
-          "id": "D",
-          "text": "$4\\sqrt{10}$"
-        },
-        {
-          "id": "E",
-          "text": "$2\\sqrt{20}$"
-        }
-      ],
-      "correctOptionId": "A",
-      "memoAnswer": "QUESTION/VRAAG 3 y T V S(m ; 1) x / O R W R 3.1 2 x \u2212 y \u002B 10 = 0  y = 0 2 x \u2212 0 \u002B 10 = 0 x = \u22125  x = \u20135 R(\u20135 ; 0) (2) 3.2 R(\u20135 ; 0)  T(0 ; 10) T(0 ; 10) 2 2 2 2 2 2 (RT) = (\u22125 \u2212 0) \u002B (0 \u2212 10) OR (Pythag) ( ) RT = 5 \u002B 10  subst of R \u0026 T into distance formula or Pythagoras  answer RT = 5 5 RT = 125 units OR/OF units (3) 2 2 3.3 2RT = 5SR 2 2 2  length of 2RT 2(125) = 5[(m \u2212 (\u22125)) \u002B (1 \u2212 0) ] 2 2 2  length of 5SR m \u002B \u002B = 5[( 5) (1) ] 250 2 m \u002B \u002B = ( 5) 1 50 2 2 (m \u002B 5) = 49 OR/OF m \u002B m \u2212 = 10 24 0  standard form or isolating square (m \u2212 2)(m \u002B 12) = 0 m \u002B 5 = \u00B17 m = \u22125 \u00B1 7 m = 2 or m = \u2013 12 m = 2 or m = \u2013 12 N/A N/A \u2234m = \u2013 12 \u2234m = \u2013 12  negative answer (4) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 6 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne y T V S(m ; 1) x / O R W R 1 10 \u2212 m = 3.4  substitution of S \u0026 T ST 12 0 \u2212 \u2212 into gradient formula 3 m  ST m = ST 4 4 1  \u2234 m = \u2212 m = \u2212 VR VR m 3 ST 4 4 y = \u2212 x \u002B c y \u2212 y = \u2212 x \u2212 x ( ) OR/OF 1 1 3 3 4 4  substitution of R y \u2212 = \u2212 x \u2212 \u2212 0 = \u2212 (\u22125) \u002B c 0 ( ( 5)) 3 3 4 20 y = \u2212 ( x \u002B 5) c = \u2212 3 3 4 20 4 20  equation y = \u2212 x \u2212 y = \u2212 x \u2212 3 3 3 3 (5) 3.5 4 20 y = \u2212 x \u2212 VR: 3 3 3 y = x \u002B 10 ST: 4 3 4 20 x \u002B 10 = \u2212 x \u2212  equating VR and ST 4 3 3 9 x \u002B 120 = \u221216 x \u2212 80  simplification leading 25 x = \u2212200 to x = \u22128 x = \u22128 y = 4 \u2234 V(\u22128 ; 4) (2) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 7 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne y T V S(m ; 1) x / O R R \u2032 ( ) R 5; 0 3.6 2 2  length of VR = 5 VR = [\u22128 \u2212 (\u22125)] \u002B (4 \u2212 0)  length of VT 2 2 =10 VT = (\u22128 \u2212 0) \u002B (4 \u2212 10) 1 1 \u2032 \u2032 ( )( ) ( )( ) Area of RVTR = VR VT \u002B RR OT 2 2 1 1  area \u2206VRT = (5)(10) 10 1\u002B0 ( )( ) 2 2 \u2032  area \u2206 RTR = 25 \u002B 50 2 = 75units  answer OR/OF (5) 3 y = x \u002B 10 ST: 4 3 0 = x 10 \u002B 4 40 1  x-intercept of ST x = \u2212 \u221213 or 3 3 40   \u2212 W ; 0   3   40 55 1   WR\u0027 5 1 = \u2212 \u2212 = = 8 \u2032 WR  length of   3 3 \n\n[truncated]",
-      "markingNotes": null,
-      "marks": null,
-      "explanation": null
-    },
-    {
-      "id": "2025-may-june-mathematics-p2-en-q3-3_3",
-      "sortOrder": 13,
-      "questionType": "mcq",
-      "topic": "Analytical Geometry",
-      "difficulty": "moderate",
-      "prompt": "If it is also given that $2RT^{2} = 5SR^{2}$, calculate the value of $m$.",
-      "options": [
-        {
-          "id": "A",
-          "text": "$-6$"
-        },
-        {
-          "id": "B",
-          "text": "$-4$"
-        },
-        {
-          "id": "C",
-          "text": "$-8$"
-        },
-        {
-          "id": "D",
-          "text": "$-5$"
-        },
-        {
-          "id": "E",
-          "text": "$-3$"
-        }
-      ],
-      "correctOptionId": "C",
-      "memoAnswer": "QUESTION/VRAAG 3 y T V S(m ; 1) x / O R W R 3.1 2 x \u2212 y \u002B 10 = 0  y = 0 2 x \u2212 0 \u002B 10 = 0 x = \u22125  x = \u20135 R(\u20135 ; 0) (2) 3.2 R(\u20135 ; 0)  T(0 ; 10) T(0 ; 10) 2 2 2 2 2 2 (RT) = (\u22125 \u2212 0) \u002B (0 \u2212 10) OR (Pythag) ( ) RT = 5 \u002B 10  subst of R \u0026 T into distance formula or Pythagoras  answer RT = 5 5 RT = 125 units OR/OF units (3) 2 2 3.3 2RT = 5SR 2 2 2  length of 2RT 2(125) = 5[(m \u2212 (\u22125)) \u002B (1 \u2212 0) ] 2 2 2  length of 5SR m \u002B \u002B = 5[( 5) (1) ] 250 2 m \u002B \u002B = ( 5) 1 50 2 2 (m \u002B 5) = 49 OR/OF m \u002B m \u2212 = 10 24 0  standard form or isolating square (m \u2212 2)(m \u002B 12) = 0 m \u002B 5 = \u00B17 m = \u22125 \u00B1 7 m = 2 or m = \u2013 12 m = 2 or m = \u2013 12 N/A N/A \u2234m = \u2013 12 \u2234m = \u2013 12  negative answer (4) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 6 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne y T V S(m ; 1) x / O R W R 1 10 \u2212 m = 3.4  substitution of S \u0026 T ST 12 0 \u2212 \u2212 into gradient formula 3 m  ST m = ST 4 4 1  \u2234 m = \u2212 m = \u2212 VR VR m 3 ST 4 4 y = \u2212 x \u002B c y \u2212 y = \u2212 x \u2212 x ( ) OR/OF 1 1 3 3 4 4  substitution of R y \u2212 = \u2212 x \u2212 \u2212 0 = \u2212 (\u22125) \u002B c 0 ( ( 5)) 3 3 4 20 y = \u2212 ( x \u002B 5) c = \u2212 3 3 4 20 4 20  equation y = \u2212 x \u2212 y = \u2212 x \u2212 3 3 3 3 (5) 3.5 4 20 y = \u2212 x \u2212 VR: 3 3 3 y = x \u002B 10 ST: 4 3 4 20 x \u002B 10 = \u2212 x \u2212  equating VR and ST 4 3 3 9 x \u002B 120 = \u221216 x \u2212 80  simplification leading 25 x = \u2212200 to x = \u22128 x = \u22128 y = 4 \u2234 V(\u22128 ; 4) (2) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 7 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne y T V S(m ; 1) x / O R R \u2032 ( ) R 5; 0 3.6 2 2  length of VR = 5 VR = [\u22128 \u2212 (\u22125)] \u002B (4 \u2212 0)  length of VT 2 2 =10 VT = (\u22128 \u2212 0) \u002B (4 \u2212 10) 1 1 \u2032 \u2032 ( )( ) ( )( ) Area of RVTR = VR VT \u002B RR OT 2 2 1 1  area \u2206VRT = (5)(10) 10 1\u002B0 ( )( ) 2 2 \u2032  area \u2206 RTR = 25 \u002B 50 2 = 75units  answer OR/OF (5) 3 y = x \u002B 10 ST: 4 3 0 = x 10 \u002B 4 40 1  x-intercept of ST x = \u2212 \u221213 or 3 3 40   \u2212 W ; 0   3   40 55 1   WR\u0027 5 1 = \u2212 \u2212 = = 8 \u2032 WR  length of   3 3 \n\n[truncated]",
-      "markingNotes": null,
-      "marks": null,
-      "explanation": null
-    },
-    {
-      "id": "2025-may-june-mathematics-p2-en-q3-3_6",
-      "sortOrder": 14,
-      "questionType": "mcq",
-      "topic": "Analytical Geometry",
-      "difficulty": "moderate",
-      "prompt": "If $R\u0027$ is the reflection of R about the line $x = 0$, calculate the area of $RVTR\u0027$.",
-      "options": [
-        {
-          "id": "A",
-          "text": "$40$"
-        },
-        {
-          "id": "B",
-          "text": "$32$"
-        },
-        {
-          "id": "C",
-          "text": "$50$"
-        },
-        {
-          "id": "D",
-          "text": "$30$"
-        },
-        {
-          "id": "E",
-          "text": "$25$"
+          "text": "$(2, 0)$"
         }
       ],
       "correctOptionId": "A",
@@ -448,11 +343,11 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q4",
-      "sortOrder": 15,
+      "sortOrder": 12,
       "questionType": "group",
       "topic": "Analytical Geometry (Circles)",
       "difficulty": "moderate",
-      "prompt": "[latex]\nIn the diagram, M is the centre of the circle having equation $(x-3)^{2} \u002B y^{2} = 25$. $E(-1\\ ;\\ 3)$ and T are points on the circle. EC is a tangent to the circle at E and cuts the $x$-axis at D. $ED = \\frac{15}{4}$ units. MT is produced to meet the tangent at $C(-7\\ ;\\ p)$.\n\n**4.1** Write down the size of $C\\hat{E}M$. (1)\n\n**4.2** Determine the equation of the tangent EC in the form $y = mx \u002B c$. (4)\n\n**4.3** Calculate the length of DM. (3)\n\n**4.4** Show that $p = -5$. (1)\n\n**4.5** Calculate the coordinates of S if SEMC is a parallelogram and $x_{s} \u003C 0$. (3)\n\n**4.6** If the radius of the circle, centred at M, is increased by 7 units, determine whether S lies inside or outside the new circle. Support your answer with the necessary calculations. (3)\n\n**4.7** If ET is drawn, calculate the size of $E\\hat{T}M$. (5)\n\n**[20]**",
+      "prompt": "[latex]\nIn the diagram, M is the centre of the circle having equation $(x-3)^{2} \u002B y^{2} = 25$. $E(-1\\ ;\\ 3)$ and T are points on the circle. EC is a tangent to the circle at E and cuts the $x$-axis at D. $ED = \\frac{15}{4}$ units. MT is produced to meet the tangent at $C(-7\\ ;\\ p)$.\n\n[FIGURE]\nCircle with centre M(3, 0) and radius 5, equation (x\u22123)\u00B2 \u002B y\u00B2 = 25. Points E(\u22121, 3) and T lie on the circle. A tangent to the circle at E meets the x-axis at D and is produced to C(\u22127, p). The line MT is produced to meet the tangent at C.\n[/FIGURE]\n\n**4.1** Write down the size of $C\\hat{E}M$. (1)\n\n**4.2** Determine the equation of the tangent EC in the form $y = mx \u002B c$. (4)\n\n**4.3** Calculate the length of DM. (3)\n\n**4.4** Show that $p = -5$. (1)\n\n**4.5** Calculate the coordinates of S if SEMC is a parallelogram and $x_{s} \u003C 0$. (3)\n\n**4.6** If the radius of the circle, centred at M, is increased by 7 units, determine whether S lies inside or outside the new circle. Support your answer with the necessary calculations. (3)\n\n**4.7** If ET is drawn, calculate the size of $E\\hat{T}M$. (5)\n\n**[20]**",
       "options": [],
       "correctOptionId": null,
       "memoAnswer": "QUESTION/VRAAG 4 E(\u20131 ; 3) D O x M S(\u201311 ; \u20132) T C(\u20137 ; p) \u02C6  answer CEM = 90\u00B0 4.1 (1) 0 \u2212 3 m = 4.2 ME 3 \u2212 \u22121 ( ) 3 3 m = \u2212 ME m = \u2212  4 ME 4 4  m \u2234 m = ED ED 3 4 4 y \u2212 3 = x \u22121 \u2212 3 1 c = \u2212 \u002B OR/OF  substitution of E(\u20131 ; 3) ( ) ( ) ( ) 3 3 4 13 4 13 y = x \u002B y = x \u002B  equation 3 3 3 3 (4) OR/OF 2 15 2   [Pythagoras] = \u002B DM 5 ( )   4   25 DM = or 6,25 units 4 13    coordinates of D D ;0 \u2234 \u2212   4   3 0 \u2212 m = ED 13   1 \u2212 \u2212 \u2212   4   4 m  ED \u2234 m = ED 3 4 4  substitution of E(\u20131 ; 3) y \u2212 3 = x \u22121 \u2212 3 1 c = \u2212 \u002B OR/OF ( ) ( ) ( ) 3 3 4 13 4 13  equation y = x \u002B y = x \u002B 3 3 3 3 (4) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 9 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne 4 13 y = x \u002B 4.3 3 3 4 13 0 = x \u002B 3 3 13  x x = \u2212 D D 4 13    x \u2212 x \u2234 DM = 3 \u2212 \u2212   M D 4   25  answer DM = or 6,25units 4 (3) OR/OF  EM = 5 units EM = 5 units 15 ED = units 4 2 15 2    substitution of EM \u0026 ED [Pythagoras] = \u002B DM 5 ( )   4   25  answer DM = or 6,25units 4 (3) 4 13 4.4 EC: y = x \u002B 3 3 4 13 p = \u22127 \u002B  substitution of C(\u20137 ; p) ( ) 3 3 into equation of EC p = \u22125 (1) OR/OF 4 m = EC 3 p \u2212 3 4  substitution of C(\u20137 ; p) = \u22127 \u2212 \u22121 3 ( ) into gradient of EC 4 p \u2212 3 = 6\u2212 ( ) 3 p = \u22125 (1) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 10 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne  method: translation M \u2192 E: (x ; y) \u2192 (x \u2013 4 ; y \u002B 3) [translation] 4.5 C \u2192 S: (\u20137 ; \u20135) \u2192 (\u20137 \u2013 4 ; \u20135 \u002B 3) x = \u221211 2 y = \u2212   \u2234S(\u201311 ; \u20132) S S (3) OR/OF M \u2192 C: (x ; y) \u2192(x \u2013 10 ; y \u2013 5) [translation]  method: translation E \u2192 S: (\u20131 ; 3) \u2192 (\u20131 \u2013 10 ; 3 \u20135) \u2234S(\u201311 ; \u20132) y = \u2212 11 2 x = \u2212   S S (3) OR/OF E(\u20131 ; 3) and C(\u20137 ; \u20135) ( ) ( ) \u2212 1 \u002B \u2212 7 3 \u002B \u2212 5   [Midpoint of EC] ;    method: midpoint 2 2   ( ) = \u2212 4; \u2212 1 S(x ; y) and M(3 ; 0) y \u002B 0 3 x \u002B S S = \u22121 4 = \u2212 2 2 11 y = \u22122 x = \u2212 S S x = \u221211 y = \u22122   S S \u2234S(\u201311 ; \u20132) (3) r = 5 \u002B 7 4.6 NEW r = 12  r = 12\n\n[truncated]",
@@ -461,55 +356,20 @@
       "explanation": "Imported from exam paper \u002B memorandum text via fallback parser."
     },
     {
-      "id": "2025-may-june-mathematics-p2-en-q4-4_2",
-      "sortOrder": 16,
-      "questionType": "mcq",
-      "topic": "Analytical Geometry (Circles)",
-      "difficulty": "moderate",
-      "prompt": "Determine the equation of the tangent EC in the form $y = mx \u002B c$.",
-      "options": [
-        {
-          "id": "A",
-          "text": "$y = -\\frac{3}{4}x - \\frac{3}{4}$"
-        },
-        {
-          "id": "B",
-          "text": "$y = \\frac{4}{3}x \u002B 3$"
-        },
-        {
-          "id": "C",
-          "text": "$y = -\\frac{4}{3}x \u002B 3$"
-        },
-        {
-          "id": "D",
-          "text": "$y = \\frac{3}{4}x \u002B \\frac{15}{4}$"
-        },
-        {
-          "id": "E",
-          "text": "$y = -\\frac{3}{4}x \u002B \\frac{15}{4}$"
-        }
-      ],
-      "correctOptionId": "E",
-      "memoAnswer": "QUESTION/VRAAG 4 E(\u20131 ; 3) D O x M S(\u201311 ; \u20132) T C(\u20137 ; p) \u02C6  answer CEM = 90\u00B0 4.1 (1) 0 \u2212 3 m = 4.2 ME 3 \u2212 \u22121 ( ) 3 3 m = \u2212 ME m = \u2212  4 ME 4 4  m \u2234 m = ED ED 3 4 4 y \u2212 3 = x \u22121 \u2212 3 1 c = \u2212 \u002B OR/OF  substitution of E(\u20131 ; 3) ( ) ( ) ( ) 3 3 4 13 4 13 y = x \u002B y = x \u002B  equation 3 3 3 3 (4) OR/OF 2 15 2   [Pythagoras] = \u002B DM 5 ( )   4   25 DM = or 6,25 units 4 13    coordinates of D D ;0 \u2234 \u2212   4   3 0 \u2212 m = ED 13   1 \u2212 \u2212 \u2212   4   4 m  ED \u2234 m = ED 3 4 4  substitution of E(\u20131 ; 3) y \u2212 3 = x \u22121 \u2212 3 1 c = \u2212 \u002B OR/OF ( ) ( ) ( ) 3 3 4 13 4 13  equation y = x \u002B y = x \u002B 3 3 3 3 (4) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 9 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne 4 13 y = x \u002B 4.3 3 3 4 13 0 = x \u002B 3 3 13  x x = \u2212 D D 4 13    x \u2212 x \u2234 DM = 3 \u2212 \u2212   M D 4   25  answer DM = or 6,25units 4 (3) OR/OF  EM = 5 units EM = 5 units 15 ED = units 4 2 15 2    substitution of EM \u0026 ED [Pythagoras] = \u002B DM 5 ( )   4   25  answer DM = or 6,25units 4 (3) 4 13 4.4 EC: y = x \u002B 3 3 4 13 p = \u22127 \u002B  substitution of C(\u20137 ; p) ( ) 3 3 into equation of EC p = \u22125 (1) OR/OF 4 m = EC 3 p \u2212 3 4  substitution of C(\u20137 ; p) = \u22127 \u2212 \u22121 3 ( ) into gradient of EC 4 p \u2212 3 = 6\u2212 ( ) 3 p = \u22125 (1) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 10 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne  method: translation M \u2192 E: (x ; y) \u2192 (x \u2013 4 ; y \u002B 3) [translation] 4.5 C \u2192 S: (\u20137 ; \u20135) \u2192 (\u20137 \u2013 4 ; \u20135 \u002B 3) x = \u221211 2 y = \u2212   \u2234S(\u201311 ; \u20132) S S (3) OR/OF M \u2192 C: (x ; y) \u2192(x \u2013 10 ; y \u2013 5) [translation]  method: translation E \u2192 S: (\u20131 ; 3) \u2192 (\u20131 \u2013 10 ; 3 \u20135) \u2234S(\u201311 ; \u20132) y = \u2212 11 2 x = \u2212   S S (3) OR/OF E(\u20131 ; 3) and C(\u20137 ; \u20135) ( ) ( ) \u2212 1 \u002B \u2212 7 3 \u002B \u2212 5   [Midpoint of EC] ;    method: midpoint 2 2   ( ) = \u2212 4; \u2212 1 S(x ; y) and M(3 ; 0) y \u002B 0 3 x \u002B S S = \u22121 4 = \u2212 2 2 11 y = \u22122 x = \u2212 S S x = \u221211 y = \u22122   S S \u2234S(\u201311 ; \u20132) (3) r = 5 \u002B 7 4.6 NEW r = 12  r = 12\n\n[truncated]",
-      "markingNotes": null,
-      "marks": null,
-      "explanation": null
-    },
-    {
       "id": "2025-may-june-mathematics-p2-en-q4-4_3",
-      "sortOrder": 17,
+      "sortOrder": 13,
       "questionType": "mcq",
       "topic": "Analytical Geometry (Circles)",
       "difficulty": "moderate",
-      "prompt": "Calculate the length of $DM$.",
+      "prompt": "Calculate the length of $DM$ where $D$ is the point where the tangent at $E(-1, 3)$ meets the $x$-axis, and $M$ is the center of the circle at $(3, 0)$.",
       "options": [
         {
           "id": "A",
-          "text": "$6$"
+          "text": "$5$"
         },
         {
           "id": "B",
-          "text": "$5$"
+          "text": "$8$"
         },
         {
           "id": "C",
@@ -517,11 +377,11 @@
         },
         {
           "id": "D",
-          "text": "$4$"
+          "text": "$6$"
         },
         {
           "id": "E",
-          "text": "$3$"
+          "text": "$4$"
         }
       ],
       "correctOptionId": "A",
@@ -532,31 +392,31 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q4-4_5",
-      "sortOrder": 18,
+      "sortOrder": 14,
       "questionType": "mcq",
       "topic": "Analytical Geometry (Circles)",
       "difficulty": "moderate",
-      "prompt": "Calculate the coordinates of S if SEMC is a parallelogram and $x_{s} \u003C 0$.",
+      "prompt": "Calculate the coordinates of $S$ if $SEM C$ is a parallelogram and $x_{s} \u003C 0$.",
       "options": [
         {
           "id": "A",
-          "text": "$(-5\\ ;\\ 2)$"
+          "text": "$(-7, -5)$"
         },
         {
           "id": "B",
-          "text": "$(-7\\ ;\\ 0)$"
+          "text": "$(-5, 2)$"
         },
         {
           "id": "C",
-          "text": "$(-9\\ ;\\ 1)$"
+          "text": "$(-3, -3)$"
         },
         {
           "id": "D",
-          "text": "$(-3\\ ;\\ 5)$"
+          "text": "$(-1, 3)$"
         },
         {
           "id": "E",
-          "text": "$(-1\\ ;\\ 6)$"
+          "text": "$(-5, -7)$"
         }
       ],
       "correctOptionId": "A",
@@ -567,66 +427,31 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q4-4_6",
-      "sortOrder": 19,
+      "sortOrder": 15,
       "questionType": "mcq",
       "topic": "Analytical Geometry (Circles)",
       "difficulty": "moderate",
-      "prompt": "If the radius of the circle, centred at M, is increased by 7 units, determine whether S lies inside or outside the new circle.",
+      "prompt": "If the radius of the circle, centred at $M$, is increased by $7$ units, determine whether $S$ lies inside or outside the new circle. Support your answer with the necessary calculations.",
       "options": [
         {
           "id": "A",
-          "text": "S lies outside the new circle."
+          "text": "Inside the new circle"
         },
         {
           "id": "B",
-          "text": "S lies inside the new circle."
+          "text": "Outside the new circle"
         },
         {
           "id": "C",
-          "text": "S lies on the new circle."
+          "text": "On the perimeter of the new circle"
         },
         {
           "id": "D",
-          "text": "S lies at the centre of the new circle."
+          "text": "At the center of the new circle"
         },
         {
           "id": "E",
-          "text": "S does not lie in relation to the new circle."
-        }
-      ],
-      "correctOptionId": "B",
-      "memoAnswer": "QUESTION/VRAAG 4 E(\u20131 ; 3) D O x M S(\u201311 ; \u20132) T C(\u20137 ; p) \u02C6  answer CEM = 90\u00B0 4.1 (1) 0 \u2212 3 m = 4.2 ME 3 \u2212 \u22121 ( ) 3 3 m = \u2212 ME m = \u2212  4 ME 4 4  m \u2234 m = ED ED 3 4 4 y \u2212 3 = x \u22121 \u2212 3 1 c = \u2212 \u002B OR/OF  substitution of E(\u20131 ; 3) ( ) ( ) ( ) 3 3 4 13 4 13 y = x \u002B y = x \u002B  equation 3 3 3 3 (4) OR/OF 2 15 2   [Pythagoras] = \u002B DM 5 ( )   4   25 DM = or 6,25 units 4 13    coordinates of D D ;0 \u2234 \u2212   4   3 0 \u2212 m = ED 13   1 \u2212 \u2212 \u2212   4   4 m  ED \u2234 m = ED 3 4 4  substitution of E(\u20131 ; 3) y \u2212 3 = x \u22121 \u2212 3 1 c = \u2212 \u002B OR/OF ( ) ( ) ( ) 3 3 4 13 4 13  equation y = x \u002B y = x \u002B 3 3 3 3 (4) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 9 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne 4 13 y = x \u002B 4.3 3 3 4 13 0 = x \u002B 3 3 13  x x = \u2212 D D 4 13    x \u2212 x \u2234 DM = 3 \u2212 \u2212   M D 4   25  answer DM = or 6,25units 4 (3) OR/OF  EM = 5 units EM = 5 units 15 ED = units 4 2 15 2    substitution of EM \u0026 ED [Pythagoras] = \u002B DM 5 ( )   4   25  answer DM = or 6,25units 4 (3) 4 13 4.4 EC: y = x \u002B 3 3 4 13 p = \u22127 \u002B  substitution of C(\u20137 ; p) ( ) 3 3 into equation of EC p = \u22125 (1) OR/OF 4 m = EC 3 p \u2212 3 4  substitution of C(\u20137 ; p) = \u22127 \u2212 \u22121 3 ( ) into gradient of EC 4 p \u2212 3 = 6\u2212 ( ) 3 p = \u22125 (1) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 10 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne  method: translation M \u2192 E: (x ; y) \u2192 (x \u2013 4 ; y \u002B 3) [translation] 4.5 C \u2192 S: (\u20137 ; \u20135) \u2192 (\u20137 \u2013 4 ; \u20135 \u002B 3) x = \u221211 2 y = \u2212   \u2234S(\u201311 ; \u20132) S S (3) OR/OF M \u2192 C: (x ; y) \u2192(x \u2013 10 ; y \u2013 5) [translation]  method: translation E \u2192 S: (\u20131 ; 3) \u2192 (\u20131 \u2013 10 ; 3 \u20135) \u2234S(\u201311 ; \u20132) y = \u2212 11 2 x = \u2212   S S (3) OR/OF E(\u20131 ; 3) and C(\u20137 ; \u20135) ( ) ( ) \u2212 1 \u002B \u2212 7 3 \u002B \u2212 5   [Midpoint of EC] ;    method: midpoint 2 2   ( ) = \u2212 4; \u2212 1 S(x ; y) and M(3 ; 0) y \u002B 0 3 x \u002B S S = \u22121 4 = \u2212 2 2 11 y = \u22122 x = \u2212 S S x = \u221211 y = \u22122   S S \u2234S(\u201311 ; \u20132) (3) r = 5 \u002B 7 4.6 NEW r = 12  r = 12\n\n[truncated]",
-      "markingNotes": null,
-      "marks": null,
-      "explanation": null
-    },
-    {
-      "id": "2025-may-june-mathematics-p2-en-q4-4_7",
-      "sortOrder": 20,
-      "questionType": "mcq",
-      "topic": "Analytical Geometry (Circles)",
-      "difficulty": "moderate",
-      "prompt": "If ET is drawn, calculate the size of $E\\hat{T}M$.",
-      "options": [
-        {
-          "id": "A",
-          "text": "$90^\\circ$"
-        },
-        {
-          "id": "B",
-          "text": "$45^\\circ$"
-        },
-        {
-          "id": "C",
-          "text": "$60^\\circ$"
-        },
-        {
-          "id": "D",
-          "text": "$30^\\circ$"
-        },
-        {
-          "id": "E",
-          "text": "$75^\\circ$"
+          "text": "At an undefined position"
         }
       ],
       "correctOptionId": "A",
@@ -636,8 +461,43 @@
       "explanation": null
     },
     {
+      "id": "2025-may-june-mathematics-p2-en-q4-4_7",
+      "sortOrder": 16,
+      "questionType": "mcq",
+      "topic": "Analytical Geometry (Circles)",
+      "difficulty": "moderate",
+      "prompt": "If $ET$ is drawn, calculate the size of $E\\hat{T}M$.",
+      "options": [
+        {
+          "id": "A",
+          "text": "$40^\\circ$"
+        },
+        {
+          "id": "B",
+          "text": "$60^\\circ$"
+        },
+        {
+          "id": "C",
+          "text": "$50^\\circ$"
+        },
+        {
+          "id": "D",
+          "text": "$70^\\circ$"
+        },
+        {
+          "id": "E",
+          "text": "$30^\\circ$"
+        }
+      ],
+      "correctOptionId": "C",
+      "memoAnswer": "QUESTION/VRAAG 4 E(\u20131 ; 3) D O x M S(\u201311 ; \u20132) T C(\u20137 ; p) \u02C6  answer CEM = 90\u00B0 4.1 (1) 0 \u2212 3 m = 4.2 ME 3 \u2212 \u22121 ( ) 3 3 m = \u2212 ME m = \u2212  4 ME 4 4  m \u2234 m = ED ED 3 4 4 y \u2212 3 = x \u22121 \u2212 3 1 c = \u2212 \u002B OR/OF  substitution of E(\u20131 ; 3) ( ) ( ) ( ) 3 3 4 13 4 13 y = x \u002B y = x \u002B  equation 3 3 3 3 (4) OR/OF 2 15 2   [Pythagoras] = \u002B DM 5 ( )   4   25 DM = or 6,25 units 4 13    coordinates of D D ;0 \u2234 \u2212   4   3 0 \u2212 m = ED 13   1 \u2212 \u2212 \u2212   4   4 m  ED \u2234 m = ED 3 4 4  substitution of E(\u20131 ; 3) y \u2212 3 = x \u22121 \u2212 3 1 c = \u2212 \u002B OR/OF ( ) ( ) ( ) 3 3 4 13 4 13  equation y = x \u002B y = x \u002B 3 3 3 3 (4) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 9 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne 4 13 y = x \u002B 4.3 3 3 4 13 0 = x \u002B 3 3 13  x x = \u2212 D D 4 13    x \u2212 x \u2234 DM = 3 \u2212 \u2212   M D 4   25  answer DM = or 6,25units 4 (3) OR/OF  EM = 5 units EM = 5 units 15 ED = units 4 2 15 2    substitution of EM \u0026 ED [Pythagoras] = \u002B DM 5 ( )   4   25  answer DM = or 6,25units 4 (3) 4 13 4.4 EC: y = x \u002B 3 3 4 13 p = \u22127 \u002B  substitution of C(\u20137 ; p) ( ) 3 3 into equation of EC p = \u22125 (1) OR/OF 4 m = EC 3 p \u2212 3 4  substitution of C(\u20137 ; p) = \u22127 \u2212 \u22121 3 ( ) into gradient of EC 4 p \u2212 3 = 6\u2212 ( ) 3 p = \u22125 (1) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 10 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne  method: translation M \u2192 E: (x ; y) \u2192 (x \u2013 4 ; y \u002B 3) [translation] 4.5 C \u2192 S: (\u20137 ; \u20135) \u2192 (\u20137 \u2013 4 ; \u20135 \u002B 3) x = \u221211 2 y = \u2212   \u2234S(\u201311 ; \u20132) S S (3) OR/OF M \u2192 C: (x ; y) \u2192(x \u2013 10 ; y \u2013 5) [translation]  method: translation E \u2192 S: (\u20131 ; 3) \u2192 (\u20131 \u2013 10 ; 3 \u20135) \u2234S(\u201311 ; \u20132) y = \u2212 11 2 x = \u2212   S S (3) OR/OF E(\u20131 ; 3) and C(\u20137 ; \u20135) ( ) ( ) \u2212 1 \u002B \u2212 7 3 \u002B \u2212 5   [Midpoint of EC] ;    method: midpoint 2 2   ( ) = \u2212 4; \u2212 1 S(x ; y) and M(3 ; 0) y \u002B 0 3 x \u002B S S = \u22121 4 = \u2212 2 2 11 y = \u22122 x = \u2212 S S x = \u221211 y = \u22122   S S \u2234S(\u201311 ; \u20132) (3) r = 5 \u002B 7 4.6 NEW r = 12  r = 12\n\n[truncated]",
+      "markingNotes": null,
+      "marks": null,
+      "explanation": null
+    },
+    {
       "id": "2025-may-june-mathematics-p2-en-q5",
-      "sortOrder": 21,
+      "sortOrder": 17,
       "questionType": "group",
       "topic": "Trigonometry (Identities and Reduction)",
       "difficulty": "moderate",
@@ -651,7 +511,7 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q5-5_1_1",
-      "sortOrder": 22,
+      "sortOrder": 18,
       "questionType": "mcq",
       "topic": "Trigonometry (Identities and Reduction)",
       "difficulty": "moderate",
@@ -667,15 +527,15 @@
         },
         {
           "id": "C",
-          "text": "$\\frac{84}{169}$"
+          "text": "$\\frac{5}{13}$"
         },
         {
           "id": "D",
-          "text": "$\\frac{119}{169}$"
+          "text": "$\\frac{95}{169}$"
         },
         {
           "id": "E",
-          "text": "$\\frac{5}{13}$"
+          "text": "$\\frac{144}{169}$"
         }
       ],
       "correctOptionId": "A",
@@ -686,11 +546,11 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q5-5_1_2",
-      "sortOrder": 23,
+      "sortOrder": 19,
       "questionType": "mcq",
       "topic": "Trigonometry (Identities and Reduction)",
       "difficulty": "moderate",
-      "prompt": "Determine the value of $\\tan(360\u00B0 - \\theta)$ given $\\cos\\theta = -\\frac{5}{13}$.",
+      "prompt": "Determine $\\tan(360\u00B0 - \\theta)$ if $\\cos\\theta = -\\frac{5}{13}$.",
       "options": [
         {
           "id": "A",
@@ -702,15 +562,15 @@
         },
         {
           "id": "C",
-          "text": "$\\frac{5}{12}$"
-        },
-        {
-          "id": "D",
           "text": "$-\\frac{5}{12}$"
         },
         {
+          "id": "D",
+          "text": "$\\frac{5}{12}$"
+        },
+        {
           "id": "E",
-          "text": "$0$"
+          "text": "Undefined"
         }
       ],
       "correctOptionId": "A",
@@ -721,31 +581,31 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q5-5_1_3",
-      "sortOrder": 24,
+      "sortOrder": 20,
       "questionType": "mcq",
       "topic": "Trigonometry (Identities and Reduction)",
       "difficulty": "moderate",
-      "prompt": "Calculate $\\cos(\\theta - 135\u00B0)$ for $\\cos\\theta = -\\frac{5}{13}$.",
+      "prompt": "Calculate $\\cos(\\theta - 135\u00B0)$ if $\\cos\\theta = -\\frac{5}{13}$.",
       "options": [
         {
           "id": "A",
-          "text": "$-\\frac{5\\sqrt{2}}{13}$"
+          "text": "$-\\frac{5}{13} \u002B \\frac{12\\sqrt{2}}{13}$"
         },
         {
           "id": "B",
-          "text": "$-\\frac{12\\sqrt{2}}{13}$"
+          "text": "$-\\frac{5}{13} - \\frac{12\\sqrt{2}}{13}$"
         },
         {
           "id": "C",
-          "text": "$\\frac{5\\sqrt{2}}{13}$"
+          "text": "$-\\frac{5}{13} \u002B \\frac{12}{13\\sqrt{2}}$"
         },
         {
           "id": "D",
-          "text": "$\\frac{12\\sqrt{2}}{13}$"
+          "text": "$\\frac{7\\sqrt{2}}{13}$"
         },
         {
           "id": "E",
-          "text": "$0$"
+          "text": "$-\\frac{5}{13} \u002B \\frac{12}{13}$"
         }
       ],
       "correctOptionId": "A",
@@ -756,19 +616,19 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q5-5_2",
-      "sortOrder": 25,
+      "sortOrder": 21,
       "questionType": "mcq",
       "topic": "Trigonometry (Identities and Reduction)",
       "difficulty": "moderate",
-      "prompt": "Simplify the expression to a single trigonometric term: $\\frac{2\\cos(180\u00B0 - x)\\sin(-x)}{1 - 2\\cos^{2}(90\u00B0 - x)}$.",
+      "prompt": "Simplify the expression $\\frac{2\\cos(180\u00B0 - x)\\sin(-x)}{1 - 2\\cos^{2}(90\u00B0 - x)}$.",
       "options": [
         {
           "id": "A",
-          "text": "$\\sin(2x)$"
+          "text": "$-\\sin(2x)$"
         },
         {
           "id": "B",
-          "text": "$-\\sin(2x)$"
+          "text": "$-\\sin(x)$"
         },
         {
           "id": "C",
@@ -776,11 +636,11 @@
         },
         {
           "id": "D",
-          "text": "$-\\cos(2x)$"
+          "text": "$\\sin(2x)$"
         },
         {
           "id": "E",
-          "text": "$\\cos(2x)$"
+          "text": "$-\\cos(x)$"
         }
       ],
       "correctOptionId": "A",
@@ -791,31 +651,31 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q5-5_3",
-      "sortOrder": 26,
+      "sortOrder": 22,
       "questionType": "mcq",
       "topic": "Trigonometry (Identities and Reduction)",
       "difficulty": "moderate",
-      "prompt": "Calculate the value of the following expression without using a calculator: $(\\tan 92\u00B0)(\\tan 94\u00B0)(\\tan 96\u00B0) \\ldots (\\tan 176\u00B0)(\\tan 178\u00B0)$.",
+      "prompt": "Calculate the value of the expression $(\\tan 92\u00B0)(\\tan 94\u00B0)(\\tan 96\u00B0) \\ldots (\\tan 176\u00B0)(\\tan 178\u00B0)$.",
       "options": [
         {
           "id": "A",
-          "text": "1"
+          "text": "$1$"
         },
         {
           "id": "B",
-          "text": "0"
+          "text": "$0$"
         },
         {
           "id": "C",
-          "text": "-1"
+          "text": "$-1$"
         },
         {
           "id": "D",
-          "text": "2"
+          "text": "Undefined"
         },
         {
           "id": "E",
-          "text": "-2"
+          "text": "$2$"
         }
       ],
       "correctOptionId": "B",
@@ -826,7 +686,7 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q6",
-      "sortOrder": 27,
+      "sortOrder": 23,
       "questionType": "group",
       "topic": "Trigonometric Identities and Equations",
       "difficulty": "moderate",
@@ -840,7 +700,7 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q6-6_2_1",
-      "sortOrder": 28,
+      "sortOrder": 24,
       "questionType": "mcq",
       "topic": "Trigonometric Identities and Equations",
       "difficulty": "moderate",
@@ -852,19 +712,19 @@
         },
         {
           "id": "B",
-          "text": "$2\\cos A \\sin B$"
-        },
-        {
-          "id": "C",
-          "text": "$-2\\sin A \\cos B$"
-        },
-        {
-          "id": "D",
           "text": "$2\\sin A \\cos B$"
         },
         {
-          "id": "E",
+          "id": "C",
           "text": "$-\\sin A \\cos B$"
+        },
+        {
+          "id": "D",
+          "text": "$2\\cos A \\cos B$"
+        },
+        {
+          "id": "E",
+          "text": "$2\\sin A \\sin B$"
         }
       ],
       "correctOptionId": "A",
@@ -875,7 +735,7 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q6-6_2_2",
-      "sortOrder": 29,
+      "sortOrder": 25,
       "questionType": "mcq",
       "topic": "Trigonometric Identities and Equations",
       "difficulty": "moderate",
@@ -883,23 +743,23 @@
       "options": [
         {
           "id": "A",
-          "text": "$-2 \\cos(7x) \\sin(3x)$"
+          "text": "$2 \\cos 7x \\sin 3x$"
         },
         {
           "id": "B",
-          "text": "$2 \\sin(3x) \\cos(7x)$"
+          "text": "$-\\sin 6x$"
         },
         {
           "id": "C",
-          "text": "$-2 \\sin(7x) \\cos(3x)$"
+          "text": "$2 \\sin 7x \\cos 3x$"
         },
         {
           "id": "D",
-          "text": "$2 \\sin(7x) \\cos(3x)$"
+          "text": "$2 \\sin 3x \\cos 7x$"
         },
         {
           "id": "E",
-          "text": "$-2 \\sin(3x) \\cos(7x)$"
+          "text": "$-\\sin 3x$"
         }
       ],
       "correctOptionId": "A",
@@ -910,7 +770,7 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q6-6_2_3",
-      "sortOrder": 30,
+      "sortOrder": 26,
       "questionType": "mcq",
       "topic": "Trigonometric Identities and Equations",
       "difficulty": "moderate",
@@ -918,23 +778,23 @@
       "options": [
         {
           "id": "A",
-          "text": "$x = 0\u00B0$ and $x = 15\u00B0$"
+          "text": "$x = 15\u00B0$"
         },
         {
           "id": "B",
-          "text": "$x = 15\u00B0$ and $x = 30\u00B0$"
+          "text": "$x = 30\u00B0$"
         },
         {
           "id": "C",
-          "text": "$x = 10\u00B0$ and $x = 20\u00B0$"
+          "text": "$x = 10\u00B0$"
         },
         {
           "id": "D",
-          "text": "$x = 20\u00B0$ and $x = 30\u00B0$"
+          "text": "$x = 25\u00B0$"
         },
         {
           "id": "E",
-          "text": "$x = 0\u00B0$ and $x = 30\u00B0$"
+          "text": "No solution in the interval"
         }
       ],
       "correctOptionId": "A",
@@ -945,11 +805,11 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q7",
-      "sortOrder": 31,
+      "sortOrder": 27,
       "questionType": "group",
       "topic": "Trigonometric Graphs",
       "difficulty": "moderate",
-      "prompt": "[latex]\nIn the diagram, the graphs of $f(x) = 2\\cos x \u002B 1$ and $g(x) = \\sin 2x$ are drawn for the interval $x \\in [-180\u00B0\\ ;\\ 180\u00B0]$.\n\n**7.1** Write down the range of $f$. (1)\n\n**7.2** Write down the period of $g$. (1)\n\n**7.3** For which values of $x$, in the interval $x \\in [-180\u00B0\\ ;\\ 180\u00B0]$, is $f$ increasing? (1)\n\n**7.4** Use the graphs to determine the values of $x$, in the interval $x \\in [-180\u00B0\\ ;\\ 180\u00B0]$, for which:\n\n**7.4.1** $g(x) \\cdot f\u0027(x) \u003C 0$ (2)\n\n**7.4.2** $\\cos x \\leq -\\frac{1}{2}$ (3)\n\n**7.5** Graph $g$ is shifted $45\u00B0$ to the right to obtain a new graph $h$. Determine the equation of $h$ in its simplest form. (2)\n\n**[10]**",
+      "prompt": "[latex]\nIn the diagram, the graphs of $f(x) = 2\\cos x \u002B 1$ and $g(x) = \\sin 2x$ are drawn for the interval $x \\in [-180\u00B0\\ ;\\ 180\u00B0]$.\n\n[GRAPH]\nfn: 2*Math.cos(x * Math.PI/180) \u002B 1\nfn: Math.sin(2 * x * Math.PI/180)\nxRange: -180 to 180\nyRange: -2 to 4\n[/GRAPH]\n\n**7.1** Write down the range of $f$. (1)\n\n**7.2** Write down the period of $g$. (1)\n\n**7.3** For which values of $x$, in the interval $x \\in [-180\u00B0\\ ;\\ 180\u00B0]$, is $f$ increasing? (1)\n\n**7.4** Use the graphs to determine the values of $x$, in the interval $x \\in [-180\u00B0\\ ;\\ 180\u00B0]$, for which:\n\n**7.4.1** $g(x) \\cdot f\u0027(x) \u003C 0$ (2)\n\n**7.4.2** $\\cos x \\leq -\\frac{1}{2}$ (3)\n\n**7.5** Graph $g$ is shifted $45\u00B0$ to the right to obtain a new graph $h$. Determine the equation of $h$ in its simplest form. (2)\n\n**[10]**",
       "options": [],
       "correctOptionId": null,
       "memoAnswer": "QUESTION/VRAAG 7 y g 0 x \u2013180\u00B0 180\u00B0 f 7.1 Range of f:  y \u2208 \u22121 ; 3 y \u2208 \u22121 ; 3 [ ] [ ] (1) OR/OF  \u2212 1 \u2264 y \u2264 3 \u2212 1 \u2264 y \u2264 3 (1) 7.2 Period of g: 180\u00B0  180\u00B0 (1) 7.3 ( ) ( ) x \u2208 \u2212 180\u00B0 ; 0\u00B0 x \u2208 \u2212 180\u00B0 ; 0\u00B0 f increasing:  (1) OR/OF  \u2013180\u00B0 \u003C x \u003C 0\u00B0 \u2013180\u00B0 \u003C x \u003C 0\u00B0 (1) g x . f \u0027 x \u003C 0 ( ) ( ) 7.4.1 ( ) ( ) x \u2208 \u2212 90\u00B0 ; 0\u00B0 \u222A 0\u00B0 ; 90\u00B0 x \u2208 0\u00B0 ; 90\u00B0 x \u2208 \u221290\u00B0 ; 0\u00B0   ( ) ( ) (2) OR/OF  \u201390\u00B0 \u003C x \u003C 0\u00B0  0\u00B0 \u003C x \u003C 90\u00B0 \u201390\u00B0 \u003C x \u003C 0\u00B0 or 0\u00B0 \u003C x \u003C 90\u00B0 (2) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 16 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne 1 cos x \u2264 \u2212 7.4.2 2 2 cos x \u002B 1 \u2264 0  2 cos x \u002B 1 \u2264 0 [ ] [ ] x \u2208 \u2212 180\u00B0 ; \u2212 120\u00B0 \u222A 120\u00B0 ; 180\u00B0 x \u2208 120\u00B0 ; 180\u00B0 x \u2208 \u2212180\u00B0 ; \u2212 120\u00B0   [ ] [ ] (3) OR/OF  2 cos x \u002B 1 \u2264 0 2 cos x \u002B 1 \u2264 0 \u2013180\u00B0 \u2264 x \u2264 \u2013120\u00B0 or 120\u00B0 \u2264 x \u2264 180\u00B0  \u2013180\u00B0 \u2264 x \u2264 \u2013120\u00B0  120\u00B0 \u2264 x \u2264 180\u00B0 (3) ( ) g x = sin 2 x 7.5 ( ) ( ) h x = sin 2 x \u2212 45\u00B0  sin 2 x \u2212 90\u00B0 ( ) = sin 2 x \u2212 90\u00B0 ( ) ( ) = \u2212 sin 90\u00B0 \u2212 2 x  equation of h = \u2212 cos2 x (2) [10] Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 17 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne ",
@@ -959,31 +819,31 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q7-7_1",
-      "sortOrder": 32,
+      "sortOrder": 28,
       "questionType": "mcq",
       "topic": "Trigonometric Graphs",
       "difficulty": "moderate",
-      "prompt": "What is the range of $f(x) = 2\\cos x \u002B 1$?",
+      "prompt": "Write down the range of $f$.",
       "options": [
         {
           "id": "A",
-          "text": "$[-1, 3]$"
+          "text": "$[1, 3]$"
         },
         {
           "id": "B",
-          "text": "$[1, 2]$"
+          "text": "$[-1, 3]$"
         },
         {
           "id": "C",
-          "text": "$[0, 2]$"
+          "text": "$[0, 4]$"
         },
         {
           "id": "D",
-          "text": "$[0, 3]$"
+          "text": "$[-2, 2]$"
         },
         {
           "id": "E",
-          "text": "$[-3, 3]$"
+          "text": "$[2, 4]$"
         }
       ],
       "correctOptionId": "A",
@@ -994,19 +854,19 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q7-7_2",
-      "sortOrder": 33,
+      "sortOrder": 29,
       "questionType": "mcq",
       "topic": "Trigonometric Graphs",
       "difficulty": "moderate",
-      "prompt": "What is the period of $g(x) = \\sin 2x$?",
+      "prompt": "Write down the period of $g$.",
       "options": [
         {
           "id": "A",
-          "text": "$180\u00B0$"
+          "text": "$90\u00B0$"
         },
         {
           "id": "B",
-          "text": "$90\u00B0$"
+          "text": "$180\u00B0$"
         },
         {
           "id": "C",
@@ -1014,11 +874,11 @@
         },
         {
           "id": "D",
-          "text": "$45\u00B0$"
+          "text": "$120\u00B0$"
         },
         {
           "id": "E",
-          "text": "$120\u00B0$"
+          "text": "$30\u00B0$"
         }
       ],
       "correctOptionId": "B",
@@ -1029,7 +889,7 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q7-7_3",
-      "sortOrder": 34,
+      "sortOrder": 30,
       "questionType": "mcq",
       "topic": "Trigonometric Graphs",
       "difficulty": "moderate",
@@ -1041,57 +901,22 @@
         },
         {
           "id": "B",
-          "text": "$[-180\u00B0, -90\u00B0]$"
+          "text": "$[-180\u00B0, 0\u00B0]$"
         },
         {
           "id": "C",
-          "text": "$[-180\u00B0, 0]$"
+          "text": "$[0\u00B0, 90\u00B0]$"
         },
         {
           "id": "D",
-          "text": "$[0, 180\u00B0]$"
+          "text": "$[-180\u00B0, 180\u00B0]$"
         },
         {
           "id": "E",
-          "text": "$[-90\u00B0, 0]$"
+          "text": "$[-90\u00B0, 0\u00B0]$"
         }
       ],
-      "correctOptionId": "A",
-      "memoAnswer": "QUESTION/VRAAG 7 y g 0 x \u2013180\u00B0 180\u00B0 f 7.1 Range of f:  y \u2208 \u22121 ; 3 y \u2208 \u22121 ; 3 [ ] [ ] (1) OR/OF  \u2212 1 \u2264 y \u2264 3 \u2212 1 \u2264 y \u2264 3 (1) 7.2 Period of g: 180\u00B0  180\u00B0 (1) 7.3 ( ) ( ) x \u2208 \u2212 180\u00B0 ; 0\u00B0 x \u2208 \u2212 180\u00B0 ; 0\u00B0 f increasing:  (1) OR/OF  \u2013180\u00B0 \u003C x \u003C 0\u00B0 \u2013180\u00B0 \u003C x \u003C 0\u00B0 (1) g x . f \u0027 x \u003C 0 ( ) ( ) 7.4.1 ( ) ( ) x \u2208 \u2212 90\u00B0 ; 0\u00B0 \u222A 0\u00B0 ; 90\u00B0 x \u2208 0\u00B0 ; 90\u00B0 x \u2208 \u221290\u00B0 ; 0\u00B0   ( ) ( ) (2) OR/OF  \u201390\u00B0 \u003C x \u003C 0\u00B0  0\u00B0 \u003C x \u003C 90\u00B0 \u201390\u00B0 \u003C x \u003C 0\u00B0 or 0\u00B0 \u003C x \u003C 90\u00B0 (2) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 16 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne 1 cos x \u2264 \u2212 7.4.2 2 2 cos x \u002B 1 \u2264 0  2 cos x \u002B 1 \u2264 0 [ ] [ ] x \u2208 \u2212 180\u00B0 ; \u2212 120\u00B0 \u222A 120\u00B0 ; 180\u00B0 x \u2208 120\u00B0 ; 180\u00B0 x \u2208 \u2212180\u00B0 ; \u2212 120\u00B0   [ ] [ ] (3) OR/OF  2 cos x \u002B 1 \u2264 0 2 cos x \u002B 1 \u2264 0 \u2013180\u00B0 \u2264 x \u2264 \u2013120\u00B0 or 120\u00B0 \u2264 x \u2264 180\u00B0  \u2013180\u00B0 \u2264 x \u2264 \u2013120\u00B0  120\u00B0 \u2264 x \u2264 180\u00B0 (3) ( ) g x = sin 2 x 7.5 ( ) ( ) h x = sin 2 x \u2212 45\u00B0  sin 2 x \u2212 90\u00B0 ( ) = sin 2 x \u2212 90\u00B0 ( ) ( ) = \u2212 sin 90\u00B0 \u2212 2 x  equation of h = \u2212 cos2 x (2) [10] Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 17 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne ",
-      "markingNotes": null,
-      "marks": null,
-      "explanation": null
-    },
-    {
-      "id": "2025-may-june-mathematics-p2-en-q7-7_4_1",
-      "sortOrder": 35,
-      "questionType": "mcq",
-      "topic": "Trigonometric Graphs",
-      "difficulty": "moderate",
-      "prompt": "For which values of $x$, in the interval $x \\in [-180\u00B0; 180\u00B0]$, is $g(x) \\cdot f\u0027(x) \u003C 0$?",
-      "options": [
-        {
-          "id": "A",
-          "text": "$[-90\u00B0, 0]$"
-        },
-        {
-          "id": "B",
-          "text": "$[-180\u00B0, -90\u00B0]$"
-        },
-        {
-          "id": "C",
-          "text": "$[0, 90\u00B0]$"
-        },
-        {
-          "id": "D",
-          "text": "$[-180\u00B0, -45\u00B0]$"
-        },
-        {
-          "id": "E",
-          "text": "$[-60\u00B0, 60\u00B0]$"
-        }
-      ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "memoAnswer": "QUESTION/VRAAG 7 y g 0 x \u2013180\u00B0 180\u00B0 f 7.1 Range of f:  y \u2208 \u22121 ; 3 y \u2208 \u22121 ; 3 [ ] [ ] (1) OR/OF  \u2212 1 \u2264 y \u2264 3 \u2212 1 \u2264 y \u2264 3 (1) 7.2 Period of g: 180\u00B0  180\u00B0 (1) 7.3 ( ) ( ) x \u2208 \u2212 180\u00B0 ; 0\u00B0 x \u2208 \u2212 180\u00B0 ; 0\u00B0 f increasing:  (1) OR/OF  \u2013180\u00B0 \u003C x \u003C 0\u00B0 \u2013180\u00B0 \u003C x \u003C 0\u00B0 (1) g x . f \u0027 x \u003C 0 ( ) ( ) 7.4.1 ( ) ( ) x \u2208 \u2212 90\u00B0 ; 0\u00B0 \u222A 0\u00B0 ; 90\u00B0 x \u2208 0\u00B0 ; 90\u00B0 x \u2208 \u221290\u00B0 ; 0\u00B0   ( ) ( ) (2) OR/OF  \u201390\u00B0 \u003C x \u003C 0\u00B0  0\u00B0 \u003C x \u003C 90\u00B0 \u201390\u00B0 \u003C x \u003C 0\u00B0 or 0\u00B0 \u003C x \u003C 90\u00B0 (2) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 16 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne 1 cos x \u2264 \u2212 7.4.2 2 2 cos x \u002B 1 \u2264 0  2 cos x \u002B 1 \u2264 0 [ ] [ ] x \u2208 \u2212 180\u00B0 ; \u2212 120\u00B0 \u222A 120\u00B0 ; 180\u00B0 x \u2208 120\u00B0 ; 180\u00B0 x \u2208 \u2212180\u00B0 ; \u2212 120\u00B0   [ ] [ ] (3) OR/OF  2 cos x \u002B 1 \u2264 0 2 cos x \u002B 1 \u2264 0 \u2013180\u00B0 \u2264 x \u2264 \u2013120\u00B0 or 120\u00B0 \u2264 x \u2264 180\u00B0  \u2013180\u00B0 \u2264 x \u2264 \u2013120\u00B0  120\u00B0 \u2264 x \u2264 180\u00B0 (3) ( ) g x = sin 2 x 7.5 ( ) ( ) h x = sin 2 x \u2212 45\u00B0  sin 2 x \u2212 90\u00B0 ( ) = sin 2 x \u2212 90\u00B0 ( ) ( ) = \u2212 sin 90\u00B0 \u2212 2 x  equation of h = \u2212 cos2 x (2) [10] Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 17 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne ",
       "markingNotes": null,
       "marks": null,
@@ -1099,11 +924,11 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q7-7_4_2",
-      "sortOrder": 36,
+      "sortOrder": 31,
       "questionType": "mcq",
       "topic": "Trigonometric Graphs",
       "difficulty": "moderate",
-      "prompt": "For which values of $x$, in the interval $x \\in [-180\u00B0; 180\u00B0]$, is $\\cos x \\leq -\\frac{1}{2}$?",
+      "prompt": "Determine the values of $x$, in the interval $x \\in [-180\u00B0\\ ;\\ 180\u00B0]$, for which $\\cos x \\leq -\\frac{1}{2}$.",
       "options": [
         {
           "id": "A",
@@ -1111,22 +936,22 @@
         },
         {
           "id": "B",
-          "text": "$[-150\u00B0, -30\u00B0]$"
+          "text": "$[-150\u00B0, 150\u00B0]$"
         },
         {
           "id": "C",
-          "text": "$[-90\u00B0, -60\u00B0]$"
-        },
-        {
-          "id": "D",
           "text": "$[-180\u00B0, -120\u00B0]$"
         },
         {
+          "id": "D",
+          "text": "$[-120\u00B0, -90\u00B0]$"
+        },
+        {
           "id": "E",
-          "text": "$[-150\u00B0, 150\u00B0]$"
+          "text": "$[90\u00B0, 180\u00B0]$"
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "memoAnswer": "QUESTION/VRAAG 7 y g 0 x \u2013180\u00B0 180\u00B0 f 7.1 Range of f:  y \u2208 \u22121 ; 3 y \u2208 \u22121 ; 3 [ ] [ ] (1) OR/OF  \u2212 1 \u2264 y \u2264 3 \u2212 1 \u2264 y \u2264 3 (1) 7.2 Period of g: 180\u00B0  180\u00B0 (1) 7.3 ( ) ( ) x \u2208 \u2212 180\u00B0 ; 0\u00B0 x \u2208 \u2212 180\u00B0 ; 0\u00B0 f increasing:  (1) OR/OF  \u2013180\u00B0 \u003C x \u003C 0\u00B0 \u2013180\u00B0 \u003C x \u003C 0\u00B0 (1) g x . f \u0027 x \u003C 0 ( ) ( ) 7.4.1 ( ) ( ) x \u2208 \u2212 90\u00B0 ; 0\u00B0 \u222A 0\u00B0 ; 90\u00B0 x \u2208 0\u00B0 ; 90\u00B0 x \u2208 \u221290\u00B0 ; 0\u00B0   ( ) ( ) (2) OR/OF  \u201390\u00B0 \u003C x \u003C 0\u00B0  0\u00B0 \u003C x \u003C 90\u00B0 \u201390\u00B0 \u003C x \u003C 0\u00B0 or 0\u00B0 \u003C x \u003C 90\u00B0 (2) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 16 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne 1 cos x \u2264 \u2212 7.4.2 2 2 cos x \u002B 1 \u2264 0  2 cos x \u002B 1 \u2264 0 [ ] [ ] x \u2208 \u2212 180\u00B0 ; \u2212 120\u00B0 \u222A 120\u00B0 ; 180\u00B0 x \u2208 120\u00B0 ; 180\u00B0 x \u2208 \u2212180\u00B0 ; \u2212 120\u00B0   [ ] [ ] (3) OR/OF  2 cos x \u002B 1 \u2264 0 2 cos x \u002B 1 \u2264 0 \u2013180\u00B0 \u2264 x \u2264 \u2013120\u00B0 or 120\u00B0 \u2264 x \u2264 180\u00B0  \u2013180\u00B0 \u2264 x \u2264 \u2013120\u00B0  120\u00B0 \u2264 x \u2264 180\u00B0 (3) ( ) g x = sin 2 x 7.5 ( ) ( ) h x = sin 2 x \u2212 45\u00B0  sin 2 x \u2212 90\u00B0 ( ) = sin 2 x \u2212 90\u00B0 ( ) ( ) = \u2212 sin 90\u00B0 \u2212 2 x  equation of h = \u2212 cos2 x (2) [10] Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 17 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne ",
       "markingNotes": null,
       "marks": null,
@@ -1134,15 +959,15 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q7-7_5",
-      "sortOrder": 37,
+      "sortOrder": 32,
       "questionType": "mcq",
       "topic": "Trigonometric Graphs",
       "difficulty": "moderate",
-      "prompt": "What is the equation of the graph $h$, after shifting $g(x) = \\sin 2x$ by $45\u00B0$ to the right?",
+      "prompt": "Determine the equation of $h$ in its simplest form when graph $g$ is shifted $45\u00B0$ to the right.",
       "options": [
         {
           "id": "A",
-          "text": "$h(x) = \\sin(2x - 90\u00B0)$"
+          "text": "$g(x) = \\sin(2x - 90\u00B0)$"
         },
         {
           "id": "B",
@@ -1150,18 +975,18 @@
         },
         {
           "id": "C",
-          "text": "$h(x) = \\sin(2x \u002B 90\u00B0)$"
+          "text": "$h(x) = \\sin(2x) \u002B 45\u00B0$"
         },
         {
           "id": "D",
-          "text": "$h(x) = \\sin(2x) \u002B 45\u00B0$"
+          "text": "$h(x) = \\sin(2x - 90\u00B0)$"
         },
         {
           "id": "E",
           "text": "$h(x) = \\sin(2x \u002B 90\u00B0)$"
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "memoAnswer": "QUESTION/VRAAG 7 y g 0 x \u2013180\u00B0 180\u00B0 f 7.1 Range of f:  y \u2208 \u22121 ; 3 y \u2208 \u22121 ; 3 [ ] [ ] (1) OR/OF  \u2212 1 \u2264 y \u2264 3 \u2212 1 \u2264 y \u2264 3 (1) 7.2 Period of g: 180\u00B0  180\u00B0 (1) 7.3 ( ) ( ) x \u2208 \u2212 180\u00B0 ; 0\u00B0 x \u2208 \u2212 180\u00B0 ; 0\u00B0 f increasing:  (1) OR/OF  \u2013180\u00B0 \u003C x \u003C 0\u00B0 \u2013180\u00B0 \u003C x \u003C 0\u00B0 (1) g x . f \u0027 x \u003C 0 ( ) ( ) 7.4.1 ( ) ( ) x \u2208 \u2212 90\u00B0 ; 0\u00B0 \u222A 0\u00B0 ; 90\u00B0 x \u2208 0\u00B0 ; 90\u00B0 x \u2208 \u221290\u00B0 ; 0\u00B0   ( ) ( ) (2) OR/OF  \u201390\u00B0 \u003C x \u003C 0\u00B0  0\u00B0 \u003C x \u003C 90\u00B0 \u201390\u00B0 \u003C x \u003C 0\u00B0 or 0\u00B0 \u003C x \u003C 90\u00B0 (2) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 16 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne 1 cos x \u2264 \u2212 7.4.2 2 2 cos x \u002B 1 \u2264 0  2 cos x \u002B 1 \u2264 0 [ ] [ ] x \u2208 \u2212 180\u00B0 ; \u2212 120\u00B0 \u222A 120\u00B0 ; 180\u00B0 x \u2208 120\u00B0 ; 180\u00B0 x \u2208 \u2212180\u00B0 ; \u2212 120\u00B0   [ ] [ ] (3) OR/OF  2 cos x \u002B 1 \u2264 0 2 cos x \u002B 1 \u2264 0 \u2013180\u00B0 \u2264 x \u2264 \u2013120\u00B0 or 120\u00B0 \u2264 x \u2264 180\u00B0  \u2013180\u00B0 \u2264 x \u2264 \u2013120\u00B0  120\u00B0 \u2264 x \u2264 180\u00B0 (3) ( ) g x = sin 2 x 7.5 ( ) ( ) h x = sin 2 x \u2212 45\u00B0  sin 2 x \u2212 90\u00B0 ( ) = sin 2 x \u2212 90\u00B0 ( ) ( ) = \u2212 sin 90\u00B0 \u2212 2 x  equation of h = \u2212 cos2 x (2) [10] Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 17 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne ",
       "markingNotes": null,
       "marks": null,
@@ -1169,11 +994,11 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q8",
-      "sortOrder": 38,
+      "sortOrder": 33,
       "questionType": "group",
       "topic": "Trigonometry (3D Problem)",
       "difficulty": "moderate",
-      "prompt": "[latex]\nIn the diagram, A, B and C lie in the same horizontal plane with $AB = AC$. D is directly above A such that $2AD = BC$. Also, $AD = p$, $A\\hat{B}C = x$ and $D\\hat{B}A = y$.\n\n**8.1** Determine AB in terms of $p$ and $y$. (2)\n\n**8.2** Show that $\\cos x = \\tan y$. (4)\n\n**8.3** If $x = 60\u00B0$, calculate the size of $y$. (2)\n\n**[8]**",
+      "prompt": "[latex]\nIn the diagram, A, B and C lie in the same horizontal plane with $AB = AC$. D is directly above A such that $2AD = BC$. Also, $AD = p$, $A\\hat{B}C = x$ and $D\\hat{B}A = y$.\n\n[FIGURE]\nThree-dimensional diagram with points A, B and C lying in a horizontal plane where AB = AC. Point D is directly above A. The diagram shows angles: ABC\u0303 = x (angle at B in the horizontal plane) and DBA\u030B = y (angle of elevation from B to D). The height AD = p and BC = 2AD = 2p.\n[/FIGURE]\n\n**8.1** Determine AB in terms of $p$ and $y$. (2)\n\n**8.2** Show that $\\cos x = \\tan y$. (4)\n\n**8.3** If $x = 60\u00B0$, calculate the size of $y$. (2)\n\n**[8]**",
       "options": [],
       "correctOptionId": null,
       "memoAnswer": "QUESTION/VRAAG 8 D p A y x C B p 8.1  correct trig ratio tan y = AB p  answer AB = tan y (2) 8.2 In \u2206BAC: \u02C6 \u02C6 sin BAC sin ACB  correct use of sine-rule = BC AB \u00B0 \u2212 x sin 180 2 ( ) x sin  substitute BC \u0026 AB = p 2   p   y tan     x y sin 2 tan sin 180\u00B0 \u2212 2 x = sin 2 x  ( ) = x \u00D7 sin   p p 2     x x y 2sin cos tan sin 2 x = 2sin x cos x  = \u00D7 x sin   p p 2     tan y = 2cos x 2 p ( )   p   cos x = tan y (4) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 18 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne D p A y x C B 8.2 OR/OF In \u2206BAC: 2 2 2 \u02C6 BC = AB \u002B AC \u2212 2 AB AC cos BAC  correct use of cos-rule ( )( ) 2 2        p p p p 2  substitute AB \u0026 BC \u2212 \u00B0 \u2212 2 p = \u002B 2 cos 180 2 x ( ) ( )        tan y tan y tan y tan y        2 2 2 cos 2 p x \u2212 ( ) 2 p 2  4 = p \u2212 cos 180\u00B0 \u2212 2 x = \u2212cos 2 x ( ) 2 2 tan tan y y 2 2 2 4 p tan y = 2 p 1 \u002B cos 2 x ( ) 2 2 \u002B x \u2212 1 2 cos 1 cos 2 x = 2cos x 1 \u2212  2 y tan = 2 2 2 tan y = cos x tan y = cos x (4) cos x = tan y 8.3  substitution of 60\u00B0 tan y = cos60\u00B0 tan y = 0,5 y = 26,57\u00B0  answer (2) [8] Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 19 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne ",
@@ -1183,7 +1008,7 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q8-8_1",
-      "sortOrder": 39,
+      "sortOrder": 34,
       "questionType": "mcq",
       "topic": "Trigonometry (3D Problem)",
       "difficulty": "moderate",
@@ -1191,23 +1016,23 @@
       "options": [
         {
           "id": "A",
-          "text": "$AB = p \\cos y$"
+          "text": "$AB = p \\tan y$"
         },
         {
           "id": "B",
-          "text": "$AB = p \\sin y$"
+          "text": "$AB = p \\cos y$"
         },
         {
           "id": "C",
-          "text": "$AB = \\frac{p}{\\cos y}$"
+          "text": "$AB = 2p \\sin y$"
         },
         {
           "id": "D",
-          "text": "$AB = 2p \\tan y$"
+          "text": "$AB = \\frac{p}{\\sin y}$"
         },
         {
           "id": "E",
-          "text": "$AB = \\frac{p}{\\sin y}$"
+          "text": "$AB = p \\sec y$"
         }
       ],
       "correctOptionId": "A",
@@ -1218,31 +1043,31 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q8-8_3",
-      "sortOrder": 40,
+      "sortOrder": 35,
       "questionType": "mcq",
       "topic": "Trigonometry (3D Problem)",
       "difficulty": "moderate",
-      "prompt": "If $x = 60\u00B0$, calculate the size of $y$.",
+      "prompt": "If $x = 60^\\circ$, calculate the size of $y$.",
       "options": [
         {
           "id": "A",
-          "text": "$y = 30\u00B0$"
+          "text": "$y = 30^\\circ$"
         },
         {
           "id": "B",
-          "text": "$y = 45\u00B0$"
+          "text": "$y = 60^\\circ$"
         },
         {
           "id": "C",
-          "text": "$y = 60\u00B0$"
+          "text": "$y = 45^\\circ$"
         },
         {
           "id": "D",
-          "text": "$y = 90\u00B0$"
+          "text": "$y = 90^\\circ$"
         },
         {
           "id": "E",
-          "text": "$y = 15\u00B0$"
+          "text": "$y = 120^\\circ$"
         }
       ],
       "correctOptionId": "A",
@@ -1253,11 +1078,11 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q9",
-      "sortOrder": 41,
+      "sortOrder": 36,
       "questionType": "group",
       "topic": "Euclidean Geometry (Proportionality and Circles)",
       "difficulty": "moderate",
-      "prompt": "[latex]\n**9.1** In the diagram, $\\triangle DEF$ is drawn. Line GH intersects DF and EF at G and H respectively such that $GH \\parallel DE$ and $\\frac{GF}{DG} = \\frac{2}{5}$.\n\n**9.1.1** Write down, with a reason, the value of $\\frac{HF}{EH}$. (2)\n\n**9.1.2** If $EF = 21$ cm, calculate the length of EH. (2)\n\n**9.1.3** Write down a triangle which is similar to $\\triangle FGH$. (1)\n\n**9.1.4** Hence, calculate the value of $\\frac{GH}{DE}$. (2)\n\n**9.2** In the diagram, POL is a diameter of the larger circle with centre O. TMR is a diameter of the smaller circle with centre M. The two circles intersect at L and R. PLK is a tangent to the smaller circle at L and TR is a tangent to the larger circle at R. OM intersects the smaller circle at N. Straight lines LT, LR, LN and PR are drawn.\n\nProve, giving reasons, that:\n\n**9.2.1** $LT \\parallel PR$ (4)\n\n**9.2.2** LORM is a cyclic quadrilateral, if it is also given that $LT \\parallel OM$ (5)\n\n**9.2.3** LN bisects $O\\hat{L}R$ (4)\n\n**[20]**",
+      "prompt": "[latex]\n\n\n[FIGURE]\nDiagram 9.1: Triangle DEF with line GH intersecting DF at G and EF at H such that GH is parallel to DE. Given GF/DG = 2/5.\nDiagram 9.2: Circle with chord and tangent-chord angle relationships as described in the sub-questions.\n[/FIGURE]\n\n**9.1** In the diagram, $\\triangle DEF$ is drawn. Line GH intersects DF and EF at G and H respectively such that $GH \\parallel DE$ and $\\frac{GF}{DG} = \\frac{2}{5}$.\n\n**9.1.1** Write down, with a reason, the value of $\\frac{HF}{EH}$. (2)\n\n**9.1.2** If $EF = 21$ cm, calculate the length of EH. (2)\n\n**9.1.3** Write down a triangle which is similar to $\\triangle FGH$. (1)\n\n**9.1.4** Hence, calculate the value of $\\frac{GH}{DE}$. (2)\n\n**9.2** In the diagram, POL is a diameter of the larger circle with centre O. TMR is a diameter of the smaller circle with centre M. The two circles intersect at L and R. PLK is a tangent to the smaller circle at L and TR is a tangent to the larger circle at R. OM intersects the smaller circle at N. Straight lines LT, LR, LN and PR are drawn.\n\nProve, giving reasons, that:\n\n**9.2.1** $LT \\parallel PR$ (4)\n\n**9.2.2** LORM is a cyclic quadrilateral, if it is also given that $LT \\parallel OM$ (5)\n\n**9.2.3** LN bisects $O\\hat{L}R$ (4)\n\n**[20]**",
       "options": [],
       "correctOptionId": null,
       "memoAnswer": "QUESTION/VRAAG 9 9.1 D G E F H HF GF 2 9.1.1 \u2713 S \u2713 R = = [line || to one side of \u2206/lyn || een sy van \u2206] EH GD 5 OR [prop theorem; GH||DE/eweredigheidst.; GH || DE] (2) 9.1.2 EH DG 5 [line || to one side of \u2206/lyn || een sy van \u2206] = = EF DF 7 OR [prop theorem; GH||DE/eweredigheidst.; GH || DE] EH 5 = \u2713 S 21 7 \u2713 answer EH = 15cm (2) OR/OF HF 2 = [line || to one side of \u2206/lyn || een sy van \u2206] EF 7 OR [prop theorem; GH||DE/eweredigheidst.; GH || DE] HF 2 = \u2713 S 21 7 HF = 6cm EH = 21 6 \u2212 \u2713 answer EH = 15cm (2) 9.1.3 \u2713 S \u2206FGH ||| \u2206FDE [\u2220\u2220\u2220] (1) GH FG GH FH 9.1.4 \u2713 S = [|||\u2206\u0027s] OR/OF [|||\u2206\u0027s] = DE FD DE FE GH 2 \u2713 S = DE 7 (2) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 20 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne K 9.2 T L 1 2 3 4 2 1 2 1 1 M O N 2 1 2 R P \u02C6 \u02C6 \u02C6 9.2.1 [\u2220 in semi-circle/ OR [tan chord theorem/ L = 90\u00B0 R L = \u2713 S \u2713 R 2 1 1 \u2220 in halwe sirkel] raaklyn-koordst.] \u02C6 \u02C6 \u02C6 \u2713 S/R [\u2220 in semi-circle] [tan chord theorem] R = 90\u00B0 R P = 2 1 \u2220 in halwe sirkel] raaklyn-koordst.] \u02C6 \u02C6 \u02C6 \u02C6 \u2234 L = R \u2234 = L P 2 2 1 \u2234 \u2713 R LT || PR [alt \u2220s =/verw. \u2220e = ] LT || PR [corresp. \u2220s =/ \u2234 (4) ooreenk. \u2220e =] \u02C6 \u02C6 9.2.2 \u2713 S \u2713 R [tan chord theorem/raaklyn-koordst.] L = R 1 1 \u02C6 \u02C6 [corresp. \u2220s; LT || OM/ooreenk. \u2220e; LT ||OM] L O = \u2713 S/R 1 1 \u02C6 \u02C6 R O \u2234 = \u2713 S 1 1 L, O, R and M are concyclic. \u2234 LORM is a cyclic quadrilateral [converse \u2220s in the same seg/ \u2234 \u2713 R (5) omgekeerde \u2220e in dies. sirkel segm] \u02C6 \u02C6 9.2.3 [\u2220s in the same seg/\u2220e in dieselfde segment] O LR = M \u2713 S/R 1 \u02C6 \u02C6 [\u2220 at centre = 2 \u00D7\u2220 at circumference/ 2L = M \u2713 S \u2713 R 3 1 midpt. \u2220 = 2\u00D7 omtreks \u2220 ] \u02C6 \u02C6 \u2234 O = LR 2L 3 \u02C6 \u02C6 L L \u2234 = 4 3 \u2713 S \u02C6 LN bisects \u2234 OLR (4) [20] Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 21 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne ",
@@ -1267,34 +1092,34 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q9-9_1_1",
-      "sortOrder": 42,
+      "sortOrder": 37,
       "questionType": "mcq",
       "topic": "Euclidean Geometry (Proportionality and Circles)",
       "difficulty": "moderate",
-      "prompt": "Given that $\\frac{GF}{DG} = \\frac{2}{5}$, find the value of $\\frac{HF}{EH}$.",
+      "prompt": "Write down, with a reason, the value of $\\frac{HF}{EH}$.",
       "options": [
         {
           "id": "A",
-          "text": "$\\frac{HF}{EH} = \\frac{2}{5}$"
+          "text": "$\\frac{HF}{EH} = \\frac{2}{5}$, because of corresponding segments in parallel lines."
         },
         {
           "id": "B",
-          "text": "$\\frac{HF}{EH} = \\frac{5}{2}$"
+          "text": "$\\frac{HF}{EH} = \\frac{5}{2}$, because of incorrect proportionality."
         },
         {
           "id": "C",
-          "text": "$\\frac{HF}{EH} = \\frac{5}{7}$"
+          "text": "$\\frac{HF}{EH} = \\frac{21}{13}$, due to wrong application of the triangle proportionality theorem."
         },
         {
           "id": "D",
-          "text": "$\\frac{HF}{EH} = \\frac{3}{2}$"
+          "text": "$\\frac{HF}{EH} = \\frac{3}{4}$, due to arithmetic error in ratios."
         },
         {
           "id": "E",
-          "text": "$\\frac{HF}{EH} = \\frac{3}{5}$"
+          "text": "$\\frac{HF}{EH} = 1$, because the segments are equal."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "memoAnswer": "QUESTION/VRAAG 9 9.1 D G E F H HF GF 2 9.1.1 \u2713 S \u2713 R = = [line || to one side of \u2206/lyn || een sy van \u2206] EH GD 5 OR [prop theorem; GH||DE/eweredigheidst.; GH || DE] (2) 9.1.2 EH DG 5 [line || to one side of \u2206/lyn || een sy van \u2206] = = EF DF 7 OR [prop theorem; GH||DE/eweredigheidst.; GH || DE] EH 5 = \u2713 S 21 7 \u2713 answer EH = 15cm (2) OR/OF HF 2 = [line || to one side of \u2206/lyn || een sy van \u2206] EF 7 OR [prop theorem; GH||DE/eweredigheidst.; GH || DE] HF 2 = \u2713 S 21 7 HF = 6cm EH = 21 6 \u2212 \u2713 answer EH = 15cm (2) 9.1.3 \u2713 S \u2206FGH ||| \u2206FDE [\u2220\u2220\u2220] (1) GH FG GH FH 9.1.4 \u2713 S = [|||\u2206\u0027s] OR/OF [|||\u2206\u0027s] = DE FD DE FE GH 2 \u2713 S = DE 7 (2) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 20 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne K 9.2 T L 1 2 3 4 2 1 2 1 1 M O N 2 1 2 R P \u02C6 \u02C6 \u02C6 9.2.1 [\u2220 in semi-circle/ OR [tan chord theorem/ L = 90\u00B0 R L = \u2713 S \u2713 R 2 1 1 \u2220 in halwe sirkel] raaklyn-koordst.] \u02C6 \u02C6 \u02C6 \u2713 S/R [\u2220 in semi-circle] [tan chord theorem] R = 90\u00B0 R P = 2 1 \u2220 in halwe sirkel] raaklyn-koordst.] \u02C6 \u02C6 \u02C6 \u02C6 \u2234 L = R \u2234 = L P 2 2 1 \u2234 \u2713 R LT || PR [alt \u2220s =/verw. \u2220e = ] LT || PR [corresp. \u2220s =/ \u2234 (4) ooreenk. \u2220e =] \u02C6 \u02C6 9.2.2 \u2713 S \u2713 R [tan chord theorem/raaklyn-koordst.] L = R 1 1 \u02C6 \u02C6 [corresp. \u2220s; LT || OM/ooreenk. \u2220e; LT ||OM] L O = \u2713 S/R 1 1 \u02C6 \u02C6 R O \u2234 = \u2713 S 1 1 L, O, R and M are concyclic. \u2234 LORM is a cyclic quadrilateral [converse \u2220s in the same seg/ \u2234 \u2713 R (5) omgekeerde \u2220e in dies. sirkel segm] \u02C6 \u02C6 9.2.3 [\u2220s in the same seg/\u2220e in dieselfde segment] O LR = M \u2713 S/R 1 \u02C6 \u02C6 [\u2220 at centre = 2 \u00D7\u2220 at circumference/ 2L = M \u2713 S \u2713 R 3 1 midpt. \u2220 = 2\u00D7 omtreks \u2220 ] \u02C6 \u02C6 \u2234 O = LR 2L 3 \u02C6 \u02C6 L L \u2234 = 4 3 \u2713 S \u02C6 LN bisects \u2234 OLR (4) [20] Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 21 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne ",
       "markingNotes": null,
       "marks": null,
@@ -1302,7 +1127,7 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q9-9_1_2",
-      "sortOrder": 43,
+      "sortOrder": 38,
       "questionType": "mcq",
       "topic": "Euclidean Geometry (Proportionality and Circles)",
       "difficulty": "moderate",
@@ -1310,23 +1135,58 @@
       "options": [
         {
           "id": "A",
-          "text": "$EH = 6$ cm"
+          "text": "$EH = 6$ cm, calculated using the correct ratio of $\\frac{2}{5}$."
         },
         {
           "id": "B",
-          "text": "$EH = 5$ cm"
+          "text": "$EH = 8.4$ cm, from a wrong calculation of the ratio."
         },
         {
           "id": "C",
-          "text": "$EH = 9$ cm"
+          "text": "$EH = 7$ cm, by incorrect manipulation of the given length."
         },
         {
           "id": "D",
-          "text": "$EH = 8$ cm"
+          "text": "$EH = 12$ cm, derived from an error in using total length."
         },
         {
           "id": "E",
-          "text": "$EH = 12$ cm"
+          "text": "$EH = 14$ cm, assuming $HG$ is equal to $EH$."
+        }
+      ],
+      "correctOptionId": "A",
+      "memoAnswer": "QUESTION/VRAAG 9 9.1 D G E F H HF GF 2 9.1.1 \u2713 S \u2713 R = = [line || to one side of \u2206/lyn || een sy van \u2206] EH GD 5 OR [prop theorem; GH||DE/eweredigheidst.; GH || DE] (2) 9.1.2 EH DG 5 [line || to one side of \u2206/lyn || een sy van \u2206] = = EF DF 7 OR [prop theorem; GH||DE/eweredigheidst.; GH || DE] EH 5 = \u2713 S 21 7 \u2713 answer EH = 15cm (2) OR/OF HF 2 = [line || to one side of \u2206/lyn || een sy van \u2206] EF 7 OR [prop theorem; GH||DE/eweredigheidst.; GH || DE] HF 2 = \u2713 S 21 7 HF = 6cm EH = 21 6 \u2212 \u2713 answer EH = 15cm (2) 9.1.3 \u2713 S \u2206FGH ||| \u2206FDE [\u2220\u2220\u2220] (1) GH FG GH FH 9.1.4 \u2713 S = [|||\u2206\u0027s] OR/OF [|||\u2206\u0027s] = DE FD DE FE GH 2 \u2713 S = DE 7 (2) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 20 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne K 9.2 T L 1 2 3 4 2 1 2 1 1 M O N 2 1 2 R P \u02C6 \u02C6 \u02C6 9.2.1 [\u2220 in semi-circle/ OR [tan chord theorem/ L = 90\u00B0 R L = \u2713 S \u2713 R 2 1 1 \u2220 in halwe sirkel] raaklyn-koordst.] \u02C6 \u02C6 \u02C6 \u2713 S/R [\u2220 in semi-circle] [tan chord theorem] R = 90\u00B0 R P = 2 1 \u2220 in halwe sirkel] raaklyn-koordst.] \u02C6 \u02C6 \u02C6 \u02C6 \u2234 L = R \u2234 = L P 2 2 1 \u2234 \u2713 R LT || PR [alt \u2220s =/verw. \u2220e = ] LT || PR [corresp. \u2220s =/ \u2234 (4) ooreenk. \u2220e =] \u02C6 \u02C6 9.2.2 \u2713 S \u2713 R [tan chord theorem/raaklyn-koordst.] L = R 1 1 \u02C6 \u02C6 [corresp. \u2220s; LT || OM/ooreenk. \u2220e; LT ||OM] L O = \u2713 S/R 1 1 \u02C6 \u02C6 R O \u2234 = \u2713 S 1 1 L, O, R and M are concyclic. \u2234 LORM is a cyclic quadrilateral [converse \u2220s in the same seg/ \u2234 \u2713 R (5) omgekeerde \u2220e in dies. sirkel segm] \u02C6 \u02C6 9.2.3 [\u2220s in the same seg/\u2220e in dieselfde segment] O LR = M \u2713 S/R 1 \u02C6 \u02C6 [\u2220 at centre = 2 \u00D7\u2220 at circumference/ 2L = M \u2713 S \u2713 R 3 1 midpt. \u2220 = 2\u00D7 omtreks \u2220 ] \u02C6 \u02C6 \u2234 O = LR 2L 3 \u02C6 \u02C6 L L \u2234 = 4 3 \u2713 S \u02C6 LN bisects \u2234 OLR (4) [20] Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 21 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne ",
+      "markingNotes": null,
+      "marks": null,
+      "explanation": null
+    },
+    {
+      "id": "2025-may-june-mathematics-p2-en-q9-9_1_3",
+      "sortOrder": 39,
+      "questionType": "mcq",
+      "topic": "Euclidean Geometry (Proportionality and Circles)",
+      "difficulty": "moderate",
+      "prompt": "Write down a triangle which is similar to $\\triangle FGH$.",
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\triangle DEF$, based on the parallel lines creating similar triangles."
+        },
+        {
+          "id": "B",
+          "text": "$\\triangle DGH$, but this triangle is not formed by the provided segments."
+        },
+        {
+          "id": "C",
+          "text": "$\\triangle FHE$, a random triangle unrelated to $\\triangle FGH$."
+        },
+        {
+          "id": "D",
+          "text": "$\\triangle GHF$, which is not defined correctly according to the geometry."
+        },
+        {
+          "id": "E",
+          "text": "$\\triangle DGF$, misidentifying the triangle similar to $\\triangle FGH$."
         }
       ],
       "correctOptionId": "A",
@@ -1337,7 +1197,7 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q9-9_1_4",
-      "sortOrder": 44,
+      "sortOrder": 40,
       "questionType": "mcq",
       "topic": "Euclidean Geometry (Proportionality and Circles)",
       "difficulty": "moderate",
@@ -1345,26 +1205,26 @@
       "options": [
         {
           "id": "A",
-          "text": "$\\frac{GH}{DE} = \\frac{2}{7}$"
+          "text": "$\\frac{GH}{DE} = \\frac{2}{7}$, based on incorrect establishment of the ratio."
         },
         {
           "id": "B",
-          "text": "$\\frac{GH}{DE} = \\frac{2}{3}$"
+          "text": "$\\frac{GH}{DE} = \\frac{2}{5}$, which misuses the similarity ratio."
         },
         {
           "id": "C",
-          "text": "$\\frac{GH}{DE} = \\frac{5}{7}$"
+          "text": "$\\frac{GH}{DE} = \\frac{5}{2}$, from incorrect conclusion about proportionality."
         },
         {
           "id": "D",
-          "text": "$\\frac{GH}{DE} = \\frac{4}{5}$"
+          "text": "$\\frac{GH}{DE} = \\frac{5}{7}$, an incorrectly calculated ratio."
         },
         {
           "id": "E",
-          "text": "$\\frac{GH}{DE} = \\frac{3}{5}$"
+          "text": "$\\frac{GH}{DE} = \\frac{2}{3}$, derived from wrong-algebraic manipulation."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "memoAnswer": "QUESTION/VRAAG 9 9.1 D G E F H HF GF 2 9.1.1 \u2713 S \u2713 R = = [line || to one side of \u2206/lyn || een sy van \u2206] EH GD 5 OR [prop theorem; GH||DE/eweredigheidst.; GH || DE] (2) 9.1.2 EH DG 5 [line || to one side of \u2206/lyn || een sy van \u2206] = = EF DF 7 OR [prop theorem; GH||DE/eweredigheidst.; GH || DE] EH 5 = \u2713 S 21 7 \u2713 answer EH = 15cm (2) OR/OF HF 2 = [line || to one side of \u2206/lyn || een sy van \u2206] EF 7 OR [prop theorem; GH||DE/eweredigheidst.; GH || DE] HF 2 = \u2713 S 21 7 HF = 6cm EH = 21 6 \u2212 \u2713 answer EH = 15cm (2) 9.1.3 \u2713 S \u2206FGH ||| \u2206FDE [\u2220\u2220\u2220] (1) GH FG GH FH 9.1.4 \u2713 S = [|||\u2206\u0027s] OR/OF [|||\u2206\u0027s] = DE FD DE FE GH 2 \u2713 S = DE 7 (2) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 20 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne K 9.2 T L 1 2 3 4 2 1 2 1 1 M O N 2 1 2 R P \u02C6 \u02C6 \u02C6 9.2.1 [\u2220 in semi-circle/ OR [tan chord theorem/ L = 90\u00B0 R L = \u2713 S \u2713 R 2 1 1 \u2220 in halwe sirkel] raaklyn-koordst.] \u02C6 \u02C6 \u02C6 \u2713 S/R [\u2220 in semi-circle] [tan chord theorem] R = 90\u00B0 R P = 2 1 \u2220 in halwe sirkel] raaklyn-koordst.] \u02C6 \u02C6 \u02C6 \u02C6 \u2234 L = R \u2234 = L P 2 2 1 \u2234 \u2713 R LT || PR [alt \u2220s =/verw. \u2220e = ] LT || PR [corresp. \u2220s =/ \u2234 (4) ooreenk. \u2220e =] \u02C6 \u02C6 9.2.2 \u2713 S \u2713 R [tan chord theorem/raaklyn-koordst.] L = R 1 1 \u02C6 \u02C6 [corresp. \u2220s; LT || OM/ooreenk. \u2220e; LT ||OM] L O = \u2713 S/R 1 1 \u02C6 \u02C6 R O \u2234 = \u2713 S 1 1 L, O, R and M are concyclic. \u2234 LORM is a cyclic quadrilateral [converse \u2220s in the same seg/ \u2234 \u2713 R (5) omgekeerde \u2220e in dies. sirkel segm] \u02C6 \u02C6 9.2.3 [\u2220s in the same seg/\u2220e in dieselfde segment] O LR = M \u2713 S/R 1 \u02C6 \u02C6 [\u2220 at centre = 2 \u00D7\u2220 at circumference/ 2L = M \u2713 S \u2713 R 3 1 midpt. \u2220 = 2\u00D7 omtreks \u2220 ] \u02C6 \u02C6 \u2234 O = LR 2L 3 \u02C6 \u02C6 L L \u2234 = 4 3 \u2713 S \u02C6 LN bisects \u2234 OLR (4) [20] Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 21 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne ",
       "markingNotes": null,
       "marks": null,
@@ -1372,11 +1232,11 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q10",
-      "sortOrder": 45,
+      "sortOrder": 41,
       "questionType": "group",
       "topic": "Euclidean Geometry (Similarity and Circles)",
       "difficulty": "moderate",
-      "prompt": "[latex]\n**10.1** In the diagram, $\\triangle ABC$ and $\\triangle PKL$ are drawn such that $\\hat{A} = \\hat{P}$, $\\hat{B} = \\hat{K}$ and $\\hat{C} = \\hat{L}$.\n\nUse the diagram in the ANSWER BOOK to prove the theorem which states that if two triangles are equiangular, then the corresponding sides are in proportion, i.e. that $\\frac{AB}{PK} = \\frac{AC}{PL}$. (6)\n\n**10.2** In the diagram, O is the centre of the circle. Points D and B lie on the circle. Points A and C lie outside the circle such that side AC of $\\triangle ADC$ passes through B. F is a point on BC such that $FO \\parallel BD$. $DR = RB$ and RO is drawn.\n\n**10.2.1** Prove, with reasons, that $\\triangle CFO \\parallel\\parallel \\triangle CBD$. (3)\n\n**10.2.2** If it is given that $R\\hat{D}O = F\\hat{C}O$, show, with reasons, that $OF \\cdot CD = CO \\cdot BC$. (2)\n\n**10.2.3** It is further given that $DC = 19,2$ units, $BD = 12$ units and $\\frac{RO}{RD} = \\frac{3}{4}$. Prove, with reasons, that $BF = \\frac{75}{16}$. (6)\n\n**10.2.4** Calculate the size of $A\\hat{B}D$. (3)\n\n**[20]**",
+      "prompt": "[latex]\n\n\n[FIGURE]\nTwo diagrams: (10.1) Triangles ABC and PKL that are equiangular (\u00C2=P\u0302, B\u0302=K\u0302, \u0108=L\u0302). (10.2) Circle geometry diagram for the proof involving a tangent and chord as described in the sub-questions.\n[/FIGURE]\n\n**10.1** In the diagram, $\\triangle ABC$ and $\\triangle PKL$ are drawn such that $\\hat{A} = \\hat{P}$, $\\hat{B} = \\hat{K}$ and $\\hat{C} = \\hat{L}$.\n\nUse the diagram in the ANSWER BOOK to prove the theorem which states that if two triangles are equiangular, then the corresponding sides are in proportion, i.e. that $\\frac{AB}{PK} = \\frac{AC}{PL}$. (6)\n\n**10.2** In the diagram, O is the centre of the circle. Points D and B lie on the circle. Points A and C lie outside the circle such that side AC of $\\triangle ADC$ passes through B. F is a point on BC such that $FO \\parallel BD$. $DR = RB$ and RO is drawn.\n\n**10.2.1** Prove, with reasons, that $\\triangle CFO \\parallel\\parallel \\triangle CBD$. (3)\n\n**10.2.2** If it is given that $R\\hat{D}O = F\\hat{C}O$, show, with reasons, that $OF \\cdot CD = CO \\cdot BC$. (2)\n\n**10.2.3** It is further given that $DC = 19,2$ units, $BD = 12$ units and $\\frac{RO}{RD} = \\frac{3}{4}$. Prove, with reasons, that $BF = \\frac{75}{16}$. (6)\n\n**10.2.4** Calculate the size of $A\\hat{B}D$. (3)\n\n**[20]**",
       "options": [],
       "correctOptionId": null,
       "memoAnswer": "QUESTION/VRAAG 10 10.1 P A \u2660 1 \u25CF M N L K \u25CF \u2660 B C 10.1 Construction: Draw line MN, where M and N are points on AB and \u2713 construction AC respectively such that AM = PK and AN = PL. In \u2206 AMN and \u2206PKL \u02C6 \u02C6 [given] A = P AM = PK [construction] AN = PL [construction] \u2206AMN \u2261 \u2206PKL [s\u2220s] \u2713 S/R \u02C6 \u02C6 \u2234 M = K 1 \u02C6 \u02C6 But [given] B = K \u02C6 \u02C6 \u2713 S \u2234 M = B 1 \u2713 S / R \u2234MN || BC [corresp \u2220s =/ooreenk. \u2220e =] AB AC \u2234 = [line || one side of \u2206/lyn || een sy v \u2206] \u2713 S \u2713 R AM AN But AM = PK and AN = PL AB AC \u2234 = PK PL (6) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 22 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne 10.2 B F C A R O D 10.2.1 In \u2206 CFO and \u0394CBD \u02C6 \u02C6 [common] C = C  S \u02C6 \u02C6 CFO = CBD [corresp \u2220s; BD||FO/ooreenk. \u2220e; BD||FO]  S/R \u02C6 \u02C6 COF = CDB [sum of \u2220s in \u2206/binne \u2220e v \u2206] OR \u2220e; BD||FO] [corresp \u2220s; BD||FO/ ooreenk.  S/R OR R [\u2220\u2220\u2220 ] \u2206 CFO ||| \u0394CBD (3) FO CO 10.2.2 = [||| \u2206s]  S/R BD CD FO.CD = CO.BD \u02C6 \u02C6 But [given] RDO = FCO BD = BC [sides opp equal \u2220s/sye teenoor gelyke \u2220e ] \u2234  S/R FO.CD = CO.BC \u2234 (2) Copyright reserved/Kopiereg voorbehou Please turn over/Blaai om asseblief \r\nMathematics P2/Wiskunde V2 23 DBE/May/June/Mei/Junie 2025 SC/NSC/SS/NSS \u2013 Marking Guidelines/Nasienriglyne 10.2.3 RD = 6 units [DR = RB] RO 3 = RD 4 3 6) \u2234 RO = ( 4 RO = 4,5 units  S [line from centre to midpt of chord/ OR \u22A5 BD  S/R midpt. sirkel; midpt koord] 2 2 [Pythagoras] \u2234 DO = 6 \u002B 4,5 DO = 7,5 units  S BF DO  S/R = [line || to one side of \u2206/lyn || een sy v \u2206] BC DC OR/OF [prop theorem; BD||FO/eweredigheidst.;BD||FO] \u2220e] BC = BD = 12 units [sides opp equal \u2220s/sye teenoor gelyke \u2713 S BF 7,5  S \u2234 = 12 19,2 7,5 \u00D7 12 BF = 19,2 75 BF = units 16 (6) 4,5 3 RO \u02C6 10.2.4  ratio = = tan RDO = 6 4 RD \u02C6 RDO = 36,87\u00B0 \u02C6  RDO \u02C6 \u02C6 [given] FCO = RDO = 36,87\u00B0 \u02C6 [ext \u2220 of \u2206/buite \u2220 v. \u2206] \u2234 ABD = 73,74\u00B0 \u2713 answer (3) OR/OF 2 2 2 \u02C6 CD = BC \u002B BD \u2212 2 BC BD cos DBC ( )( ) 2 2 2 12 12 19, 2 \u002B \u2212  substitution into \u02C6 cos DBC = 2 12 12 cosine-rule ( )( \n\n[truncated]",
@@ -1385,32 +1245,32 @@
       "explanation": "Imported from exam paper \u002B memorandum text via fallback parser."
     },
     {
-      "id": "2025-may-june-mathematics-p2-en-q10-10_2_3",
-      "sortOrder": 46,
+      "id": "2025-may-june-mathematics-p2-en-q10-10_2_2",
+      "sortOrder": 42,
       "questionType": "mcq",
       "topic": "Euclidean Geometry (Similarity and Circles)",
       "difficulty": "moderate",
-      "prompt": "Given that $DC = 19.2$ units, $BD = 12$ units and $\\frac{RO}{RD} = \\frac{3}{4}$, calculate $BF$ where $BF$ is defined by the relationships in the triangles involved.",
+      "prompt": "If it is given that $R\\hat{D}O = F\\hat{C}O$, show, with reasons, that $OF \\cdot CD = CO \\cdot BC$.",
       "options": [
         {
           "id": "A",
-          "text": "$BF = \\frac{75}{16}$"
+          "text": "$OF \\cdot CD = CO \\cdot BC$ if $\\triangle CFO \\sim \\triangle CBD$"
         },
         {
           "id": "B",
-          "text": "$BF = \\frac{144}{5}$"
+          "text": "$OF \\cdot CD = CO \\cdot BC$ by the Pythagorean theorem"
         },
         {
           "id": "C",
-          "text": "$BF = \\frac{10}{3}$"
+          "text": "$OF \\cdot CD = CO \\cdot BC$ because $FO \\parallel BD$"
         },
         {
           "id": "D",
-          "text": "$BF = \\frac{96}{7}$"
+          "text": "$OF \\cdot CD = CO \\cdot BC$ due to the sine rule"
         },
         {
           "id": "E",
-          "text": "$BF = 50$"
+          "text": "$OF \\cdot CD = CO \\cdot BC$ using the midpoint theorem"
         }
       ],
       "correctOptionId": "A",
@@ -1420,32 +1280,32 @@
       "explanation": null
     },
     {
-      "id": "2025-may-june-mathematics-p2-en-q10-10_2_2",
-      "sortOrder": 47,
+      "id": "2025-may-june-mathematics-p2-en-q10-10_2_3",
+      "sortOrder": 43,
       "questionType": "mcq",
       "topic": "Euclidean Geometry (Similarity and Circles)",
       "difficulty": "moderate",
-      "prompt": "Given that $R\\hat{D}O = F\\hat{C}O$, show that $OF \\cdot CD = CO \\cdot BC$ based on the properties of the triangles formed.",
+      "prompt": "It is further given that $DC = 19,2$ units, $BD = 12$ units and $\\frac{RO}{RD} = \\frac{3}{4}$. Prove, with reasons, that $BF = \\frac{75}{16}$.",
       "options": [
         {
           "id": "A",
-          "text": "$OF \\cdot CD = CO \\cdot BC$"
+          "text": "$BF = \\frac{75}{16}$ by using similarity of triangles"
         },
         {
           "id": "B",
-          "text": "$OF \u002B CD = CO \u002B BC$"
+          "text": "$BF = \\frac{72}{16}$ from the perimeter ratio"
         },
         {
           "id": "C",
-          "text": "$OF - CD = CO - BC$"
+          "text": "$BF = \\frac{78}{16}$ based on the area ratio"
         },
         {
           "id": "D",
-          "text": "$OF / CD = CO / BC$"
+          "text": "$BF = \\frac{60}{16}$ from direct calculation"
         },
         {
           "id": "E",
-          "text": "$OF \\cdot CD = CO \u002B BC$"
+          "text": "$BF = \\frac{48}{16}$ from trigonometric ratios"
         }
       ],
       "correctOptionId": "A",
@@ -1456,11 +1316,11 @@
     },
     {
       "id": "2025-may-june-mathematics-p2-en-q10-10_2_4",
-      "sortOrder": 48,
+      "sortOrder": 44,
       "questionType": "mcq",
       "topic": "Euclidean Geometry (Similarity and Circles)",
       "difficulty": "moderate",
-      "prompt": "Calculate the size of angle $A\\hat{B}D$ based on the geometric constructions surrounding circle $O$ and the relationships established in triangle $ABD$.",
+      "prompt": "Calculate the size of $A\\hat{B}D$.",
       "options": [
         {
           "id": "A",
@@ -1476,11 +1336,11 @@
         },
         {
           "id": "D",
-          "text": "$A\\hat{B}D = 90^\\circ$"
+          "text": "$A\\hat{B}D = 25^\\circ$"
         },
         {
           "id": "E",
-          "text": "$A\\hat{B}D = 120^\\circ$"
+          "text": "$A\\hat{B}D = 15^\\circ$"
         }
       ],
       "correctOptionId": "C",

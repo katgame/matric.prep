@@ -1,0 +1,1503 @@
+{
+  "session": "2025-may-june",
+  "sourceUrl": "https://www.education.gov.za/Curriculum/NationalSeniorCertificate(NSC)Examinations/2025MayJuneExamPapers.aspx",
+  "downloadedAt": "2026-04-07T16:43:46.609Z",
+  "fileCount": 299,
+  "files": [
+    {
+      "title": "Afrikaans FAL P1",
+      "relativePath": "languages/afrikaans/Afrikaans FAL P1.pdf",
+      "bytes": 2073905
+    },
+    {
+      "title": "Afrikaans FAL P1 memo",
+      "relativePath": "languages/afrikaans/Afrikaans FAL P1 memo.pdf",
+      "bytes": 515472
+    },
+    {
+      "title": "Afrikaans FAL P2",
+      "relativePath": "languages/afrikaans/Afrikaans FAL P2.pdf",
+      "bytes": 965151
+    },
+    {
+      "title": "Afrikaans FAL P2 memo",
+      "relativePath": "languages/afrikaans/Afrikaans FAL P2 memo.pdf",
+      "bytes": 773319
+    },
+    {
+      "title": "Afrikaans FAL P3",
+      "relativePath": "languages/afrikaans/Afrikaans FAL P3.pdf",
+      "bytes": 639949
+    },
+    {
+      "title": "Afrikaans FAL P3 memo",
+      "relativePath": "languages/afrikaans/Afrikaans FAL P3 memo.pdf",
+      "bytes": 659971
+    },
+    {
+      "title": "Afrikaans HL P1",
+      "relativePath": "languages/afrikaans/Afrikaans HL P1.pdf",
+      "bytes": 1227451
+    },
+    {
+      "title": "Afrikaans HL P1 memo",
+      "relativePath": "languages/afrikaans/Afrikaans HL P1 memo.pdf",
+      "bytes": 528658
+    },
+    {
+      "title": "Afrikaans HL P2",
+      "relativePath": "languages/afrikaans/Afrikaans HL P2.pdf",
+      "bytes": 755376
+    },
+    {
+      "title": "Afrikaans HL P2 memo",
+      "relativePath": "languages/afrikaans/Afrikaans HL P2 memo.pdf",
+      "bytes": 838643
+    },
+    {
+      "title": "Afrikaans HL P3",
+      "relativePath": "languages/afrikaans/Afrikaans HL P3.pdf",
+      "bytes": 940897
+    },
+    {
+      "title": "Afrikaans HL P3 memo",
+      "relativePath": "languages/afrikaans/Afrikaans HL P3 memo.pdf",
+      "bytes": 642852
+    },
+    {
+      "title": "Afrikaans SAL P1",
+      "relativePath": "languages/afrikaans/Afrikaans SAL P1.pdf",
+      "bytes": 2018015
+    },
+    {
+      "title": "Afrikaans SAL P1 memo",
+      "relativePath": "languages/afrikaans/Afrikaans SAL P1 memo.pdf",
+      "bytes": 604213
+    },
+    {
+      "title": "Afrikaans SAL P2 (Eastern Cape)",
+      "relativePath": "languages/afrikaans/Afrikaans SAL P2 (Eastern Cape).pdf",
+      "bytes": 641543
+    },
+    {
+      "title": "Afrikaans SAL P2 (Free State)",
+      "relativePath": "languages/afrikaans/Afrikaans SAL P2 (Free State).pdf",
+      "bytes": 687733
+    },
+    {
+      "title": "Afrikaans SAL P2 (Gauteng)",
+      "relativePath": "languages/afrikaans/Afrikaans SAL P2 (Gauteng).pdf",
+      "bytes": 620275
+    },
+    {
+      "title": "Afrikaans SAL P2 (KwaZulu-Natal)",
+      "relativePath": "languages/afrikaans/Afrikaans SAL P2 (KwaZulu-Natal).pdf",
+      "bytes": 617992
+    },
+    {
+      "title": "Afrikaans SAL P2 (Limpopo)",
+      "relativePath": "languages/afrikaans/Afrikaans SAL P2 (Limpopo).pdf",
+      "bytes": 614651
+    },
+    {
+      "title": "Afrikaans SAL P2 (Mpumalanga)",
+      "relativePath": "languages/afrikaans/Afrikaans SAL P2 (Mpumalanga).pdf",
+      "bytes": 613383
+    },
+    {
+      "title": "Afrikaans SAL P2 (North West)",
+      "relativePath": "languages/afrikaans/Afrikaans SAL P2 (North West).pdf",
+      "bytes": 641140
+    },
+    {
+      "title": "Afrikaans SAL P2 (Northern Cape)",
+      "relativePath": "languages/afrikaans/Afrikaans SAL P2 (Northern Cape).pdf",
+      "bytes": 620395
+    },
+    {
+      "title": "Afrikaans SAL P2 (Western Cape)",
+      "relativePath": "languages/afrikaans/Afrikaans SAL P2 (Western Cape).pdf",
+      "bytes": 615725
+    },
+    {
+      "title": "Afrikaans SAL P2 memo (Eastern Cape)",
+      "relativePath": "languages/afrikaans/Afrikaans SAL P2 memo (Eastern Cape).pdf",
+      "bytes": 580927
+    },
+    {
+      "title": "Afrikaans SAL P2 memo (Free State)",
+      "relativePath": "languages/afrikaans/Afrikaans SAL P2 memo (Free State).pdf",
+      "bytes": 608456
+    },
+    {
+      "title": "Afrikaans SAL P2 memo (Gauteng)",
+      "relativePath": "languages/afrikaans/Afrikaans SAL P2 memo (Gauteng).pdf",
+      "bytes": 580026
+    },
+    {
+      "title": "Afrikaans SAL P2 memo (KwaZulu-Natal)",
+      "relativePath": "languages/afrikaans/Afrikaans SAL P2 memo (KwaZulu-Natal).pdf",
+      "bytes": 571233
+    },
+    {
+      "title": "Afrikaans SAL P2 memo (Limpopo)",
+      "relativePath": "languages/afrikaans/Afrikaans SAL P2 memo (Limpopo).pdf",
+      "bytes": 556628
+    },
+    {
+      "title": "Afrikaans SAL P2 memo (Mpumalanga)",
+      "relativePath": "languages/afrikaans/Afrikaans SAL P2 memo (Mpumalanga).pdf",
+      "bytes": 555217
+    },
+    {
+      "title": "Afrikaans SAL P2 memo (North West)",
+      "relativePath": "languages/afrikaans/Afrikaans SAL P2 memo (North West).pdf",
+      "bytes": 580233
+    },
+    {
+      "title": "Afrikaans SAL P2 memo (Northern Cape)",
+      "relativePath": "languages/afrikaans/Afrikaans SAL P2 memo (Northern Cape).pdf",
+      "bytes": 579812
+    },
+    {
+      "title": "Afrikaans SAL P2 memo (Western Cape)",
+      "relativePath": "languages/afrikaans/Afrikaans SAL P2 memo (Western Cape).pdf",
+      "bytes": 552896
+    },
+    {
+      "title": "Afrikaans SAL P3",
+      "relativePath": "languages/afrikaans/Afrikaans SAL P3.pdf",
+      "bytes": 1170612
+    },
+    {
+      "title": "Afrikaans SAL P3 memo",
+      "relativePath": "languages/afrikaans/Afrikaans SAL P3 memo.pdf",
+      "bytes": 767052
+    },
+    {
+      "title": "English FAL P1",
+      "relativePath": "languages/english/English FAL P1.pdf",
+      "bytes": 1653860
+    },
+    {
+      "title": "English FAL P1 memo",
+      "relativePath": "languages/english/English FAL P1 memo.pdf",
+      "bytes": 626475
+    },
+    {
+      "title": "English FAL P2",
+      "relativePath": "languages/english/English FAL P2.pdf",
+      "bytes": 783168
+    },
+    {
+      "title": "English FAL P2 memo",
+      "relativePath": "languages/english/English FAL P2 memo.pdf",
+      "bytes": 697521
+    },
+    {
+      "title": "English FAL P3",
+      "relativePath": "languages/english/English FAL P3.pdf",
+      "bytes": 1211553
+    },
+    {
+      "title": "English FAL P3 memo",
+      "relativePath": "languages/english/English FAL P3 memo.pdf",
+      "bytes": 361538
+    },
+    {
+      "title": "English HL P1",
+      "relativePath": "languages/english/English HL P1.pdf",
+      "bytes": 1469363
+    },
+    {
+      "title": "English HL P1 memo",
+      "relativePath": "languages/english/English HL P1 memo.pdf",
+      "bytes": 454818
+    },
+    {
+      "title": "English HL P2",
+      "relativePath": "languages/english/English HL P2.pdf",
+      "bytes": 609477
+    },
+    {
+      "title": "English HL P2 memo",
+      "relativePath": "languages/english/English HL P2 memo.pdf",
+      "bytes": 665217
+    },
+    {
+      "title": "English HL P3",
+      "relativePath": "languages/english/English HL P3.pdf",
+      "bytes": 1132255
+    },
+    {
+      "title": "English HL P3 memo",
+      "relativePath": "languages/english/English HL P3 memo.pdf",
+      "bytes": 247442
+    },
+    {
+      "title": "IsiNdebele FAL P1",
+      "relativePath": "languages/isindebele/IsiNdebele FAL P1.pdf",
+      "bytes": 1912343
+    },
+    {
+      "title": "IsiNdebele FAL P1 Memo",
+      "relativePath": "languages/isindebele/IsiNdebele FAL P1 Memo.pdf",
+      "bytes": 489109
+    },
+    {
+      "title": "IsiNdebele FAL P2",
+      "relativePath": "languages/isindebele/IsiNdebele FAL P2.pdf",
+      "bytes": 575411
+    },
+    {
+      "title": "IsiNdebele FAL P2 Memo",
+      "relativePath": "languages/isindebele/IsiNdebele FAL P2 Memo.pdf",
+      "bytes": 529344
+    },
+    {
+      "title": "IsiNdebele FAL P3",
+      "relativePath": "languages/isindebele/IsiNdebele FAL P3.pdf",
+      "bytes": 1486534
+    },
+    {
+      "title": "IsiNdebele FAL P3 Memo",
+      "relativePath": "languages/isindebele/IsiNdebele FAL P3 Memo.pdf",
+      "bytes": 498773
+    },
+    {
+      "title": "IsiNdebele HL P1",
+      "relativePath": "languages/isindebele/IsiNdebele HL P1.pdf",
+      "bytes": 1422235
+    },
+    {
+      "title": "IsiNdebele HL P1 Memo",
+      "relativePath": "languages/isindebele/IsiNdebele HL P1 Memo.pdf",
+      "bytes": 571806
+    },
+    {
+      "title": "IsiNdebele HL P2",
+      "relativePath": "languages/isindebele/IsiNdebele HL P2.pdf",
+      "bytes": 610283
+    },
+    {
+      "title": "IsiNdebele HL P2 Memo",
+      "relativePath": "languages/isindebele/IsiNdebele HL P2 Memo.pdf",
+      "bytes": 6620426
+    },
+    {
+      "title": "IsiNdebele HL P3",
+      "relativePath": "languages/isindebele/IsiNdebele HL P3.pdf",
+      "bytes": 363156
+    },
+    {
+      "title": "IsiNdebele HL P3 Memo",
+      "relativePath": "languages/isindebele/IsiNdebele HL P3 Memo.pdf",
+      "bytes": 6213605
+    },
+    {
+      "title": "IsiXhosa FAL P1",
+      "relativePath": "languages/isixhosa/IsiXhosa FAL P1.pdf",
+      "bytes": 1315126
+    },
+    {
+      "title": "IsiXhosa FAL P1 Memo",
+      "relativePath": "languages/isixhosa/IsiXhosa FAL P1 Memo.pdf",
+      "bytes": 508641
+    },
+    {
+      "title": "IsiXhosa FAL P2",
+      "relativePath": "languages/isixhosa/IsiXhosa FAL P2.pdf",
+      "bytes": 682917
+    },
+    {
+      "title": "IsiXhosa FAL P2 Memo",
+      "relativePath": "languages/isixhosa/IsiXhosa FAL P2 Memo.pdf",
+      "bytes": 589293
+    },
+    {
+      "title": "IsiXhosa FAL P3",
+      "relativePath": "languages/isixhosa/IsiXhosa FAL P3.pdf",
+      "bytes": 3033749
+    },
+    {
+      "title": "IsiXhosa FAL P3 Memo",
+      "relativePath": "languages/isixhosa/IsiXhosa FAL P3 Memo.pdf",
+      "bytes": 682921
+    },
+    {
+      "title": "IsiXhosa HL P1",
+      "relativePath": "languages/isixhosa/IsiXhosa HL P1.pdf",
+      "bytes": 1162317
+    },
+    {
+      "title": "IsiXhosa HL P1 Memo",
+      "relativePath": "languages/isixhosa/IsiXhosa HL P1 Memo.pdf",
+      "bytes": 481754
+    },
+    {
+      "title": "IsiXhosa HL P2",
+      "relativePath": "languages/isixhosa/IsiXhosa HL P2.pdf",
+      "bytes": 439963
+    },
+    {
+      "title": "IsiXhosa HL P2 Memo",
+      "relativePath": "languages/isixhosa/IsiXhosa HL P2 Memo.pdf",
+      "bytes": 485050
+    },
+    {
+      "title": "IsiXhosa HL P3",
+      "relativePath": "languages/isixhosa/IsiXhosa HL P3.pdf",
+      "bytes": 675118
+    },
+    {
+      "title": "IsiXhosa HL P3 Memo",
+      "relativePath": "languages/isixhosa/IsiXhosa HL P3 Memo.pdf",
+      "bytes": 652885
+    },
+    {
+      "title": "IsiZulu FAL P1",
+      "relativePath": "languages/isizulu/IsiZulu FAL P1.pdf",
+      "bytes": 1482582
+    },
+    {
+      "title": "IsiZulu FAL P1 Memo",
+      "relativePath": "languages/isizulu/IsiZulu FAL P1 Memo.pdf",
+      "bytes": 510171
+    },
+    {
+      "title": "IsiZulu FAL P2",
+      "relativePath": "languages/isizulu/IsiZulu FAL P2.pdf",
+      "bytes": 723373
+    },
+    {
+      "title": "IsiZulu FAL P2 Memo",
+      "relativePath": "languages/isizulu/IsiZulu FAL P2 Memo.pdf",
+      "bytes": 696579
+    },
+    {
+      "title": "IsiZulu FAL P3",
+      "relativePath": "languages/isizulu/IsiZulu FAL P3.pdf",
+      "bytes": 1147340
+    },
+    {
+      "title": "IsiZulu FAL P3 Memo",
+      "relativePath": "languages/isizulu/IsiZulu FAL P3 Memo.pdf",
+      "bytes": 387094
+    },
+    {
+      "title": "IsiZulu HL P1",
+      "relativePath": "languages/isizulu/IsiZulu HL P1.pdf",
+      "bytes": 1944519
+    },
+    {
+      "title": "IsiZulu HL P1 Memo",
+      "relativePath": "languages/isizulu/IsiZulu HL P1 Memo.pdf",
+      "bytes": 639669
+    },
+    {
+      "title": "IsiZulu HL P2",
+      "relativePath": "languages/isizulu/IsiZulu HL P2.pdf",
+      "bytes": 812313
+    },
+    {
+      "title": "IsiZulu HL P2 Memo",
+      "relativePath": "languages/isizulu/IsiZulu HL P2 Memo.pdf",
+      "bytes": 780165
+    },
+    {
+      "title": "IsiZulu HL P3",
+      "relativePath": "languages/isizulu/IsiZulu HL P3.pdf",
+      "bytes": 1914002
+    },
+    {
+      "title": "IsiZulu HL P3 Memo",
+      "relativePath": "languages/isizulu/IsiZulu HL P3 Memo.pdf",
+      "bytes": 607617
+    },
+    {
+      "title": "SASL HL Memo 1",
+      "relativePath": "languages/south-african-sign-language-final/SASL HL Memo 1.pdf",
+      "bytes": 529470
+    },
+    {
+      "title": "SASL HL Memo 2",
+      "relativePath": "languages/south-african-sign-language-final/SASL HL Memo 2.pdf",
+      "bytes": 718722
+    },
+    {
+      "title": "SASL HL Memo 3",
+      "relativePath": "languages/south-african-sign-language-final/SASL HL Memo 3.pdf",
+      "bytes": 622477
+    },
+    {
+      "title": "SASL HL Paper 1",
+      "relativePath": "languages/south-african-sign-language-final/SASL HL Paper 1.pdf",
+      "bytes": 871398
+    },
+    {
+      "title": "SASL HL Paper 2",
+      "relativePath": "languages/south-african-sign-language-final/SASL HL Paper 2.pdf",
+      "bytes": 514109
+    },
+    {
+      "title": "SASL HL Paper 3",
+      "relativePath": "languages/south-african-sign-language-final/SASL HL Paper 3.pdf",
+      "bytes": 1269042
+    },
+    {
+      "title": "Sepedi FAL P1",
+      "relativePath": "languages/sepedi/Sepedi FAL P1.pdf",
+      "bytes": 1558234
+    },
+    {
+      "title": "Sepedi FAL P1 memo",
+      "relativePath": "languages/sepedi/Sepedi FAL P1 memo.pdf",
+      "bytes": 562557
+    },
+    {
+      "title": "Sepedi FAL P2",
+      "relativePath": "languages/sepedi/Sepedi FAL P2.pdf",
+      "bytes": 664098
+    },
+    {
+      "title": "Sepedi FAL P2 memo",
+      "relativePath": "languages/sepedi/Sepedi FAL P2 memo.pdf",
+      "bytes": 633896
+    },
+    {
+      "title": "Sepedi FAL P3",
+      "relativePath": "languages/sepedi/Sepedi FAL P3.pdf",
+      "bytes": 668711
+    },
+    {
+      "title": "Sepedi FAL P3 Memo",
+      "relativePath": "languages/sepedi/Sepedi FAL P3 Memo.pdf",
+      "bytes": 615582
+    },
+    {
+      "title": "Sepedi HL P1",
+      "relativePath": "languages/sepedi/Sepedi HL P1.pdf",
+      "bytes": 1261772
+    },
+    {
+      "title": "Sepedi HL P1 memo",
+      "relativePath": "languages/sepedi/Sepedi HL P1 memo.pdf",
+      "bytes": 535047
+    },
+    {
+      "title": "Sepedi HL P2",
+      "relativePath": "languages/sepedi/Sepedi HL P2.pdf",
+      "bytes": 721154
+    },
+    {
+      "title": "Sepedi HL P2 memo",
+      "relativePath": "languages/sepedi/Sepedi HL P2 memo.pdf",
+      "bytes": 755312
+    },
+    {
+      "title": "Sepedi HL P3",
+      "relativePath": "languages/sepedi/Sepedi HL P3.pdf",
+      "bytes": 982560
+    },
+    {
+      "title": "Sepedi HL P3 memo",
+      "relativePath": "languages/sepedi/Sepedi HL P3 memo.pdf",
+      "bytes": 427486
+    },
+    {
+      "title": "Setswana FAL P1",
+      "relativePath": "languages/setswana/Setswana FAL P1.pdf",
+      "bytes": 1560032
+    },
+    {
+      "title": "Setswana Fal P1 Memo",
+      "relativePath": "languages/setswana/Setswana Fal P1 Memo.pdf",
+      "bytes": 569311
+    },
+    {
+      "title": "Setswana FAL P2",
+      "relativePath": "languages/setswana/Setswana FAL P2.pdf",
+      "bytes": 765578
+    },
+    {
+      "title": "Setswana FAL P2 Memo",
+      "relativePath": "languages/setswana/Setswana FAL P2 Memo.pdf",
+      "bytes": 373670
+    },
+    {
+      "title": "Setswana FAL P3",
+      "relativePath": "languages/setswana/Setswana FAL P3.pdf",
+      "bytes": 1902194
+    },
+    {
+      "title": "Setswana FAL P3 Memo",
+      "relativePath": "languages/setswana/Setswana FAL P3 Memo.pdf",
+      "bytes": 383030
+    },
+    {
+      "title": "Setswana HL P1",
+      "relativePath": "languages/setswana/Setswana HL P1.pdf",
+      "bytes": 1445717
+    },
+    {
+      "title": "Setswana HL P1 memo",
+      "relativePath": "languages/setswana/Setswana HL P1 memo.pdf",
+      "bytes": 291542
+    },
+    {
+      "title": "Setswana HL P2",
+      "relativePath": "languages/setswana/Setswana HL P2.pdf",
+      "bytes": 595235
+    },
+    {
+      "title": "Setswana HL P2 memo",
+      "relativePath": "languages/setswana/Setswana HL P2 memo.pdf",
+      "bytes": 503201
+    },
+    {
+      "title": "Setswana HL P3",
+      "relativePath": "languages/setswana/Setswana HL P3.pdf",
+      "bytes": 902977
+    },
+    {
+      "title": "Setswana HL P3 memo",
+      "relativePath": "languages/setswana/Setswana HL P3 memo.pdf",
+      "bytes": 509638
+    },
+    {
+      "title": "Sesotho FAL P1",
+      "relativePath": "languages/sesotho/Sesotho FAL P1.pdf",
+      "bytes": 1409853
+    },
+    {
+      "title": "Sesotho FAL P1 Memo",
+      "relativePath": "languages/sesotho/Sesotho FAL P1 Memo.pdf",
+      "bytes": 449180
+    },
+    {
+      "title": "Sesotho FAL P2",
+      "relativePath": "languages/sesotho/Sesotho FAL P2.pdf",
+      "bytes": 566834
+    },
+    {
+      "title": "Sesotho FAL P2 Memo",
+      "relativePath": "languages/sesotho/Sesotho FAL P2 Memo.pdf",
+      "bytes": 533624
+    },
+    {
+      "title": "Sesotho FAL P3",
+      "relativePath": "languages/sesotho/Sesotho FAL P3.pdf",
+      "bytes": 1268883
+    },
+    {
+      "title": "Sesotho FAL P3 Memo",
+      "relativePath": "languages/sesotho/Sesotho FAL P3 Memo.pdf",
+      "bytes": 547444
+    },
+    {
+      "title": "Sesotho HL P1",
+      "relativePath": "languages/sesotho/Sesotho HL P1.pdf",
+      "bytes": 1803550
+    },
+    {
+      "title": "Sesotho HL P1 Memo",
+      "relativePath": "languages/sesotho/Sesotho HL P1 Memo.pdf",
+      "bytes": 287753
+    },
+    {
+      "title": "Sesotho HL P2",
+      "relativePath": "languages/sesotho/Sesotho HL P2.pdf",
+      "bytes": 463156
+    },
+    {
+      "title": "Sesotho HL P2 Memo",
+      "relativePath": "languages/sesotho/Sesotho HL P2 Memo.pdf",
+      "bytes": 519560
+    },
+    {
+      "title": "Sesotho HL P3",
+      "relativePath": "languages/sesotho/Sesotho HL P3.pdf",
+      "bytes": 810622
+    },
+    {
+      "title": "Sesotho HL P3 Memo",
+      "relativePath": "languages/sesotho/Sesotho HL P3 Memo.pdf",
+      "bytes": 515198
+    },
+    {
+      "title": "Sesotho SAL P1",
+      "relativePath": "languages/sesotho/Sesotho SAL P1.pdf",
+      "bytes": 2566992
+    },
+    {
+      "title": "Sesotho SAL P1 Memo",
+      "relativePath": "languages/sesotho/Sesotho SAL P1 Memo.pdf",
+      "bytes": 443012
+    },
+    {
+      "title": "Sesotho SAL P2",
+      "relativePath": "languages/sesotho/Sesotho SAL P2.pdf",
+      "bytes": 340024
+    },
+    {
+      "title": "Sesotho SAL P2 Memo",
+      "relativePath": "languages/sesotho/Sesotho SAL P2 Memo.pdf",
+      "bytes": 540948
+    },
+    {
+      "title": "Sesotho SAL P3",
+      "relativePath": "languages/sesotho/Sesotho SAL P3.pdf",
+      "bytes": 2512607
+    },
+    {
+      "title": "Sesotho SAL P3 Memo",
+      "relativePath": "languages/sesotho/Sesotho SAL P3 Memo.pdf",
+      "bytes": 256287
+    },
+    {
+      "title": "Siswati FAL P1",
+      "relativePath": "languages/siswati/Siswati FAL P1.pdf",
+      "bytes": 1424574
+    },
+    {
+      "title": "Siswati FAL P1 memo",
+      "relativePath": "languages/siswati/Siswati FAL P1 memo.pdf",
+      "bytes": 440338
+    },
+    {
+      "title": "Siswati FAL P2",
+      "relativePath": "languages/siswati/Siswati FAL P2.pdf",
+      "bytes": 565785
+    },
+    {
+      "title": "Siswati FAL P2 memo",
+      "relativePath": "languages/siswati/Siswati FAL P2 memo.pdf",
+      "bytes": 503629
+    },
+    {
+      "title": "Siswati FAL P3",
+      "relativePath": "languages/siswati/Siswati FAL P3.pdf",
+      "bytes": 687544
+    },
+    {
+      "title": "Siswati FAL P3 memo",
+      "relativePath": "languages/siswati/Siswati FAL P3 memo.pdf",
+      "bytes": 503334
+    },
+    {
+      "title": "Siswati HL P1",
+      "relativePath": "languages/siswati/Siswati HL P1.pdf",
+      "bytes": 1444371
+    },
+    {
+      "title": "Siswati HL P1 memo",
+      "relativePath": "languages/siswati/Siswati HL P1 memo.pdf",
+      "bytes": 448802
+    },
+    {
+      "title": "Siswati HL P2",
+      "relativePath": "languages/siswati/Siswati HL P2.pdf",
+      "bytes": 635265
+    },
+    {
+      "title": "Siswati HL P2 memo",
+      "relativePath": "languages/siswati/Siswati HL P2 memo.pdf",
+      "bytes": 613030
+    },
+    {
+      "title": "Siswati HL P3",
+      "relativePath": "languages/siswati/Siswati HL P3.pdf",
+      "bytes": 1106697
+    },
+    {
+      "title": "Siswati HL P3 memo",
+      "relativePath": "languages/siswati/Siswati HL P3 memo.pdf",
+      "bytes": 576444
+    },
+    {
+      "title": "Tshivenda FAL P1",
+      "relativePath": "languages/tshivenda/Tshivenda FAL P1.pdf",
+      "bytes": 1227129
+    },
+    {
+      "title": "Tshivenda FAL P1 memo",
+      "relativePath": "languages/tshivenda/Tshivenda FAL P1 memo.pdf",
+      "bytes": 513222
+    },
+    {
+      "title": "Tshivenda FAL P2",
+      "relativePath": "languages/tshivenda/Tshivenda FAL P2.pdf",
+      "bytes": 387803
+    },
+    {
+      "title": "Tshivenda FAL P2 memo",
+      "relativePath": "languages/tshivenda/Tshivenda FAL P2 memo.pdf",
+      "bytes": 508450
+    },
+    {
+      "title": "Tshivenda FAL P3",
+      "relativePath": "languages/tshivenda/Tshivenda FAL P3.pdf",
+      "bytes": 2536158
+    },
+    {
+      "title": "Tshivenda FAL P3 memo",
+      "relativePath": "languages/tshivenda/Tshivenda FAL P3 memo.pdf",
+      "bytes": 582303
+    },
+    {
+      "title": "Tshivenda HL P1",
+      "relativePath": "languages/tshivenda/Tshivenda HL P1.pdf",
+      "bytes": 684413
+    },
+    {
+      "title": "Tshivenda HL P1 Memo",
+      "relativePath": "languages/tshivenda/Tshivenda HL P1 Memo.pdf",
+      "bytes": 428504
+    },
+    {
+      "title": "Tshivenda HL P2",
+      "relativePath": "languages/tshivenda/Tshivenda HL P2.pdf",
+      "bytes": 666214
+    },
+    {
+      "title": "Tshivenda HL P2 Memo",
+      "relativePath": "languages/tshivenda/Tshivenda HL P2 Memo.pdf",
+      "bytes": 732661
+    },
+    {
+      "title": "Tshivenda HL P3",
+      "relativePath": "languages/tshivenda/Tshivenda HL P3.pdf",
+      "bytes": 1167478
+    },
+    {
+      "title": "Tshivenda HL P3 memo",
+      "relativePath": "languages/tshivenda/Tshivenda HL P3 memo.pdf",
+      "bytes": 602314
+    },
+    {
+      "title": "Xitsonga FAL P1",
+      "relativePath": "languages/xitsonga/Xitsonga FAL P1.pdf",
+      "bytes": 1497713
+    },
+    {
+      "title": "Xitsonga FAL P1 memo",
+      "relativePath": "languages/xitsonga/Xitsonga FAL P1 memo.pdf",
+      "bytes": 260191
+    },
+    {
+      "title": "Xitsonga FAL P2",
+      "relativePath": "languages/xitsonga/Xitsonga FAL P2.pdf",
+      "bytes": 717995
+    },
+    {
+      "title": "Xitsonga FAL P2 memo",
+      "relativePath": "languages/xitsonga/Xitsonga FAL P2 memo.pdf",
+      "bytes": 682208
+    },
+    {
+      "title": "Xitsonga FAL P3",
+      "relativePath": "languages/xitsonga/Xitsonga FAL P3.pdf",
+      "bytes": 958872
+    },
+    {
+      "title": "Xitsonga FAL P3 memo",
+      "relativePath": "languages/xitsonga/Xitsonga FAL P3 memo.pdf",
+      "bytes": 556062
+    },
+    {
+      "title": "Xitsonga HL P1",
+      "relativePath": "languages/xitsonga/Xitsonga HL P1.pdf",
+      "bytes": 938747
+    },
+    {
+      "title": "Xitsonga HL P1 Memo",
+      "relativePath": "languages/xitsonga/Xitsonga HL P1 Memo.pdf",
+      "bytes": 489935
+    },
+    {
+      "title": "Xitsonga HL P2",
+      "relativePath": "languages/xitsonga/Xitsonga HL P2.pdf",
+      "bytes": 776227
+    },
+    {
+      "title": "Xitsonga HL P2 Memo",
+      "relativePath": "languages/xitsonga/Xitsonga HL P2 Memo.pdf",
+      "bytes": 740866
+    },
+    {
+      "title": "Xitsonga HL P3",
+      "relativePath": "languages/xitsonga/Xitsonga HL P3.pdf",
+      "bytes": 3030157
+    },
+    {
+      "title": "Xitsonga HL P3 Memo",
+      "relativePath": "languages/xitsonga/Xitsonga HL P3 Memo.pdf",
+      "bytes": 489625
+    },
+    {
+      "title": "Memo 1 (Afrikaans)",
+      "relativePath": "non-languages/accounting/Memo 1 (Afrikaans).pdf",
+      "bytes": 322923
+    },
+    {
+      "title": "Memo 1 (English)",
+      "relativePath": "non-languages/accounting/Memo 1 (English).pdf",
+      "bytes": 312542
+    },
+    {
+      "title": "Memo 2 (Afrikaans)",
+      "relativePath": "non-languages/accounting/Memo 2 (Afrikaans).pdf",
+      "bytes": 376502
+    },
+    {
+      "title": "Memo 2 (English)",
+      "relativePath": "non-languages/accounting/Memo 2 (English).pdf",
+      "bytes": 334167
+    },
+    {
+      "title": "Paper 1 (Afrikaans)",
+      "relativePath": "non-languages/accounting/Paper 1 (Afrikaans).pdf",
+      "bytes": 555004
+    },
+    {
+      "title": "Paper 1 (English)",
+      "relativePath": "non-languages/accounting/Paper 1 (English).pdf",
+      "bytes": 510674
+    },
+    {
+      "title": "Paper 1 Answer Book (Afrikaans)",
+      "relativePath": "non-languages/accounting/Paper 1 Answer Book (Afrikaans).pdf",
+      "bytes": 232204
+    },
+    {
+      "title": "Paper 1 Answer Book (English)",
+      "relativePath": "non-languages/accounting/Paper 1 Answer Book (English).pdf",
+      "bytes": 234694
+    },
+    {
+      "title": "Paper 2 (Afrikaans)",
+      "relativePath": "non-languages/accounting/Paper 2 (Afrikaans).pdf",
+      "bytes": 576735
+    },
+    {
+      "title": "Paper 2 (English)",
+      "relativePath": "non-languages/accounting/Paper 2 (English).pdf",
+      "bytes": 548933
+    },
+    {
+      "title": "Paper 2 Answerbook (Afrikaans)",
+      "relativePath": "non-languages/accounting/Paper 2 Answerbook (Afrikaans).pdf",
+      "bytes": 269276
+    },
+    {
+      "title": "Paper 2 Answerbook (English)",
+      "relativePath": "non-languages/accounting/Paper 2 Answerbook (English).pdf",
+      "bytes": 288811
+    },
+    {
+      "title": "Memo 1 (Afrikaans)",
+      "relativePath": "non-languages/agricultural-management-practices/Memo 1 (Afrikaans).pdf",
+      "bytes": 544183
+    },
+    {
+      "title": "Memo 1 (English)",
+      "relativePath": "non-languages/agricultural-management-practices/Memo 1 (English).pdf",
+      "bytes": 528281
+    },
+    {
+      "title": "Paper 1 (Afrikaans)",
+      "relativePath": "non-languages/agricultural-management-practices/Paper 1 (Afrikaans).pdf",
+      "bytes": 1433980
+    },
+    {
+      "title": "Paper 1 (English)",
+      "relativePath": "non-languages/agricultural-management-practices/Paper 1 (English).pdf",
+      "bytes": 1411417
+    },
+    {
+      "title": "Memo 1 (Afrikaans)",
+      "relativePath": "non-languages/agricultural-sciences/Memo 1 (Afrikaans).pdf",
+      "bytes": 705517
+    },
+    {
+      "title": "Memo 1 (English)",
+      "relativePath": "non-languages/agricultural-sciences/Memo 1 (English).pdf",
+      "bytes": 727369
+    },
+    {
+      "title": "Memo 2 (Afrikaans)",
+      "relativePath": "non-languages/agricultural-sciences/Memo 2 (Afrikaans).pdf",
+      "bytes": 673959
+    },
+    {
+      "title": "Memo 2 (English)",
+      "relativePath": "non-languages/agricultural-sciences/Memo 2 (English).pdf",
+      "bytes": 677555
+    },
+    {
+      "title": "Paper 1 (Afrikaans)",
+      "relativePath": "non-languages/agricultural-sciences/Paper 1 (Afrikaans).pdf",
+      "bytes": 1153441
+    },
+    {
+      "title": "Paper 1 (English)",
+      "relativePath": "non-languages/agricultural-sciences/Paper 1 (English).pdf",
+      "bytes": 1181028
+    },
+    {
+      "title": "Paper 2 (Afrikaans)",
+      "relativePath": "non-languages/agricultural-sciences/Paper 2 (Afrikaans).pdf",
+      "bytes": 1413166
+    },
+    {
+      "title": "Paper 2 (English)",
+      "relativePath": "non-languages/agricultural-sciences/Paper 2 (English).pdf",
+      "bytes": 1338833
+    },
+    {
+      "title": "Memo 1 (Afrikaans)",
+      "relativePath": "non-languages/agricultural-technology/Memo 1 (Afrikaans).pdf",
+      "bytes": 531524
+    },
+    {
+      "title": "Memo 1 (English)",
+      "relativePath": "non-languages/agricultural-technology/Memo 1 (English).pdf",
+      "bytes": 535234
+    },
+    {
+      "title": "Paper 1 (Afrikaans)",
+      "relativePath": "non-languages/agricultural-technology/Paper 1 (Afrikaans).pdf",
+      "bytes": 1508454
+    },
+    {
+      "title": "Paper 1 (English)",
+      "relativePath": "non-languages/agricultural-technology/Paper 1 (English).pdf",
+      "bytes": 1504313
+    },
+    {
+      "title": "Memo 1 (Afrikaans)",
+      "relativePath": "non-languages/business-studies/Memo 1 (Afrikaans).pdf",
+      "bytes": 676581
+    },
+    {
+      "title": "Memo 1 (English)",
+      "relativePath": "non-languages/business-studies/Memo 1 (English).pdf",
+      "bytes": 690732
+    },
+    {
+      "title": "Memo 2 (Afrikaans)",
+      "relativePath": "non-languages/business-studies/Memo 2 (Afrikaans).pdf",
+      "bytes": 711462
+    },
+    {
+      "title": "Memo 2 (English)",
+      "relativePath": "non-languages/business-studies/Memo 2 (English).pdf",
+      "bytes": 764135
+    },
+    {
+      "title": "Paper 1 (Afrikaans)",
+      "relativePath": "non-languages/business-studies/Paper 1 (Afrikaans).pdf",
+      "bytes": 468930
+    },
+    {
+      "title": "Paper 1 (English)",
+      "relativePath": "non-languages/business-studies/Paper 1 (English).pdf",
+      "bytes": 468680
+    },
+    {
+      "title": "Paper 2 (Afrikaans)",
+      "relativePath": "non-languages/business-studies/Paper 2 (Afrikaans).pdf",
+      "bytes": 484512
+    },
+    {
+      "title": "Paper 2 (English)",
+      "relativePath": "non-languages/business-studies/Paper 2 (English).pdf",
+      "bytes": 488222
+    },
+    {
+      "title": "Civil Services Paper 1 (English)",
+      "relativePath": "non-languages/civil-technology/Civil Services Paper 1 (English).pdf",
+      "bytes": 927934
+    },
+    {
+      "title": "Woodworking Memo 1 (Afrikaans)",
+      "relativePath": "non-languages/civil-technology/Woodworking Memo 1 (Afrikaans).pdf",
+      "bytes": 461308
+    },
+    {
+      "title": "Woodworking Memo 1 (English)",
+      "relativePath": "non-languages/civil-technology/Woodworking Memo 1 (English).pdf",
+      "bytes": 440293
+    },
+    {
+      "title": "Woodworking Paper 1 (Afrikaans)",
+      "relativePath": "non-languages/civil-technology/Woodworking Paper 1 (Afrikaans).pdf",
+      "bytes": 1090763
+    },
+    {
+      "title": "Civil Services Memo 1 (Afrikaans)",
+      "relativePath": "non-languages/civil-technology/Civil Services Memo 1 (Afrikaans).pdf",
+      "bytes": 330631
+    },
+    {
+      "title": "Civil Services Memo 1 (English)",
+      "relativePath": "non-languages/civil-technology/Civil Services Memo 1 (English).pdf",
+      "bytes": 315003
+    },
+    {
+      "title": "Civil Services Paper 1 (Afrikaans)",
+      "relativePath": "non-languages/civil-technology/Civil Services Paper 1 (Afrikaans).pdf",
+      "bytes": 964793
+    },
+    {
+      "title": "Construction Memo 1 (Afrikaans)",
+      "relativePath": "non-languages/civil-technology/Construction Memo 1 (Afrikaans).pdf",
+      "bytes": 345708
+    },
+    {
+      "title": "Construction Memo 1 (English)",
+      "relativePath": "non-languages/civil-technology/Construction Memo 1 (English).pdf",
+      "bytes": 397811
+    },
+    {
+      "title": "Construction Paper 1 (Afrikaans)",
+      "relativePath": "non-languages/civil-technology/Construction Paper 1 (Afrikaans).pdf",
+      "bytes": 906850
+    },
+    {
+      "title": "Construction Paper 1 (English)",
+      "relativePath": "non-languages/civil-technology/Construction Paper 1 (English).pdf",
+      "bytes": 881060
+    },
+    {
+      "title": "Woodworking Paper 1 (English)",
+      "relativePath": "non-languages/civil-technology/Woodworking Paper 1 (English).pdf",
+      "bytes": 1065230
+    },
+    {
+      "title": "Data Files (MS Office)",
+      "relativePath": "non-languages/computer-application-technology/Data Files (MS Office).pdf",
+      "bytes": 2218234
+    },
+    {
+      "title": "Memo 1 (Afrikaans)",
+      "relativePath": "non-languages/computer-application-technology/Memo 1 (Afrikaans).pdf",
+      "bytes": 695221
+    },
+    {
+      "title": "Memo 1 (English)",
+      "relativePath": "non-languages/computer-application-technology/Memo 1 (English).pdf",
+      "bytes": 674615
+    },
+    {
+      "title": "Memo 2 (Afrikaans)",
+      "relativePath": "non-languages/computer-application-technology/Memo 2 (Afrikaans).pdf",
+      "bytes": 625837
+    },
+    {
+      "title": "Memo 2 (English)",
+      "relativePath": "non-languages/computer-application-technology/Memo 2 (English).pdf",
+      "bytes": 639117
+    },
+    {
+      "title": "Paper 1 (Afrikaans)",
+      "relativePath": "non-languages/computer-application-technology/Paper 1 (Afrikaans).pdf",
+      "bytes": 1354446
+    },
+    {
+      "title": "Paper 1 (English)",
+      "relativePath": "non-languages/computer-application-technology/Paper 1 (English).pdf",
+      "bytes": 1324056
+    },
+    {
+      "title": "Paper 2 (Afrikaans)",
+      "relativePath": "non-languages/computer-application-technology/Paper 2 (Afrikaans).pdf",
+      "bytes": 978605
+    },
+    {
+      "title": "Paper 2 (English)",
+      "relativePath": "non-languages/computer-application-technology/Paper 2 (English).pdf",
+      "bytes": 964207
+    },
+    {
+      "title": "Memo 1 (Afrikaans)",
+      "relativePath": "non-languages/consumer-studies/Memo 1 (Afrikaans).pdf",
+      "bytes": 579402
+    },
+    {
+      "title": "Memo 1 (English)",
+      "relativePath": "non-languages/consumer-studies/Memo 1 (English).pdf",
+      "bytes": 598679
+    },
+    {
+      "title": "Paper 1 (Afrikaans)",
+      "relativePath": "non-languages/consumer-studies/Paper 1 (Afrikaans).pdf",
+      "bytes": 1096587
+    },
+    {
+      "title": "Paper 1 (English)",
+      "relativePath": "non-languages/consumer-studies/Paper 1 (English).pdf",
+      "bytes": 838321
+    },
+    {
+      "title": "Memo 1 (Afrikaans)",
+      "relativePath": "non-languages/dance-studies/Memo 1 (Afrikaans).pdf",
+      "bytes": 882666
+    },
+    {
+      "title": "Memo 1 (English)",
+      "relativePath": "non-languages/dance-studies/Memo 1 (English).pdf",
+      "bytes": 934971
+    },
+    {
+      "title": "Paper 1 (Afrikaans)",
+      "relativePath": "non-languages/dance-studies/Paper 1 (Afrikaans).pdf",
+      "bytes": 752274
+    },
+    {
+      "title": "Paper 1 (English)",
+      "relativePath": "non-languages/dance-studies/Paper 1 (English).pdf",
+      "bytes": 862663
+    },
+    {
+      "title": "Memo 1 (Afrikaans)",
+      "relativePath": "non-languages/design/Memo 1 (Afrikaans).pdf",
+      "bytes": 2860322
+    },
+    {
+      "title": "Memo 1 (English)",
+      "relativePath": "non-languages/design/Memo 1 (English).pdf",
+      "bytes": 3109164
+    },
+    {
+      "title": "Paper 1 (Afrikaans)",
+      "relativePath": "non-languages/design/Paper 1 (Afrikaans).pdf",
+      "bytes": 1727856
+    },
+    {
+      "title": "Paper 1 (English)",
+      "relativePath": "non-languages/design/Paper 1 (English).pdf",
+      "bytes": 1723212
+    },
+    {
+      "title": "Memo 1 (Afrikaans)",
+      "relativePath": "non-languages/dramatic-arts/Memo 1 (Afrikaans).pdf",
+      "bytes": 808976
+    },
+    {
+      "title": "Memo 1 (English)",
+      "relativePath": "non-languages/dramatic-arts/Memo 1 (English).pdf",
+      "bytes": 772981
+    },
+    {
+      "title": "Paper 1 (Afrikaans)",
+      "relativePath": "non-languages/dramatic-arts/Paper 1 (Afrikaans).pdf",
+      "bytes": 1015223
+    },
+    {
+      "title": "Paper 1 (English)",
+      "relativePath": "non-languages/dramatic-arts/Paper 1 (English).pdf",
+      "bytes": 1046531
+    },
+    {
+      "title": "Memo 1 (Afrikaans)",
+      "relativePath": "non-languages/economics/Memo 1 (Afrikaans).pdf",
+      "bytes": 393809
+    },
+    {
+      "title": "Memo 1 (English)",
+      "relativePath": "non-languages/economics/Memo 1 (English).pdf",
+      "bytes": 461137
+    },
+    {
+      "title": "Memo 2 (Afrikaans)",
+      "relativePath": "non-languages/economics/Memo 2 (Afrikaans).pdf",
+      "bytes": 617829
+    },
+    {
+      "title": "Memo 2 (English)",
+      "relativePath": "non-languages/economics/Memo 2 (English).pdf",
+      "bytes": 587386
+    },
+    {
+      "title": "Paper 1 (Afrikaans)",
+      "relativePath": "non-languages/economics/Paper 1 (Afrikaans).pdf",
+      "bytes": 430061
+    },
+    {
+      "title": "Paper 1 (English)",
+      "relativePath": "non-languages/economics/Paper 1 (English).pdf",
+      "bytes": 438079
+    },
+    {
+      "title": "Paper 2 (Afrikaans)",
+      "relativePath": "non-languages/economics/Paper 2 (Afrikaans).pdf",
+      "bytes": 859023
+    },
+    {
+      "title": "Paper 2 (English)",
+      "relativePath": "non-languages/economics/Paper 2 (English).pdf",
+      "bytes": 849970
+    },
+    {
+      "title": "Digital Electronics Memo 1 (Afrikaans)",
+      "relativePath": "non-languages/electrical-technology/Digital Electronics Memo 1 (Afrikaans).pdf",
+      "bytes": 725457
+    },
+    {
+      "title": "Digital Electronics Memo 1 (English)",
+      "relativePath": "non-languages/electrical-technology/Digital Electronics Memo 1 (English).pdf",
+      "bytes": 730233
+    },
+    {
+      "title": "Digital Electronics Paper 1 (Afrikaans)",
+      "relativePath": "non-languages/electrical-technology/Digital Electronics Paper 1 (Afrikaans).pdf",
+      "bytes": 849047
+    },
+    {
+      "title": "Digital Electronics Paper 1 (English)",
+      "relativePath": "non-languages/electrical-technology/Digital Electronics Paper 1 (English).pdf",
+      "bytes": 820204
+    },
+    {
+      "title": "Electronics Memo 1 (Afrikaans)",
+      "relativePath": "non-languages/electrical-technology/Electronics Memo 1 (Afrikaans).pdf",
+      "bytes": 673395
+    },
+    {
+      "title": "Electronics Memo 1 (English)",
+      "relativePath": "non-languages/electrical-technology/Electronics Memo 1 (English).pdf",
+      "bytes": 677036
+    },
+    {
+      "title": "Electronics Paper 1 (Afrikaans)",
+      "relativePath": "non-languages/electrical-technology/Electronics Paper 1 (Afrikaans).pdf",
+      "bytes": 867037
+    },
+    {
+      "title": "Electronics Paper 1 (English)",
+      "relativePath": "non-languages/electrical-technology/Electronics Paper 1 (English).pdf",
+      "bytes": 856621
+    },
+    {
+      "title": "Power Systems Memo 1 (Afrikaans)",
+      "relativePath": "non-languages/electrical-technology/Power Systems Memo 1 (Afrikaans).pdf",
+      "bytes": 618243
+    },
+    {
+      "title": "Power Systems Memo 1 (English)",
+      "relativePath": "non-languages/electrical-technology/Power Systems Memo 1 (English).pdf",
+      "bytes": 621559
+    },
+    {
+      "title": "Power Systems Paper 1 (Afrikaans)",
+      "relativePath": "non-languages/electrical-technology/Power Systems Paper 1 (Afrikaans).pdf",
+      "bytes": 749184
+    },
+    {
+      "title": "Power Systems Paper 1 (English)",
+      "relativePath": "non-languages/electrical-technology/Power Systems Paper 1 (English).pdf",
+      "bytes": 710010
+    },
+    {
+      "title": "Memo 1 - Question 4 A3 (Afrikaans)",
+      "relativePath": "non-languages/engineering-graphic-and-design/Memo 1 - Question 4 A3 (Afrikaans).pdf",
+      "bytes": 808816
+    },
+    {
+      "title": "Memo 1 - Question 4 A3 (English)",
+      "relativePath": "non-languages/engineering-graphic-and-design/Memo 1 - Question 4 A3 (English).pdf",
+      "bytes": 817389
+    },
+    {
+      "title": "Memo 1 (Afrikaans)",
+      "relativePath": "non-languages/engineering-graphic-and-design/Memo 1 (Afrikaans).pdf",
+      "bytes": 2324416
+    },
+    {
+      "title": "Memo 1 (English)",
+      "relativePath": "non-languages/engineering-graphic-and-design/Memo 1 (English).pdf",
+      "bytes": 2309005
+    },
+    {
+      "title": "Memo 2 - Question 4 A3 (Afrikaans)",
+      "relativePath": "non-languages/engineering-graphic-and-design/Memo 2 - Question 4 A3 (Afrikaans).pdf",
+      "bytes": 672626
+    },
+    {
+      "title": "Memo 2 - Question 4 A3 (English)",
+      "relativePath": "non-languages/engineering-graphic-and-design/Memo 2 - Question 4 A3 (English).pdf",
+      "bytes": 672701
+    },
+    {
+      "title": "Memo 2 (Afrikaans)",
+      "relativePath": "non-languages/engineering-graphic-and-design/Memo 2 (Afrikaans).pdf",
+      "bytes": 4075567
+    },
+    {
+      "title": "Memo 2 (English)",
+      "relativePath": "non-languages/engineering-graphic-and-design/Memo 2 (English).pdf",
+      "bytes": 2195417
+    },
+    {
+      "title": "Paper 1 (Afrikaans)",
+      "relativePath": "non-languages/engineering-graphic-and-design/Paper 1 (Afrikaans).pdf",
+      "bytes": 4235400
+    },
+    {
+      "title": "Paper 1 (English)",
+      "relativePath": "non-languages/engineering-graphic-and-design/Paper 1 (English).pdf",
+      "bytes": 4157710
+    },
+    {
+      "title": "Paper 2 (Afrikaans)",
+      "relativePath": "non-languages/engineering-graphic-and-design/Paper 2 (Afrikaans).pdf",
+      "bytes": 4075567
+    },
+    {
+      "title": "Paper 2 (English)",
+      "relativePath": "non-languages/engineering-graphic-and-design/Paper 2 (English).pdf",
+      "bytes": 4009116
+    },
+    {
+      "title": "Memo 1 (Afrikaans)",
+      "relativePath": "non-languages/geography/Memo 1 (Afrikaans).pdf",
+      "bytes": 647441
+    },
+    {
+      "title": "Memo 1 (English)",
+      "relativePath": "non-languages/geography/Memo 1 (English).pdf",
+      "bytes": 632777
+    },
+    {
+      "title": "Memo 2 (Afrikaans)",
+      "relativePath": "non-languages/geography/Memo 2 (Afrikaans).pdf",
+      "bytes": 596518
+    },
+    {
+      "title": "Memo 2 (English)",
+      "relativePath": "non-languages/geography/Memo 2 (English).pdf",
+      "bytes": 621550
+    },
+    {
+      "title": "Paper 1 (Afrikaans)",
+      "relativePath": "non-languages/geography/Paper 1 (Afrikaans).pdf",
+      "bytes": 965218
+    },
+    {
+      "title": "Paper 1 (English)",
+      "relativePath": "non-languages/geography/Paper 1 (English).pdf",
+      "bytes": 970799
+    },
+    {
+      "title": "Paper 2 (Afrikaans)",
+      "relativePath": "non-languages/geography/Paper 2 (Afrikaans).pdf",
+      "bytes": 1138144
+    },
+    {
+      "title": "Paper 2 (English)",
+      "relativePath": "non-languages/geography/Paper 2 (English).pdf",
+      "bytes": 1005522
+    },
+    {
+      "title": "Memo 1 (Afrikaans)",
+      "relativePath": "non-languages/history/Memo 1 (Afrikaans).pdf",
+      "bytes": 477319
+    },
+    {
+      "title": "Memo 1 (English)",
+      "relativePath": "non-languages/history/Memo 1 (English).pdf",
+      "bytes": 469196
+    },
+    {
+      "title": "Memo 2 (Afrikaans)",
+      "relativePath": "non-languages/history/Memo 2 (Afrikaans).pdf",
+      "bytes": 437382
+    },
+    {
+      "title": "Memo 2 (English)",
+      "relativePath": "non-languages/history/Memo 2 (English).pdf",
+      "bytes": 434830
+    },
+    {
+      "title": "Paper 1 (Afrikaans)",
+      "relativePath": "non-languages/history/Paper 1 (Afrikaans).pdf",
+      "bytes": 275394
+    },
+    {
+      "title": "Paper 1 (English)",
+      "relativePath": "non-languages/history/Paper 1 (English).pdf",
+      "bytes": 238268
+    },
+    {
+      "title": "Paper 1 Addendum (Afrikaans)",
+      "relativePath": "non-languages/history/Paper 1 Addendum (Afrikaans).pdf",
+      "bytes": 614596
+    },
+    {
+      "title": "Paper 1 Addendum (English)",
+      "relativePath": "non-languages/history/Paper 1 Addendum (English).pdf",
+      "bytes": 605302
+    },
+    {
+      "title": "Paper 2 (Afrikaans)",
+      "relativePath": "non-languages/history/Paper 2 (Afrikaans).pdf",
+      "bytes": 278063
+    },
+    {
+      "title": "Paper 2 (English)",
+      "relativePath": "non-languages/history/Paper 2 (English).pdf",
+      "bytes": 241173
+    },
+    {
+      "title": "Paper 2 Addendum (Afrikaans)",
+      "relativePath": "non-languages/history/Paper 2 Addendum (Afrikaans).pdf",
+      "bytes": 901983
+    },
+    {
+      "title": "Paper 2 Addendum (English)",
+      "relativePath": "non-languages/history/Paper 2 Addendum (English).pdf",
+      "bytes": 893430
+    },
+    {
+      "title": "Memo 1 (Afrikaans)",
+      "relativePath": "non-languages/hospitality-studies/Memo 1 (Afrikaans).pdf",
+      "bytes": 698419
+    },
+    {
+      "title": "Memo 1 (English)",
+      "relativePath": "non-languages/hospitality-studies/Memo 1 (English).pdf",
+      "bytes": 573861
+    },
+    {
+      "title": "Paper 1 (Afrikaans)",
+      "relativePath": "non-languages/hospitality-studies/Paper 1 (Afrikaans).pdf",
+      "bytes": 3391717
+    },
+    {
+      "title": "Paper 1 (English)",
+      "relativePath": "non-languages/hospitality-studies/Paper 1 (English).pdf",
+      "bytes": 3359084
+    },
+    {
+      "title": "Paper 1 (English)",
+      "relativePath": "non-languages/visual-arts/Paper 1 (English).pdf",
+      "bytes": 3030897
+    },
+    {
+      "title": "Paper 1 (Afrikaans)",
+      "relativePath": "non-languages/visual-arts/Paper 1 (Afrikaans).pdf",
+      "bytes": 3051450
+    },
+    {
+      "title": "Memo 1 (English)",
+      "relativePath": "non-languages/visual-arts/Memo 1 (English).pdf",
+      "bytes": 570151
+    },
+    {
+      "title": "Memo 1 (Afrikaans)",
+      "relativePath": "non-languages/visual-arts/Memo 1 (Afrikaans).pdf",
+      "bytes": 582940
+    }
+  ]
+}
