@@ -28,6 +28,7 @@ import { MemoGuidancePanel } from "@/components/memo-guidance-panel";
 import { GeneratorButton } from "@/components/platform-generators";
 import {
   fetchQuestionBreakdown,
+  getApiBaseUrl,
   postTutorChat,
   submitAttempt,
   type AttemptResultPayload,
@@ -693,35 +694,43 @@ function QuizPhase({
       {/* Two-pane body */}
       <div className="flex min-h-0 flex-1 overflow-hidden">
 
-        {/* LEFT: Full exam question */}
+        {/* LEFT: Official exam paper PDF (or reconstructed text fallback) */}
         <section
           className={`${mobilePane === "paper" ? "flex" : "hidden lg:flex"} min-w-0 flex-1 flex-col overflow-hidden border-r border-[var(--border)]`}
           aria-label="Full exam question"
         >
-          <div className="min-h-0 flex-1 overflow-y-auto">
-            <div className="mx-auto max-w-2xl px-5 py-6 sm:px-8">
-              {parent ? (
-                <>
-                  <div className="mb-4 flex items-center gap-2">
-                    <span className="text-xs font-bold uppercase tracking-wider text-[var(--accent)]">{parent.topic}</span>
-                    {parent.marks != null && (
-                      <span className="rounded-full border border-[var(--border)] px-2 py-0.5 text-[11px] font-medium text-[var(--muted)]">{parent.marks} marks</span>
-                    )}
-                  </div>
+          {paper.sourcePaperPdfUrl ? (
+            <iframe
+              src={`${getApiBaseUrl()}${paper.sourcePaperPdfUrl}`}
+              className="min-h-0 flex-1 border-0"
+              title="Exam question paper"
+            />
+          ) : (
+            <div className="min-h-0 flex-1 overflow-y-auto">
+              <div className="mx-auto max-w-2xl px-5 py-6 sm:px-8">
+                {parent ? (
+                  <>
+                    <div className="mb-4 flex items-center gap-2">
+                      <span className="text-xs font-bold uppercase tracking-wider text-[var(--accent)]">{parent.topic}</span>
+                      {parent.marks != null && (
+                        <span className="rounded-full border border-[var(--border)] px-2 py-0.5 text-[11px] font-medium text-[var(--muted)]">{parent.marks} marks</span>
+                      )}
+                    </div>
+                    <div className="exam-desk-paper rounded-[1.5rem] p-5 sm:p-7">
+                      <ExamQuestionPrompt prompt={parent.prompt} />
+                    </div>
+                    <p className="mt-3 px-1 text-xs text-[var(--muted)]">
+                      Answer each sub-question in the panel on the right.
+                    </p>
+                  </>
+                ) : (
                   <div className="exam-desk-paper rounded-[1.5rem] p-5 sm:p-7">
-                    <ExamQuestionPrompt prompt={parent.prompt} />
+                    <ExamQuestionPrompt prompt={current.prompt} />
                   </div>
-                  <p className="mt-3 px-1 text-xs text-[var(--muted)]">
-                    Answer each sub-question in the panel on the right.
-                  </p>
-                </>
-              ) : (
-                <div className="exam-desk-paper rounded-[1.5rem] p-5 sm:p-7">
-                  <ExamQuestionPrompt prompt={current.prompt} />
-                </div>
-              )}
+                )}
+              </div>
             </div>
-          </div>
+          )}
         </section>
 
         {/* RIGHT: Sub-question + options + Kago */}
@@ -1199,59 +1208,67 @@ function ReviewPhase({
       {/* 2-pane */}
       <div className="flex min-h-0 flex-1 overflow-hidden">
 
-        {/* LEFT: Question read-only */}
+        {/* LEFT: Official exam paper PDF (or reconstructed text fallback) */}
         <section className={`${mobilePane === "question" ? "flex" : "hidden lg:flex"} min-w-0 flex-1 flex-col overflow-hidden border-r border-[var(--border)]`} aria-label="Question">
-          <div className="min-h-0 flex-1 overflow-y-auto">
-            <div className="mx-auto max-w-2xl px-5 py-6 sm:px-8">
+          {paper.sourcePaperPdfUrl ? (
+            <iframe
+              src={`${getApiBaseUrl()}${paper.sourcePaperPdfUrl}`}
+              className="min-h-0 flex-1 border-0"
+              title="Exam question paper"
+            />
+          ) : (
+            <div className="min-h-0 flex-1 overflow-y-auto">
+              <div className="mx-auto max-w-2xl px-5 py-6 sm:px-8">
 
-              {/* Answer comparison banner */}
-              <div className="mb-5 overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--card)]">
-                <div className="flex items-center gap-2.5 border-b border-[var(--border)] bg-[color-mix(in_oklab,var(--danger)_5%,var(--card))] px-4 py-2.5">
-                  <XCircle className="h-4 w-4 shrink-0 text-[var(--danger)]" aria-hidden />
-                  <p className="text-sm font-semibold text-[var(--foreground)]">Incorrect answer</p>
-                </div>
-                <div className="grid grid-cols-2 divide-x divide-[var(--border)]">
-                  <div className="px-4 py-3">
-                    <p className="mb-1 text-[10px] font-bold uppercase tracking-widest text-[var(--danger)]">You chose</p>
-                    <p className="font-bold uppercase text-[var(--foreground)]">{current.review.chosenOptionId ?? "—"}</p>
-                    {(() => { const o = current.question.options.find((x) => x.id === current.review.chosenOptionId); return o ? <MathContent content={o.text} className="mt-0.5 text-xs text-[var(--muted)]" /> : null; })()}
+                {/* Answer comparison banner */}
+                <div className="mb-5 overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--card)]">
+                  <div className="flex items-center gap-2.5 border-b border-[var(--border)] bg-[color-mix(in_oklab,var(--danger)_5%,var(--card))] px-4 py-2.5">
+                    <XCircle className="h-4 w-4 shrink-0 text-[var(--danger)]" aria-hidden />
+                    <p className="text-sm font-semibold text-[var(--foreground)]">Incorrect answer</p>
                   </div>
-                  <div className="px-4 py-3">
-                    <p className="mb-1 text-[10px] font-bold uppercase tracking-widest text-[var(--teal)]">Correct answer</p>
-                    <p className="font-bold uppercase text-[var(--teal)]">{current.review.correctOptionId ?? "—"}</p>
-                    {(() => { const o = current.question.options.find((x) => x.id === current.review.correctOptionId); return o ? <MathContent content={o.text} className="mt-0.5 text-xs text-[var(--muted)]" /> : null; })()}
+                  <div className="grid grid-cols-2 divide-x divide-[var(--border)]">
+                    <div className="px-4 py-3">
+                      <p className="mb-1 text-[10px] font-bold uppercase tracking-widest text-[var(--danger)]">You chose</p>
+                      <p className="font-bold uppercase text-[var(--foreground)]">{current.review.chosenOptionId ?? "—"}</p>
+                      {(() => { const o = current.question.options.find((x) => x.id === current.review.chosenOptionId); return o ? <MathContent content={o.text} className="mt-0.5 text-xs text-[var(--muted)]" /> : null; })()}
+                    </div>
+                    <div className="px-4 py-3">
+                      <p className="mb-1 text-[10px] font-bold uppercase tracking-widest text-[var(--teal)]">Correct answer</p>
+                      <p className="font-bold uppercase text-[var(--teal)]">{current.review.correctOptionId ?? "—"}</p>
+                      {(() => { const o = current.question.options.find((x) => x.id === current.review.correctOptionId); return o ? <MathContent content={o.text} className="mt-0.5 text-xs text-[var(--muted)]" /> : null; })()}
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              {/* Question prompt */}
-              <div className="exam-desk-paper rounded-[1.5rem] p-5 sm:p-7">
-                <ExamQuestionPrompt prompt={current.question.prompt} />
-              </div>
+                {/* Question prompt */}
+                <div className="exam-desk-paper rounded-[1.5rem] p-5 sm:p-7">
+                  <ExamQuestionPrompt prompt={current.question.prompt} />
+                </div>
 
-              {/* Options (read-only) */}
-              {current.question.options.length > 0 && (
-                <ul className="mt-5 space-y-2.5" role="list">
-                  {current.question.options.map((opt) => {
-                    const chosen = opt.id === current.review.chosenOptionId;
-                    const correct = opt.id === current.review.correctOptionId;
-                    return (
-                      <li key={opt.id}>
-                        <div className={`flex items-center gap-4 rounded-2xl border-2 px-5 py-3.5 ${correct ? "border-[var(--teal)]/60 bg-[var(--teal-muted)]" : chosen ? "border-[var(--danger)]/35 bg-[color-mix(in_oklab,var(--danger)_5%,var(--card))]" : "border-[var(--border)] bg-[var(--card)] opacity-50"}`}>
-                          <span className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border-2 text-xs font-bold uppercase ${correct ? "border-[var(--teal)] bg-[var(--teal)] text-white" : chosen ? "border-[var(--danger)] bg-[var(--danger)] text-white" : "border-[var(--border)] text-[var(--muted)]"}`}>
-                            {opt.id}
-                          </span>
-                          <MathContent content={opt.text} className="flex-1 text-sm" />
-                          {correct && <CheckCircle2 className="ml-auto h-4 w-4 shrink-0 text-[var(--teal)]" aria-hidden />}
-                          {chosen && !correct && <XCircle className="ml-auto h-4 w-4 shrink-0 text-[var(--danger)]" aria-hidden />}
-                        </div>
-                      </li>
-                    );
-                  })}
-                </ul>
-              )}
+                {/* Options (read-only) */}
+                {current.question.options.length > 0 && (
+                  <ul className="mt-5 space-y-2.5" role="list">
+                    {current.question.options.map((opt) => {
+                      const chosen = opt.id === current.review.chosenOptionId;
+                      const correct = opt.id === current.review.correctOptionId;
+                      return (
+                        <li key={opt.id}>
+                          <div className={`flex items-center gap-4 rounded-2xl border-2 px-5 py-3.5 ${correct ? "border-[var(--teal)]/60 bg-[var(--teal-muted)]" : chosen ? "border-[var(--danger)]/35 bg-[color-mix(in_oklab,var(--danger)_5%,var(--card))]" : "border-[var(--border)] bg-[var(--card)] opacity-50"}`}>
+                            <span className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border-2 text-xs font-bold uppercase ${correct ? "border-[var(--teal)] bg-[var(--teal)] text-white" : chosen ? "border-[var(--danger)] bg-[var(--danger)] text-white" : "border-[var(--border)] text-[var(--muted)]"}`}>
+                              {opt.id}
+                            </span>
+                            <MathContent content={opt.text} className="flex-1 text-sm" />
+                            {correct && <CheckCircle2 className="ml-auto h-4 w-4 shrink-0 text-[var(--teal)]" aria-hidden />}
+                            {chosen && !correct && <XCircle className="ml-auto h-4 w-4 shrink-0 text-[var(--danger)]" aria-hidden />}
+                          </div>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                )}
+              </div>
             </div>
-          </div>
+          )}
         </section>
 
         {/* RIGHT: Kago walkthrough + chat */}
