@@ -267,3 +267,84 @@ body {
     background: rgba(74, 157, 192, 0.18);
   }
 }
+
+/* KaTeX math rendering — scoped to question content */
+.math-content {
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  color: var(--foreground);
+}
+
+.math-content .katex {
+  font-size: 1em;
+}
+
+.math-content .katex-display {
+  margin: 0.75rem 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.math-content strong {
+  color: var(--foreground);
+  font-weight: 600;
+}
+
+/* Sub-question number pill styling */
+.math-content p {
+  margin-bottom: 0.625rem;
+}
+
+.math-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* Block code: strip inline-code style when nested inside pre */
+.math-content pre code {
+  background: transparent !important;
+  padding: 0 !important;
+  border-radius: 0;
+  font-size: inherit;
+}
+
+/* Tutor walkthrough — stage reveal animation */
+@keyframes stage-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.walkthrough-stage-enter {
+  animation: stage-in 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Kago avatar pulse on loading */
+@keyframes kago-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.08); }
+}
+
+.kago-thinking {
+  animation: kago-pulse 1.4s ease-in-out infinite;
+}
+
+/* Voice / TTS sound-wave bars */
+@keyframes sound-bar {
+  0%, 100% { transform: scaleY(0.25); }
+  50%       { transform: scaleY(1); }
+}
+
+.sound-bar {
+  display: inline-block;
+  width: 2px;
+  height: 12px;
+  border-radius: 1px;
+  background: currentColor;
+  transform-origin: center;
+  animation: sound-bar 0.65s ease-in-out infinite;
+}

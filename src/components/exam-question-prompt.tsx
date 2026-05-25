@@ -6,6 +6,7 @@ import {
   type ExcerptSection,
 } from "@/lib/exam-prompt-format";
 import { stripMemoFooter } from "@/lib/memo-format";
+import { MathContent } from "@/components/math-content";
 
 function SectionCard({ section, index }: { section: ExcerptSection; index: number }) {
   const base = "rounded-xl border p-4 text-sm leading-relaxed text-[var(--foreground)] sm:p-5";
@@ -37,6 +38,24 @@ type ExamQuestionPromptProps = {
 };
 
 export function ExamQuestionPrompt({ prompt }: ExamQuestionPromptProps) {
+  // Vision-extracted questions are prefixed with [latex]\n
+  if (prompt.startsWith("[latex]\n")) {
+    const content = prompt.slice("[latex]\n".length);
+    return (
+      <div className="space-y-3">
+        <div className="rounded-2xl border border-[var(--border)] bg-[var(--paper)] p-5 shadow-sm">
+          <p className="mb-4 text-xs font-semibold uppercase tracking-wide text-[var(--muted)]">
+            From the question paper
+          </p>
+          <MathContent content={content} />
+        </div>
+        <p className="px-1 text-xs text-[var(--muted)]">
+          Use the official PDF for diagrams, tables, and any figures not shown above.
+        </p>
+      </div>
+    );
+  }
+
   const parsed = parseExamPrompt(prompt);
 
   if (parsed.kind === "plain") {
@@ -44,9 +63,7 @@ export function ExamQuestionPrompt({ prompt }: ExamQuestionPromptProps) {
     const spaced = insertSubQuestionSpacing(plain.text);
     return (
       <div className="rounded-2xl border border-[var(--border)] bg-[var(--paper)] p-4 shadow-sm sm:p-5">
-        <p className="whitespace-pre-wrap break-words text-sm leading-relaxed text-[var(--foreground)]">
-          {spaced}
-        </p>
+        <MathContent content={spaced} className="text-sm" />
       </div>
     );
   }

@@ -189,10 +189,12 @@ export async function fetchQuestionBreakdown(
 
   const data = (await res.json()) as Record<string, unknown>;
   return {
-    context: String(data.context ?? ""),
-    method: String(data.method ?? ""),
-    workedSolution: String(data.workedSolution ?? ""),
-    finalAnswer: String(data.finalAnswer ?? ""),
+    personalizedFeedback: String(data.personalizedFeedback ?? ""),
+    frame: String(data.frame ?? ""),
+    recall: String(data.recall ?? ""),
+    plan: String(data.plan ?? ""),
+    solve: String(data.solve ?? ""),
+    review: String(data.review ?? ""),
     raw: String(data.raw ?? ""),
   };
 }

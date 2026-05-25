@@ -1,0 +1,34 @@
+{
+  "id": "2025-may-june-accounting-p1-en",
+  "subjectId": "accounting",
+  "subjectLabel": "Accounting",
+  "year": 2025,
+  "title": "NSC Accounting Paper 1 (English)",
+  "paperLabel": "Paper 1",
+  "durationMinutes": 180,
+  "topics": ["GAAP", "Financial statements"],
+  "sourcePaperPdfRelativePath": "exam-papers/2025-may-june/non-languages/accounting/Paper 1 (English).pdf",
+  "sourceMemoPdfRelativePath": "exam-papers/2025-may-june/non-languages/accounting/Memo 1 (English).pdf",
+  "questions": [
+    {
+      "id": "2025-may-june-accounting-p1-en-q1",
+      "sortOrder": 1,
+      "questionType": "mcq",
+      "topic": "General",
+      "difficulty": "moderate",
+      "prompt": "Example MCQ stem.",
+      "options": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctOptionId": "A",
+      "memoAnswer": "From the official memorandum.",
+      "markingNotes": null,
+      "marks": 2,
+      "explanation": null
+    }
+  ]
+}

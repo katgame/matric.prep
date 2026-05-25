@@ -16,6 +16,12 @@ public sealed class TutorChatOptions
     /// <summary>OpenAI API key; falls back to OPENAI_API_KEY when using openai provider.</summary>
     public string? OpenAiApiKey { get; set; }
 
+    /// <summary>
+    /// Base URL for the OpenAI-compatible endpoint. Defaults to https://api.openai.com/v1.
+    /// Override to point at a local vLLM server: http://localhost:8000/v1
+    /// </summary>
+    public string? OpenAiBaseUrl { get; set; }
+
     /// <summary>HTTP timeout for the LLM request (Ollama/OpenAI). Local models with long prompts often need several minutes.</summary>
     public int RequestTimeoutSeconds { get; set; } = 600;
 }

@@ -91,10 +91,12 @@ public record BreakdownRequest(
     [property: JsonPropertyName("studentAnswer")] string? StudentAnswer);
 
 public record BreakdownResponse(
-    string Context,
-    string Method,
-    string WorkedSolution,
-    string FinalAnswer,
+    string PersonalizedFeedback,
+    string Frame,
+    string Recall,
+    string Plan,
+    string Solve,
+    string Review,
     string Raw);
 
 public record QuestionTutorDto(

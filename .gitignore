@@ -55,3 +55,6 @@ server/**/obj/
 server/.vs/
 server/**/*.user
 
+# Claude Code local project settings (personal, not repo config)
+.claude/
+

@@ -1,24 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+MatricPrep is an exam-practice platform for South African matric learners.
+
+This repo contains:
+
+- A **Next.js** frontend (web)
+- A **.NET API** backed by **Postgres** (Docker)
 
 ## Getting Started
 
-First, run the development server:
+### Frontend (Next.js)
+
+Run the development server:
 
 ```bash
+cd c:\Code\mabusha\matricApp
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Backend (ASP.NET Core + Postgres in Docker)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+#### Tutor chat (OpenAI)
+
+Tutor chat uses **OpenAI** when enabled. Configure your API key via environment variable (recommended):
+
+```bash
+setx OPENAI_API_KEY "your-key-here"
+```
+
+Then restart your terminal (or set it for the current session) before starting the API.
+
+Start Postgres + API:
+
+```bash
+cd c:\Code\mabusha\matricApp
+docker compose up -d --build
+```
+
+API runs at `http://localhost:8080`.
+
+Useful endpoints:
+
+- `GET /health`
+- `GET /api/subjects`
+- `GET /api/papers`
+- `GET /api/papers/{paperId}`
+- `POST /api/attempts`
+- `POST /api/papers/{paperId}/questions/{questionId}/tutor-chat`
+
+Stop containers:
+
+```bash
+docker compose down
+```
+
+Note: the frontend currently uses `next/font` to load Google fonts.
 
 ## Learn More
 

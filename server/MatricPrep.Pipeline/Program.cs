@@ -1,6 +1,7 @@
 using System.Net.Http.Json;
 using System.Text;
 using System.Text.Json;
+using System.Text.RegularExpressions;
 using MatricPrep.Contracts;
 using MatricPrep.Ingestion;
 
@@ -29,6 +30,8 @@ internal static class Program
                 "import" => await ImportCommand(opts),
                 "run" => await RunCommand(opts),
                 "batch" => await BatchCommand(opts),
+                "vision" => await VisionCommand(opts),
+                "mcq" => await McqCommand(opts),
                 _ => Unknown(cmd)
             };
         }
@@ -75,6 +78,8 @@ internal static class Program
               --ollama-url <url>    Ollama base URL, default http://localhost:11434
               --timeout-seconds <n> LLM request timeout, default 600 (increase for slower models)
               --openai-key <key>    optional for provider openai; else OPENAI_API_KEY
+              --openai-url <url>    OpenAI-compatible base URL (default: https://api.openai.com/v1)
+                                    Use http://localhost:8000/v1 for a local vLLM server
 
             import
               --file <paper.import.json>
@@ -89,6 +94,26 @@ internal static class Program
               --workers <n>         Parallelism for direct mode (default: 4)
               --max <n>             Process at most N pairs (direct mode)
               --api <base>          API base URL (default MATRICPREP_API or http://localhost:5179)
+
+            vision
+              Calls Claude vision API to extract LaTeX-formatted questions from scanned PDF papers.
+              --extract <file>       Extract bundle (from the extract command)
+              --api-key <key>        Anthropic API key (or ANTHROPIC_API_KEY env var)
+              --out <file>           Output paper.import.json (default)
+              --model <name>         Claude model (default: claude-opus-4-7)
+              --exam-root <dir>      Folder containing session subfolders
+              --paper-pdf <path>     Override paper PDF path directly
+              --timeout-seconds <n>  API timeout (default 180)
+
+            mcq
+              Split vision-extracted questions into per-sub-question MCQs using an LLM.
+              --import <paper.import.json>   Input file with [latex] prompts (from vision command)
+              --provider anthropic|openai    LLM provider (default: anthropic)
+              --api-key <key>                Anthropic API key (or ANTHROPIC_API_KEY env var)
+              --openai-key <key>             OpenAI API key (or OPENAI_API_KEY env var)
+              --out <file>                   Output file (default: <input>.mcq.json)
+              --model <name>                 Model name (default: claude-haiku-4-5-20251001 / gpt-4o-mini)
+              --timeout-seconds <n>          Per-question timeout (default 120)
 
             run
               Same flags as extract + generate + import; adds --api for import step.
@@ -219,6 +244,7 @@ internal static class Program
             Model = model,
             OpenAiApiKey = o.GetValueOrDefault("openai-key"),
             OllamaBaseUrl = o.GetValueOrDefault("ollama-url"),
+            OpenAiBaseUrl = o.GetValueOrDefault("openai-url"),
             TimeoutSeconds = int.TryParse(o.GetValueOrDefault("timeout-seconds"), out var t) ? Math.Clamp(t, 30, 3600) : 600
         };
     }
@@ -308,6 +334,7 @@ internal static class Program
             ["out"] = importJson,
             ["model"] = o.GetValueOrDefault("model"),
             ["openai-key"] = o.GetValueOrDefault("openai-key"),
+            ["openai-url"] = o.GetValueOrDefault("openai-url"),
             ["provider"] = o.GetValueOrDefault("provider"),
             ["ollama-url"] = o.GetValueOrDefault("ollama-url")
         };
@@ -394,5 +421,202 @@ internal static class Program
 
         Console.WriteLine($"Done. ok={ok} fail={fail}");
         return fail > 0 ? 1 : 0;
+    }
+
+    private static async Task<int> McqCommand(Dictionary<string, string?> o)
+    {
+        var importPath = o.GetValueOrDefault("import")
+            ?? throw new InvalidOperationException("--import required (paper.import.json with [latex] prompts).");
+        var provider = (o.GetValueOrDefault("provider") ?? McqGenerator.ProviderAnthropic).Trim().ToLowerInvariant();
+        string apiKey;
+        string defaultModel;
+        if (provider == McqGenerator.ProviderOpenAi)
+        {
+            apiKey = o.GetValueOrDefault("openai-key")
+                ?? Environment.GetEnvironmentVariable("OPENAI_API_KEY")
+                ?? throw new InvalidOperationException("--openai-key or OPENAI_API_KEY env var required for openai provider.");
+            defaultModel = McqGenerator.DefaultOpenAiModel;
+        }
+        else
+        {
+            apiKey = o.GetValueOrDefault("api-key")
+                ?? Environment.GetEnvironmentVariable("ANTHROPIC_API_KEY")
+                ?? throw new InvalidOperationException("--api-key or ANTHROPIC_API_KEY env var required.");
+            defaultModel = McqGenerator.DefaultModel;
+        }
+        var outPath = o.GetValueOrDefault("out")
+            ?? Path.Combine(
+                Path.GetDirectoryName(Path.GetFullPath(importPath))!,
+                Path.GetFileNameWithoutExtension(importPath) + ".mcq.json");
+        var model = o.GetValueOrDefault("model") ?? defaultModel;
+        var timeoutSec = int.TryParse(o.GetValueOrDefault("timeout-seconds"), out var ts) ? ts : 120;
+
+        Console.WriteLine($"MCQ generation: {Path.GetFullPath(importPath)} → {outPath}");
+
+        var rawBytes = await File.ReadAllBytesAsync(importPath);
+        var jsonStr = rawBytes.Length >= 3 && rawBytes[0] == 0xEF && rawBytes[1] == 0xBB && rawBytes[2] == 0xBF
+            ? Encoding.UTF8.GetString(rawBytes.AsSpan(3))
+            : Encoding.UTF8.GetString(rawBytes);
+
+        var dto = JsonSerializer.Deserialize<PaperImportDto>(jsonStr, new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        }) ?? throw new InvalidOperationException("Invalid paper.import.json.");
+
+        var newQuestions = new List<QuestionImportDto>();
+        var sortOrder = 0;
+
+        foreach (var q in dto.Questions.OrderBy(x => x.SortOrder))
+        {
+            if (!q.Prompt.StartsWith("[latex]\n", StringComparison.Ordinal))
+            {
+                newQuestions.Add(q with { SortOrder = ++sortOrder });
+                continue;
+            }
+
+            var latexContent = q.Prompt["[latex]\n".Length..];
+            Console.Write($"  Q{q.SortOrder} {q.Topic}... ");
+
+            try
+            {
+                var mcqs = await McqGenerator.GenerateForQuestionAsync(
+                    q.Topic, latexContent, apiKey, model, timeoutSec, provider);
+
+                if (mcqs.Count == 0)
+                {
+                    Console.WriteLine("0 MCQs — keeping as structured.");
+                    newQuestions.Add(q with { SortOrder = ++sortOrder });
+                    continue;
+                }
+
+                Console.WriteLine($"{mcqs.Count} MCQ(s)");
+
+                // Keep the parent as a "group" question — full question text shown alongside sub-questions
+                newQuestions.Add(q with { SortOrder = ++sortOrder, QuestionType = "group" });
+
+                foreach (var mcq in mcqs)
+                {
+                    var safeRef = Regex.Replace(mcq.SubRef, @"[^a-zA-Z0-9]", "_");
+                    newQuestions.Add(new QuestionImportDto(
+                        $"{q.Id}-{safeRef}",
+                        ++sortOrder,
+                        "mcq",
+                        q.Topic,
+                        q.Difficulty,
+                        mcq.Stem,
+                        mcq.Options.Select(opt => (object)new McqGenerator.McqOptionDto(opt.Id, opt.Text)).ToList(),
+                        mcq.CorrectOptionId,
+                        q.MemoAnswer,
+                        null,
+                        null,
+                        null));
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine($"FAILED ({ex.Message}) — keeping structured.");
+                newQuestions.Add(q with { SortOrder = ++sortOrder });
+            }
+        }
+
+        var enhanced = dto with { Questions = newQuestions };
+        var outJson = JsonSerializer.Serialize(enhanced, new JsonSerializerOptions
+        {
+            WriteIndented = true,
+            PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+        });
+        await File.WriteAllTextAsync(outPath, outJson, Encoding.UTF8);
+
+        var mcqCount = newQuestions.Count(q => q.QuestionType == "mcq");
+        Console.WriteLine($"Done. {mcqCount} MCQs from {dto.Questions.Count} source questions → {outPath}");
+        return 0;
+    }
+
+    private static async Task<int> VisionCommand(Dictionary<string, string?> o)
+    {
+        var extractPath = o.GetValueOrDefault("extract")
+            ?? throw new InvalidOperationException("--extract required (path to paper.extract.json).");
+        var apiKey = o.GetValueOrDefault("api-key")
+            ?? Environment.GetEnvironmentVariable("ANTHROPIC_API_KEY")
+            ?? throw new InvalidOperationException("--api-key or ANTHROPIC_API_KEY env var required.");
+        var outPath = o.GetValueOrDefault("out") ?? "paper.import.json";
+        var model = o.GetValueOrDefault("model") ?? VisionQuestionExtractor.DefaultModel;
+        var timeoutSec = int.TryParse(o.GetValueOrDefault("timeout-seconds"), out var t) ? t : 180;
+
+        Console.WriteLine($"Vision extraction: {Path.GetFullPath(extractPath)}");
+
+        var json = await File.ReadAllTextAsync(extractPath);
+        var bundle = JsonSerializer.Deserialize<ExtractBundle>(json, new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        }) ?? throw new InvalidOperationException("Invalid extract bundle JSON.");
+
+        // Resolve paper PDF absolute path
+        var examRoot = o.GetValueOrDefault("exam-root") ?? FindExamRoot() ?? Environment.CurrentDirectory;
+        var paperAbs = o.ContainsKey("paper-pdf")
+            ? o["paper-pdf"]!
+            : Path.Combine(examRoot, bundle.Session,
+                bundle.PaperRelativePath.Replace('/', Path.DirectorySeparatorChar));
+
+        if (!File.Exists(paperAbs))
+            throw new FileNotFoundException(
+                $"Paper PDF not found: {paperAbs}\n" +
+                "Pass --paper-pdf <path> to specify the path directly, or " +
+                "--exam-root <dir> if the exam-papers folder is not in the current directory.");
+
+        // Build deterministic DTO first (for IDs, memo content, metadata)
+        var dto = DeterministicPaperImportBuilder.Build(
+            bundle.Session,
+            bundle.SubjectFolder,
+            bundle.PaperNumber,
+            bundle.Language,
+            bundle.PaperRelativePath,
+            bundle.MemoRelativePath,
+            bundle.PaperText,
+            bundle.MemoText);
+
+        // Extract questions from the PDF via Claude vision
+        var visionQuestions = await VisionQuestionExtractor.ExtractAsync(
+            paperAbs, apiKey, model, timeoutSec);
+
+        // Merge: vision content → prompt + topic, deterministic memo stays in memoAnswer
+        var merged = dto.Questions.Select(q =>
+        {
+            var vq = visionQuestions.FirstOrDefault(v => v.Number == q.SortOrder);
+            if (vq == null)
+            {
+                Console.WriteLine($"  Warning: no vision content for Q{q.SortOrder} — keeping deterministic prompt.");
+                return q;
+            }
+            return q with
+            {
+                Prompt = $"[latex]\n{vq.LatexContent}",
+                Topic = vq.Topic,
+                Marks = vq.TotalMarks ?? q.Marks
+            };
+        }).ToList();
+
+        // Update paper-level topics from question topics
+        var topics = merged
+            .Select(mq => mq.Topic)
+            .Where(tp => !string.IsNullOrWhiteSpace(tp)
+                && !string.Equals(tp, "General", StringComparison.OrdinalIgnoreCase))
+            .Distinct(StringComparer.OrdinalIgnoreCase)
+            .Take(8)
+            .ToArray();
+        if (topics.Length == 0) topics = ["General"];
+
+        var enhanced = dto with { Topics = topics, Questions = merged };
+
+        var outJson = JsonSerializer.Serialize(enhanced, new JsonSerializerOptions
+        {
+            WriteIndented = true,
+            PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+        });
+        await File.WriteAllTextAsync(outPath, outJson, Encoding.UTF8);
+
+        var latexCount = merged.Count(mq => mq.Prompt.StartsWith("[latex]"));
+        Console.WriteLine($"Wrote {outPath} ({latexCount}/{merged.Count} questions with LaTeX).");
+        return 0;
     }
 }

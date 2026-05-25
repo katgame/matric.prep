@@ -4,6 +4,7 @@ using MatricPrep.Api.Dtos;
 using MatricPrep.Api.Services;
 using MatricPrep.Contracts;
 using MatricPrep.Ingestion;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using System.Text.Json;
@@ -191,7 +192,7 @@ app.MapGet("/api/papers/{paperId}/tutor", async (
     ));
 });
 
-app.MapGet("/api/papers/{paperId}/source-paper", async (
+app.MapMethods("/api/papers/{paperId}/source-paper", [HttpMethods.Get, HttpMethods.Head], async (
     string paperId,
     MatricPrepDbContext db,
     IOptions<MatricPrepOptions> options) =>
@@ -215,7 +216,7 @@ app.MapGet("/api/papers/{paperId}/source-paper", async (
     return Results.File(absolute, "application/pdf");
 });
 
-app.MapGet("/api/papers/{paperId}/source-memo", async (
+app.MapMethods("/api/papers/{paperId}/source-memo", [HttpMethods.Get, HttpMethods.Head], async (
     string paperId,
     MatricPrepDbContext db,
     IOptions<MatricPrepOptions> options) =>
@@ -310,10 +311,12 @@ app.MapPost("/api/papers/{paperId}/questions/{questionId}/breakdown", async (
         var raw = await tutorChat.BuildBreakdownAsync(question, paper, req?.StudentAnswer, ct);
         var sections = ParseBreakdownSections(raw);
         return Results.Ok(new BreakdownResponse(
-            sections.Context,
-            sections.Method,
-            sections.WorkedSolution,
-            sections.FinalAnswer,
+            sections.PersonalizedFeedback,
+            sections.Frame,
+            sections.Recall,
+            sections.Plan,
+            sections.Solve,
+            sections.Review,
             raw));
     }
     catch (Exception ex)
@@ -898,10 +901,10 @@ using (var scope = app.Services.CreateScope())
 
 app.Run();
 
-static (string Context, string Method, string WorkedSolution, string FinalAnswer) ParseBreakdownSections(string raw)
+static (string PersonalizedFeedback, string Frame, string Recall, string Plan, string Solve, string Review) ParseBreakdownSections(string raw)
 {
     if (string.IsNullOrWhiteSpace(raw))
-        return ("", "", "", "");
+        return ("", "", "", "", "", "");
 
     static string Extract(string text, string heading, params string[] stopHeadings)
     {
@@ -918,11 +921,13 @@ static (string Context, string Method, string WorkedSolution, string FinalAnswer
         return text[start..end].Trim();
     }
 
-    var context = Extract(raw, "Context", "Method", "Worked Solution", "Final Answer");
-    var method = Extract(raw, "Method", "Worked Solution", "Final Answer");
-    var worked = Extract(raw, "Worked Solution", "Final Answer");
-    var finalAnswer = Extract(raw, "Final Answer");
-    return (context, method, worked, finalAnswer);
+    var feedback = Extract(raw, "PERSONALIZED_FEEDBACK", "FRAME", "RECALL", "PLAN", "SOLVE", "REVIEW");
+    var frame = Extract(raw, "FRAME", "RECALL", "PLAN", "SOLVE", "REVIEW");
+    var recall = Extract(raw, "RECALL", "PLAN", "SOLVE", "REVIEW");
+    var plan = Extract(raw, "PLAN", "SOLVE", "REVIEW");
+    var solve = Extract(raw, "SOLVE", "REVIEW");
+    var review = Extract(raw, "REVIEW");
+    return (feedback, frame, recall, plan, solve, review);
 }
 
 static string NormalizeLearnerId(string? raw)

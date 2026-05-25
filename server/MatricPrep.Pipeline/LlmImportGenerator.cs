@@ -113,7 +113,7 @@ public static class LlmImportGenerator
         http.Timeout = TimeSpan.FromSeconds(options.TimeoutSeconds);
         var baseUri = provider == ProviderOllama
             ? NormalizeBase(options.OllamaBaseUrl ?? Environment.GetEnvironmentVariable("OLLAMA_BASE_URL") ?? "http://localhost:11434")
-            : new Uri("https://api.openai.com/v1/");
+            : NormalizeBase(options.OpenAiBaseUrl ?? Environment.GetEnvironmentVariable("OPENAI_BASE_URL") ?? "https://api.openai.com/v1");
         http.BaseAddress = baseUri;
 
         if (provider == ProviderOpenAi)
@@ -414,8 +414,14 @@ public sealed class LlmGenerateOptions
 
     public string? OpenAiApiKey { get; init; }
 
-    /// <summary>Base URL for Ollama OpenAI compatibility, e.g. http://localhost:11434/v1</summary>
+    /// <summary>Base URL for Ollama, e.g. http://localhost:11434</summary>
     public string? OllamaBaseUrl { get; init; }
+
+    /// <summary>
+    /// Base URL for the OpenAI-compatible endpoint. Defaults to https://api.openai.com/v1.
+    /// Override to point at a local vLLM server: http://localhost:8000/v1
+    /// </summary>
+    public string? OpenAiBaseUrl { get; init; }
 
     /// <summary>HTTP timeout for the LLM request (seconds). Local models can take several minutes.</summary>
     public int TimeoutSeconds { get; init; } = 600;

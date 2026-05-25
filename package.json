@@ -3,15 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --webpack",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "download:papers": "node scripts/download-nsc-papers.mjs",
+    "download:papers:dry": "node scripts/download-nsc-papers.mjs --dry-run",
+    "papers:scaffold": "node scripts/scaffold-exam-papers.mjs",
+    "extract:pdf": "node scripts/extract-pdf-text.mjs",
+    "pipeline": "dotnet run --project server/MatricPrep.Pipeline --"
   },
   "dependencies": {
+    "katex": "^0.16.45",
+    "lucide-react": "^1.7.0",
     "next": "16.2.2",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "react-markdown": "^10.1.0",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -20,6 +30,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.2",
+    "pdf-parse": "^2.4.5",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

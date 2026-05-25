@@ -100,10 +100,12 @@ export type SubjectSummary = {
 };
 
 export type QuestionBreakdown = {
-  context: string;
-  method: string;
-  workedSolution: string;
-  finalAnswer: string;
+  personalizedFeedback: string;
+  frame: string;
+  recall: string;
+  plan: string;
+  solve: string;
+  review: string;
   raw: string;
 };
 
